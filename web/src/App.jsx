@@ -1863,7 +1863,7 @@ function ViewForecast2027({ onSelectQuestion, onOpenResearchDetail }) {
       )}
 
       {/* DEDICATED PREDICTED QUESTION MODAL */}
-      {selectedPredictedQ && (
+      {selectedPredictedQ && ReactDOM.createPortal(
         <div className="modal-overlay" onClick={() => setSelectedPredictedQ(null)}>
           <div className="modal-content" onClick={e => e.stopPropagation()} style={{ maxWidth: '780px' }}>
             <button
@@ -1937,7 +1937,8 @@ function ViewForecast2027({ onSelectQuestion, onOpenResearchDetail }) {
               Historical Recurrence Rationale: {selectedPredictedQ.recurrence_rationale || `Selected based on high empirical recurrence probability in ${selectedPredictedQ.subject}.`}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
@@ -2498,7 +2499,7 @@ function MockTestRunner({ mockId, onExit }) {
       </div>
 
       {/* Confirmation Modal */}
-      {showConfirmSubmit && (
+      {showConfirmSubmit && ReactDOM.createPortal(
         <div className="modal-overlay" onClick={() => setShowConfirmSubmit(false)}>
           <div className="modal-content" onClick={e => e.stopPropagation()} style={{ maxWidth: '440px', textAlign: 'center' }}>
             <h3>Confirm Test Submission</h3>
@@ -2515,7 +2516,8 @@ function MockTestRunner({ mockId, onExit }) {
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
