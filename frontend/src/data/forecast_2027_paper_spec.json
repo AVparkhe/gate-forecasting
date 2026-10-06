@@ -1,0 +1,661 @@
+{
+    "metadata": {
+        "target_year": 2027,
+        "type": "Level 4 Forecasted Paper Specification",
+        "total_questions": 65,
+        "total_marks": 100,
+        "generated_at": "2026-10-06T10:56:48.808047"
+    },
+    "paper_specification": [
+        {
+            "question_number": 1,
+            "subject": "Compiler Design",
+            "topic": "Intermediate Code Generation",
+            "concept": "Three Address Code",
+            "marks": 2,
+            "forecast_probability": 0.8333333333333335,
+            "confidence": "High",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 2,
+            "subject": "Digital Logic",
+            "topic": "Boolean Algebra",
+            "concept": "Minimization of Boolean Functions",
+            "marks": 2,
+            "forecast_probability": 0.7795698924731184,
+            "confidence": "High",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 3,
+            "subject": "Digital Logic",
+            "topic": "Number Representations",
+            "concept": "Computer Arithmetic (Integer and Floating Point)",
+            "marks": 2,
+            "forecast_probability": 0.7526881720430109,
+            "confidence": "High",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 4,
+            "subject": "Operating Systems",
+            "topic": "CPU Scheduling",
+            "concept": "Scheduling Algorithms",
+            "marks": 2,
+            "forecast_probability": 0.7526881720430109,
+            "confidence": "High",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 5,
+            "subject": "Algorithms",
+            "topic": "Algorithm Analysis",
+            "concept": "Time and Space Complexity",
+            "marks": 2,
+            "forecast_probability": 0.7526881720430109,
+            "confidence": "High",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 6,
+            "subject": "Programming and Data Structures",
+            "topic": "Programming in C",
+            "concept": "Functions and Recursion",
+            "marks": 2,
+            "forecast_probability": 0.7392473118279571,
+            "confidence": "High",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 7,
+            "subject": "Operating Systems",
+            "topic": "File Systems",
+            "concept": "Disk Scheduling",
+            "marks": 2,
+            "forecast_probability": 0.7258064516129034,
+            "confidence": "High",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 8,
+            "subject": "General Aptitude",
+            "topic": "Numerical Ability",
+            "concept": "Numerical Reasoning",
+            "marks": 2,
+            "forecast_probability": 0.6765232974910396,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 9,
+            "subject": "Databases",
+            "topic": "ER Model",
+            "concept": "Entities, Attributes, Relationships",
+            "marks": 2,
+            "forecast_probability": 0.6720430107526882,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 10,
+            "subject": "Programming and Data Structures",
+            "topic": "Programming in C",
+            "concept": "Pointers and Arrays",
+            "marks": 2,
+            "forecast_probability": 0.6720430107526882,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 11,
+            "subject": "Algorithms",
+            "topic": "Algorithm Analysis",
+            "concept": "Asymptotic Worst, Average, and Best Case Analysis",
+            "marks": 2,
+            "forecast_probability": 0.6451612903225807,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 12,
+            "subject": "Theory of Computation",
+            "topic": "Regular Languages and Finite Automata",
+            "concept": "DFA and NFA",
+            "marks": 2,
+            "forecast_probability": 0.6451612903225807,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 13,
+            "subject": "General Aptitude",
+            "topic": "Numerical Ability",
+            "concept": "Data Interpretation",
+            "marks": 2,
+            "forecast_probability": 0.6451612903225807,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 14,
+            "subject": "Theory of Computation",
+            "topic": "Turing Machines and Undecidability",
+            "concept": "Halting Problem",
+            "marks": 2,
+            "forecast_probability": 0.6451612903225807,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 15,
+            "subject": "Theory of Computation",
+            "topic": "Context-Free Languages and Pushdown Automata",
+            "concept": "Pushdown Automata",
+            "marks": 2,
+            "forecast_probability": 0.6451612903225807,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 16,
+            "subject": "Compiler Design",
+            "topic": "Lexical Analysis",
+            "concept": "Tokens, Regex, Automata",
+            "marks": 2,
+            "forecast_probability": 0.6451612903225807,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 17,
+            "subject": "Databases",
+            "topic": "Relational Model",
+            "concept": "Tuple Calculus",
+            "marks": 2,
+            "forecast_probability": 0.631720430107527,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 18,
+            "subject": "Computer Organization and Architecture",
+            "topic": "ALU, Data Path and Control Unit",
+            "concept": "Control Unit Design",
+            "marks": 2,
+            "forecast_probability": 0.6182795698924732,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 19,
+            "subject": "Computer Organization and Architecture",
+            "topic": "I/O Interfaces",
+            "concept": "Interrupts",
+            "marks": 2,
+            "forecast_probability": 0.6182795698924732,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 20,
+            "subject": "Theory of Computation",
+            "topic": "Regular Languages and Finite Automata",
+            "concept": "Regular Expressions",
+            "marks": 2,
+            "forecast_probability": 0.6182795698924732,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 21,
+            "subject": "Programming and Data Structures",
+            "topic": "Data Structures",
+            "concept": "Stacks and Queues",
+            "marks": 2,
+            "forecast_probability": 0.6182795698924732,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 22,
+            "subject": "Programming and Data Structures",
+            "topic": "Data Structures",
+            "concept": "Arrays and Strings",
+            "marks": 2,
+            "forecast_probability": 0.6048387096774194,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 23,
+            "subject": "Operating Systems",
+            "topic": "Concurrency and Synchronization",
+            "concept": "Deadlock Prevention, Avoidance, and Detection",
+            "marks": 2,
+            "forecast_probability": 0.6048387096774194,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 24,
+            "subject": "Programming and Data Structures",
+            "topic": "Programming in C",
+            "concept": "Scope and Binding",
+            "marks": 2,
+            "forecast_probability": 0.6048387096774194,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 25,
+            "subject": "Databases",
+            "topic": "File Organization and Indexing",
+            "concept": "Hashing",
+            "marks": 2,
+            "forecast_probability": 0.5913978494623656,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 26,
+            "subject": "Theory of Computation",
+            "topic": "Regular Languages and Finite Automata",
+            "concept": "Pumping Lemma for Regular Languages",
+            "marks": 2,
+            "forecast_probability": 0.5913978494623656,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 27,
+            "subject": "Theory of Computation",
+            "topic": "Turing Machines and Undecidability",
+            "concept": "Turing Machines",
+            "marks": 2,
+            "forecast_probability": 0.5913978494623656,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 28,
+            "subject": "Digital Logic",
+            "topic": "Number Representations",
+            "concept": "Number Systems",
+            "marks": 2,
+            "forecast_probability": 0.5779569892473119,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 29,
+            "subject": "General Aptitude",
+            "topic": "Numerical Ability",
+            "concept": "Numerical Computation",
+            "marks": 2,
+            "forecast_probability": 0.5779569892473119,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 30,
+            "subject": "Compiler Design",
+            "topic": "Runtime Environments",
+            "concept": "Activation Records",
+            "marks": 2,
+            "forecast_probability": 0.5689964157706094,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 31,
+            "subject": "Computer Networks",
+            "topic": "Layered Architecture",
+            "concept": "OSI and TCP/IP Models",
+            "marks": 2,
+            "forecast_probability": 0.5645161290322581,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 32,
+            "subject": "Theory of Computation",
+            "topic": "Context-Free Languages and Pushdown Automata",
+            "concept": "Context-Free Grammars",
+            "marks": 2,
+            "forecast_probability": 0.5510752688172044,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 33,
+            "subject": "Computer Organization and Architecture",
+            "topic": "I/O Interfaces",
+            "concept": "DMA",
+            "marks": 2,
+            "forecast_probability": 0.5510752688172044,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 34,
+            "subject": "Algorithms",
+            "topic": "Algorithm Design Techniques",
+            "concept": "Greedy Approach",
+            "marks": 2,
+            "forecast_probability": 0.5510752688172044,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 35,
+            "subject": "Algorithms",
+            "topic": "Graph Algorithms",
+            "concept": "Minimum Spanning Trees (Kruskal, Prim)",
+            "marks": 2,
+            "forecast_probability": 0.5510752688172044,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 36,
+            "subject": "Theory of Computation",
+            "topic": "Context-Free Languages and Pushdown Automata",
+            "concept": "Pumping Lemma for CFLs",
+            "marks": 1,
+            "forecast_probability": 0.5376344086021506,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 37,
+            "subject": "Operating Systems",
+            "topic": "File Systems",
+            "concept": "File Allocation Methods",
+            "marks": 1,
+            "forecast_probability": 0.5241935483870969,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 38,
+            "subject": "Programming and Data Structures",
+            "topic": "Data Structures",
+            "concept": "Graphs",
+            "marks": 1,
+            "forecast_probability": 0.5241935483870969,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 39,
+            "subject": "Computer Organization and Architecture",
+            "topic": "Machine Instructions and Addressing Modes",
+            "concept": "Instruction Formats",
+            "marks": 1,
+            "forecast_probability": 0.5241935483870969,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 40,
+            "subject": "Computer Organization and Architecture",
+            "topic": "Instruction Pipelining",
+            "concept": "Performance Metrics",
+            "marks": 1,
+            "forecast_probability": 0.5241935483870969,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 41,
+            "subject": "Databases",
+            "topic": "SQL",
+            "concept": "Queries",
+            "marks": 1,
+            "forecast_probability": 0.5241935483870969,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 42,
+            "subject": "Algorithms",
+            "topic": "Searching and Sorting",
+            "concept": "Sorting Algorithms",
+            "marks": 1,
+            "forecast_probability": 0.5241935483870969,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 43,
+            "subject": "General Aptitude",
+            "topic": "Numerical Ability",
+            "concept": "Numerical Estimation",
+            "marks": 1,
+            "forecast_probability": 0.5152329749103943,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 44,
+            "subject": "Computer Organization and Architecture",
+            "topic": "ALU, Data Path and Control Unit",
+            "concept": "Data Path Design",
+            "marks": 1,
+            "forecast_probability": 0.5107526881720431,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 45,
+            "subject": "General Aptitude",
+            "topic": "Verbal Ability",
+            "concept": "English Grammar",
+            "marks": 1,
+            "forecast_probability": 0.5107526881720431,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 46,
+            "subject": "Databases",
+            "topic": "Transactions and Concurrency Control",
+            "concept": "ACID Properties",
+            "marks": 1,
+            "forecast_probability": 0.4973118279569893,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 47,
+            "subject": "Compiler Design",
+            "topic": "Syntax-Directed Translation",
+            "concept": "Attributes",
+            "marks": 1,
+            "forecast_probability": 0.4973118279569893,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 48,
+            "subject": "Digital Logic",
+            "topic": "Combinational Circuits",
+            "concept": "Decoders and Encoders",
+            "marks": 1,
+            "forecast_probability": 0.4883512544802868,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 49,
+            "subject": "Computer Networks",
+            "topic": "Network Security",
+            "concept": "Firewalls",
+            "marks": 1,
+            "forecast_probability": 0.48387096774193555,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 50,
+            "subject": "Digital Logic",
+            "topic": "Combinational Circuits",
+            "concept": "Adders and Subtractors",
+            "marks": 1,
+            "forecast_probability": 0.47043010752688175,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 51,
+            "subject": "Computer Organization and Architecture",
+            "topic": "Memory Hierarchy",
+            "concept": "Cache Memory",
+            "marks": 1,
+            "forecast_probability": 0.47043010752688175,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 52,
+            "subject": "Engineering Mathematics",
+            "topic": "Linear Algebra",
+            "concept": "Matrices, Determinants",
+            "marks": 1,
+            "forecast_probability": 0.47043010752688175,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 53,
+            "subject": "Operating Systems",
+            "topic": "Concurrency and Synchronization",
+            "concept": "Semaphores and Mutexes",
+            "marks": 1,
+            "forecast_probability": 0.47043010752688175,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 54,
+            "subject": "Engineering Mathematics",
+            "topic": "Probability and Statistics",
+            "concept": "Random Variables",
+            "marks": 1,
+            "forecast_probability": 0.456989247311828,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 55,
+            "subject": "Programming and Data Structures",
+            "topic": "Programming in C",
+            "concept": "Structures and Unions",
+            "marks": 1,
+            "forecast_probability": 0.456989247311828,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 56,
+            "subject": "Databases",
+            "topic": "Database Design",
+            "concept": "Normalization (1NF, 2NF, 3NF, BCNF)",
+            "marks": 1,
+            "forecast_probability": 0.4480286738351255,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 57,
+            "subject": "Computer Organization and Architecture",
+            "topic": "Machine Instructions and Addressing Modes",
+            "concept": "Addressing Modes",
+            "marks": 1,
+            "forecast_probability": 0.44354838709677424,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 58,
+            "subject": "Digital Logic",
+            "topic": "Sequential Circuits",
+            "concept": "Latches and Flip-Flops",
+            "marks": 1,
+            "forecast_probability": 0.44354838709677424,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 59,
+            "subject": "General Aptitude",
+            "topic": "Verbal Ability",
+            "concept": "Word Groups",
+            "marks": 1,
+            "forecast_probability": 0.44354838709677424,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 60,
+            "subject": "Programming and Data Structures",
+            "topic": "Data Structures",
+            "concept": "Trees (Binary Search Trees, Heaps)",
+            "marks": 1,
+            "forecast_probability": 0.43778801843317977,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 61,
+            "subject": "Computer Organization and Architecture",
+            "topic": "Memory Hierarchy",
+            "concept": "Secondary Storage",
+            "marks": 1,
+            "forecast_probability": 0.43458781362007176,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 62,
+            "subject": "Algorithms",
+            "topic": "Searching and Sorting",
+            "concept": "Binary Search",
+            "marks": 1,
+            "forecast_probability": 0.4301075268817205,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 63,
+            "subject": "Computer Organization and Architecture",
+            "topic": "Instruction Pipelining",
+            "concept": "Pipeline Hazards",
+            "marks": 1,
+            "forecast_probability": 0.4301075268817205,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 64,
+            "subject": "Operating Systems",
+            "topic": "Processes and Threads",
+            "concept": "Process Concept",
+            "marks": 1,
+            "forecast_probability": 0.4301075268817205,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        },
+        {
+            "question_number": 65,
+            "subject": "General Aptitude",
+            "topic": "Verbal Ability",
+            "concept": "Sentence Completion",
+            "marks": 1,
+            "forecast_probability": 0.4301075268817205,
+            "confidence": "Medium",
+            "evidence_strength": "Very Strong"
+        }
+    ]
+}

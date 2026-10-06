@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Node
+web/node_modules/
+frontend/node_modules/
+.npm
+dist/
+web/dist/
+
+# Environment & Secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Large raw PDFs and backups
+data/raw/
+data/db/*backup*.db
+data/gate_forecasting.db
+
+# Keep database & artifacts
+!data/db/gate_forecasting.db
+!forecast_2027.json
+!forecast_2027_paper_spec.json
+!mock_blueprints.json
+!data_quality_report.json
+!calibration_report.json
+!reconciliation_report.json

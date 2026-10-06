@@ -1,0 +1,29 @@
+{
+    "dataset_composition": {
+        "total_records": 2221,
+        "statement": "2221 is the complete canonical Golden Dataset.",
+        "sources": {
+            "official_questions": 775,
+            "gate_overflow_questions": 1446,
+            "both_sources": 0,
+            "official_only": 775,
+            "go_only": 1446
+        }
+    },
+    "record_status": {
+        "VERIFIED": 2221,
+        "PARTIAL": 0,
+        "INVALID": 0
+    },
+    "coverage_percentages": {
+        "year": 100.0,
+        "subject": 100.0,
+        "topic": 100.0,
+        "concept": 100.0,
+        "marks": 100.0,
+        "difficulty": 100.0,
+        "type": 100.0
+    },
+    "is_2026_verified": true,
+    "latest_verified_year": 2026
+}

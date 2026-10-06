@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "type": "AI-Generated Practice Questions",
+        "warning": "These are AI-generated practice questions, NOT official GATE questions.",
+        "generated_at": "2026-10-06T10:57:08.148859"
+    },
+    "blueprints": [
+        {
+            "name": "Mock 1: High Confidence Core",
+            "description": "Strictly tests the highest probability recurring concepts.",
+            "composition": "Top 65 predictions"
+        },
+        {
+            "name": "Mock 2: Balanced Forecast",
+            "description": "Balances core concepts with emerging patterns.",
+            "composition": "Top 50 + 15 emerging"
+        },
+        {
+            "name": "Mock 3: Concept Coverage",
+            "description": "Ensures full syllabus coverage based on historically active concepts.",
+            "composition": "Stratified sample across all subjects"
+        },
+        {
+            "name": "Mock 4: Surprise Risk Simulator",
+            "description": "Tests high-risk surprise events and long-dormant concepts.",
+            "composition": "Top 35 + 30 surprise risk"
+        },
+        {
+            "name": "Mock 5: Full GATE Simulation",
+            "description": "Statistically mimics the exact difficulty and topic distribution of recent eras.",
+            "composition": "Era-matched distribution"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+  "go_releases": [
+    {
+      "tag": "gatecse-2027",
+      "name": "GATE CSE 2027",
+      "assets": [{"name": "gatecse-2027.pdf", "download_url": "https://example.com/gatecse-2027.pdf"}]
+    },
+    {
+      "tag": "gatecse-2026",
+      "name": "GATE CSE 2026",
+      "assets": [{"name": "gatecse-2026.pdf", "download_url": "https://example.com/gatecse-2026.pdf"}]
+    },
+    {
+      "tag": "gatecse-2025",
+      "name": "GATE CSE 2025",
+      "assets": [{"name": "gatecse-2025.pdf", "download_url": "https://example.com/gatecse-2025.pdf"}]
+    },
+    {
+      "tag": "gatecse-2024",
+      "name": "GATE CSE 2024",
+      "assets": [{"name": "gatecse-2024.pdf", "download_url": "https://example.com/gatecse-2024.pdf"}]
+    },
+    {
+      "tag": "gatecse-2022-vol1",
+      "name": "GATE CSE 2022 Vol 1",
+      "assets": [{"name": "gatecse-2022-vol1.pdf", "download_url": "https://example.com/gatecse-2022-vol1.pdf"}]
+    },
+    {
+      "tag": "gatecse-2022-vol2",
+      "name": "GATE CSE 2022 Vol 2",
+      "assets": [{"name": "gatecse-2022-vol2.pdf", "download_url": "https://example.com/gatecse-2022-vol2.pdf"}]
+    },
+    {
+      "tag": "gate-2026-common",
+      "name": "GATE 2026 Common",
+      "assets": [{"name": "gate-2026-common.pdf", "download_url": "https://example.com/gate-2026-common.pdf"}]
+    },
+    {
+      "tag": "engineering-mathematics",
+      "name": "Engineering Mathematics",
+      "assets": [{"name": "engineering-mathematics.pdf", "download_url": "https://example.com/engineering-mathematics.pdf"}]
+    },
+    {
+      "tag": "aptitude",
+      "name": "Aptitude",
+      "assets": [{"name": "aptitude.pdf", "download_url": "https://example.com/aptitude.pdf"}]
+    }
+  ],
+  "official_portal": {
+    "base_urls": {
+      "2021": "https://gate2021.iitb.ac.in/papers/{paper}.pdf",
+      "2022": "https://gate2022.iitkgp.ac.in/papers/{paper}.pdf",
+      "2023": "https://gate2023.iitk.ac.in/papers/{paper}.pdf",
+      "2024": "https://gate2024.iisc.ac.in/papers/{paper}.pdf",
+      "2025": "https://gate2025.iitr.ac.in/papers/{paper}.pdf"
+    },
+    "paper_templates": ["CS", "CS1", "CS2"]
+  },
+  "official_bulk_download": {
+    "url": "https://drive.google.com/drive/folders/gate-cse-papers-bulk-download-link"
+  }
+}
