@@ -1,0 +1,201 @@
+{
+  "dataset_composition": {
+    "total_golden_records": 2221,
+    "official_only": 775,
+    "go_only": 1446,
+    "both_sources": 0,
+    "statement": "2221 is the complete canonical Golden Dataset."
+  },
+  "verification_status": {
+    "start_year": 1987,
+    "latest_verified_year": 2026,
+    "is_2026_verified": true,
+    "verified_records": 2221,
+    "partial_records": 0,
+    "invalid_records": 0
+  },
+  "coverage_percentages": {
+    "year": 100.0,
+    "subject": 100.0,
+    "topic": 100.0,
+    "concept": 100.0,
+    "marks": 100.0,
+    "difficulty": 100.0,
+    "type": 100.0
+  },
+  "year_distribution": [
+    {
+      "exam_year": 1987,
+      "q_count": 11
+    },
+    {
+      "exam_year": 1988,
+      "q_count": 14
+    },
+    {
+      "exam_year": 1989,
+      "q_count": 14
+    },
+    {
+      "exam_year": 1990,
+      "q_count": 16
+    },
+    {
+      "exam_year": 1991,
+      "q_count": 15
+    },
+    {
+      "exam_year": 1992,
+      "q_count": 17
+    },
+    {
+      "exam_year": 1993,
+      "q_count": 27
+    },
+    {
+      "exam_year": 1994,
+      "q_count": 27
+    },
+    {
+      "exam_year": 1995,
+      "q_count": 27
+    },
+    {
+      "exam_year": 1996,
+      "q_count": 28
+    },
+    {
+      "exam_year": 1997,
+      "q_count": 29
+    },
+    {
+      "exam_year": 1998,
+      "q_count": 36
+    },
+    {
+      "exam_year": 1999,
+      "q_count": 26
+    },
+    {
+      "exam_year": 2000,
+      "q_count": 26
+    },
+    {
+      "exam_year": 2001,
+      "q_count": 25
+    },
+    {
+      "exam_year": 2002,
+      "q_count": 25
+    },
+    {
+      "exam_year": 2003,
+      "q_count": 86
+    },
+    {
+      "exam_year": 2004,
+      "q_count": 87
+    },
+    {
+      "exam_year": 2005,
+      "q_count": 83
+    },
+    {
+      "exam_year": 2006,
+      "q_count": 82
+    },
+    {
+      "exam_year": 2007,
+      "q_count": 81
+    },
+    {
+      "exam_year": 2008,
+      "q_count": 83
+    },
+    {
+      "exam_year": 2009,
+      "q_count": 55
+    },
+    {
+      "exam_year": 2010,
+      "q_count": 60
+    },
+    {
+      "exam_year": 2011,
+      "q_count": 59
+    },
+    {
+      "exam_year": 2012,
+      "q_count": 131
+    },
+    {
+      "exam_year": 2013,
+      "q_count": 127
+    },
+    {
+      "exam_year": 2014,
+      "q_count": 59
+    },
+    {
+      "exam_year": 2015,
+      "q_count": 9
+    },
+    {
+      "exam_year": 2016,
+      "q_count": 56
+    },
+    {
+      "exam_year": 2017,
+      "q_count": 1
+    },
+    {
+      "exam_year": 2018,
+      "q_count": 111
+    },
+    {
+      "exam_year": 2019,
+      "q_count": 55
+    },
+    {
+      "exam_year": 2020,
+      "q_count": 63
+    },
+    {
+      "exam_year": 2022,
+      "q_count": 121
+    },
+    {
+      "exam_year": 2023,
+      "q_count": 121
+    },
+    {
+      "exam_year": 2024,
+      "q_count": 130
+    },
+    {
+      "exam_year": 2025,
+      "q_count": 133
+    },
+    {
+      "exam_year": 2026,
+      "q_count": 65
+    }
+  ],
+  "reconciliation_summary": {
+    "total_processed": 2156,
+    "match_status": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 710,
+      "GO_ONLY": 1446,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "coverage_status": {
+      "BOTH_SOURCES": 0,
+      "OFFICIAL_ONLY": 0,
+      "GO_ONLY": 0,
+      "OFFICIAL_SOURCE_MISSING": 1446,
+      "GO_SOURCE_MISSING": 710
+    }
+  }
+}

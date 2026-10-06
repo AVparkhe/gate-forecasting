@@ -1,0 +1,285 @@
+{
+  "total_processed": 2156,
+  "match_status": {
+    "AUTO_VERIFIED": 0,
+    "REVIEW_REQUIRED": 0,
+    "UNMATCHED_OFFICIAL": 710,
+    "GO_ONLY": 1446,
+    "DUPLICATE_CANDIDATE": 0
+  },
+  "coverage_status": {
+    "BOTH_SOURCES": 0,
+    "OFFICIAL_ONLY": 0,
+    "GO_ONLY": 0,
+    "OFFICIAL_SOURCE_MISSING": 1446,
+    "GO_SOURCE_MISSING": 710
+  },
+  "per_year": {
+    "2012": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 66,
+      "GO_ONLY": 65,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2019": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 55,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1999": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 26,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2025": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 133,
+      "GO_ONLY": 0,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2023": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 66,
+      "GO_ONLY": 55,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2009": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 55,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2016": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 55,
+      "GO_ONLY": 1,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2007": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 81,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2022": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 66,
+      "GO_ONLY": 55,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2008": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 83,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2006": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 82,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1988": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 14,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2018": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 55,
+      "GO_ONLY": 56,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2003": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 86,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2024": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 130,
+      "GO_ONLY": 0,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2004": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 87,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2002": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 25,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2020": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 7,
+      "GO_ONLY": 56,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1998": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 36,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1997": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 29,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2013": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 66,
+      "GO_ONLY": 61,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2001": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 25,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2011": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 59,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1987": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 11,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1995": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 27,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1992": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 17,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1990": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 16,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2005": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 83,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2014": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 58,
+      "GO_ONLY": 1,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1993": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 27,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2010": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 60,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1994": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 27,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1991": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 15,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2000": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 26,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1996": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 28,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2015": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 8,
+      "GO_ONLY": 1,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "1989": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 14,
+      "DUPLICATE_CANDIDATE": 0
+    },
+    "2017": {
+      "AUTO_VERIFIED": 0,
+      "REVIEW_REQUIRED": 0,
+      "UNMATCHED_OFFICIAL": 0,
+      "GO_ONLY": 1,
+      "DUPLICATE_CANDIDATE": 0
+    }
+  }
+}

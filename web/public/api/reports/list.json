@@ -1,0 +1,40 @@
+{
+  "reports": [
+    {
+      "id": "data_quality",
+      "title": "Data Foundation & Quality Audit Report",
+      "format": "JSON",
+      "filename": "data_quality_report.json"
+    },
+    {
+      "id": "reconciliation",
+      "title": "Source Reconciliation & Harmonization Report",
+      "format": "JSON",
+      "filename": "reconciliation_report.json"
+    },
+    {
+      "id": "calibration",
+      "title": "Probability Calibration & Brier Analysis Report",
+      "format": "JSON",
+      "filename": "calibration_report.json"
+    },
+    {
+      "id": "forecast_2027",
+      "title": "GATE 2027 Candidate Forecast & Evidence Report",
+      "format": "JSON",
+      "filename": "forecast_2027.json"
+    },
+    {
+      "id": "paper_spec",
+      "title": "GATE 2027 65-Question Paper Specification",
+      "format": "JSON",
+      "filename": "forecast_2027_paper_spec.json"
+    },
+    {
+      "id": "mock_blueprints",
+      "title": "AI Practice Test Blueprints & Plagiarism Audit",
+      "format": "JSON",
+      "filename": "mock_blueprints.json"
+    }
+  ]
+}

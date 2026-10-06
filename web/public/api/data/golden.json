@@ -1,0 +1,758 @@
+{
+  "total": 2221,
+  "page": 1,
+  "page_size": 25,
+  "total_pages": 89,
+  "questions": [
+    {
+      "golden_question_id": "79bfea0a-aaa3-44bb-847f-cde701bfd3af",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 1,
+      "official_id": "GATE_2026_CS2_Q1",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.1 \nExpedite, Hasten, Hurry, __________ \nFill the blank by choosing a word with a meaning similar to that of the words \ngiven above. \n \n \n(A) \nAccelerate \n(B) \nRetard \n(C) \nProvide \n(D) \nDisable",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "ai_subtopic": "Vocabulary and Grammar",
+      "core_concepts": [
+        {
+          "name": "Verbal Reasoning",
+          "family": "Verbal Ability",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Verbal Reasoning.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "647d886a-9845-4d77-aae9-e7e643884c30",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 2,
+      "official_id": "GATE_2026_CS2_Q2",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.2 \nA black square PQRS has been cut into two parts. One part of it is shown in  \nPanel I. Which one of the shapes in Panel II is the other part? \n \n \n \n \n(A) \n(i) \n(B) \n(ii) \n(C) \n(iii) \n(D) \n(iv)",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Spatial Aptitude",
+      "ai_subtopic": "Spatial Reasoning and Patterns",
+      "core_concepts": [
+        {
+          "name": "Spatial Transformations",
+          "family": "Spatial Aptitude",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Spatial Transformations.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "122ca496-a1b5-4e41-8bcd-716503115fea",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 3,
+      "official_id": "GATE_2026_CS2_Q3",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.3 \nA day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, \nindependent of the condition on other days. What is the probability that in any \ngiven four days, there will be three cloudy days and one sunny day?  \n \n \n \n(A) \n1/4 \n(B) \n3/4 \n(C) \n2/3 \n(D) \n3/8",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Quantitative Aptitude",
+      "ai_subtopic": "Numerical Ability and Probability",
+      "core_concepts": [
+        {
+          "name": "Data Interpretation and Arithmetic",
+          "family": "Quantitative Aptitude",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Data Interpretation and Arithmetic.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "5d2271ed-b7eb-4e6c-9880-da44f6206d13",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 4,
+      "official_id": "GATE_2026_CS2_Q4",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q. 4 \nThe values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, \nrespectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He \nsells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B  \nis Rs. 70. The profit made by the investor is Rs. ________ \n \n \n(A) \n0  \n(B) \n5 \n(C) \n10 \n(D) \n20",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Quantitative Aptitude",
+      "ai_subtopic": "Numerical Ability and Probability",
+      "core_concepts": [
+        {
+          "name": "Data Interpretation and Arithmetic",
+          "family": "Quantitative Aptitude",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Data Interpretation and Arithmetic.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "aa7dfbe8-bbee-43fa-af6f-94feda6377ea",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 5,
+      "official_id": "GATE_2026_CS2_Q5",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.5 \n\u2018When it is raining, peacocks dance.\u2019 \nBased only on this sentence, which one of the following options is necessarily \ntrue? \n \n \n(A) \nPeacocks dance only when it is raining. \n(B) \nWhen peacocks dance, it is raining.  \n(C) \nWhen peacocks are not dancing, it is not raining. \n(D) \nWhen it is not raining, peacocks do not dance. \n \n \n \n \n \n\n \nQ.6 \u2013 Q.10 Carry TWO marks Each",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "ai_subtopic": "Vocabulary and Grammar",
+      "core_concepts": [
+        {
+          "name": "Verbal Reasoning",
+          "family": "Verbal Ability",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Verbal Reasoning.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "2e365857-2aab-4c9e-ae4d-7bc896a70c28",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 6,
+      "official_id": "GATE_2026_CS2_Q6",
+      "go_id": null,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.6 \nWater : P :: Food : Q \nChoose the P and Q combination from the options below to form a meaningful \nanalogy. \n \n \n(A) \nP = Thirst; Q = Hunger \n(B) \nP = Drink; Q = Hunger \n(C) \nP = Thirst; Q = Satiated \n(D) \nP = Wet; Q = Critic",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "ai_subtopic": "Vocabulary and Grammar",
+      "core_concepts": [
+        {
+          "name": "Verbal Reasoning",
+          "family": "Verbal Ability",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 3.5,
+      "cognitive_level": "APPLY",
+      "difficulty_rationale": "Evaluated based on standard GATE 2.0M MCQ format for Verbal Reasoning.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "8d7603da-2423-4c87-ac31-c59469517c96",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 7,
+      "official_id": "GATE_2026_CS2_Q7",
+      "go_id": null,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.7 \nTwo tiles are missing in Panel I. Which one of the options in Panel II is the \nappropriate choice for the missing tiles?  \n \n \n \n \n(A) \n(i) \n(B) \n(ii) \n(C) \n(iii) \n(D) \n(iv)",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Spatial Aptitude",
+      "ai_subtopic": "Spatial Reasoning and Patterns",
+      "core_concepts": [
+        {
+          "name": "Spatial Transformations",
+          "family": "Spatial Aptitude",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 3.5,
+      "cognitive_level": "APPLY",
+      "difficulty_rationale": "Evaluated based on standard GATE 2.0M MCQ format for Spatial Transformations.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "9becf604-d42b-428d-9f8b-f0cc11b5ac8b",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 8,
+      "official_id": "GATE_2026_CS2_Q8",
+      "go_id": null,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.8 \nFigures (i) and (ii) represent intercity highway systems. The black dots represent \ncities and the line segments between them represent intercity highways.  \nA salesperson needs to make a trip. She needs to start from a city, visit each of the \nremaining cities exactly once, and finally return to the same city from which she \nstarted.   \nWhich one of the following options is then true? \n \n \n \n(A) \nSuch a trip is possible for (i), but not for (ii). \n(B) \nSuch a trip is possible for (ii), but not for (i). \n(C) \nSuch a trip is possible for both (i) and (ii).  \n(D) \nSuch a trip is possible neither for (i) nor for (ii).",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Spatial Aptitude",
+      "ai_subtopic": "Spatial Reasoning and Patterns",
+      "core_concepts": [
+        {
+          "name": "Spatial Transformations",
+          "family": "Spatial Aptitude",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 3.5,
+      "cognitive_level": "APPLY",
+      "difficulty_rationale": "Evaluated based on standard GATE 2.0M MCQ format for Spatial Transformations.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "ad34ed28-6177-4aa0-8b9f-7543bfe44339",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 9,
+      "official_id": "GATE_2026_CS2_Q9",
+      "go_id": null,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q. 9 \nThe figure in Panel I below is a grid of cells with four rows and four columns.  \nThe numbers on the top and on the left represent the number of cells that are to  \nbe shaded in that column and row, respectively. Which one of the options shown \nin Panel II below represents the grid shaded correctly? \n \n \n \n(A) \n(i) \n(B) \n(ii) \n(C) \n(iii) \n(D) \n(iv)",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Spatial Aptitude",
+      "ai_subtopic": "Spatial Reasoning and Patterns",
+      "core_concepts": [
+        {
+          "name": "Spatial Transformations",
+          "family": "Spatial Aptitude",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 3.5,
+      "cognitive_level": "APPLY",
+      "difficulty_rationale": "Evaluated based on standard GATE 2.0M MCQ format for Spatial Transformations.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "ffcfb32e-5d71-4c8e-9dae-30781dbef564",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 10,
+      "official_id": "GATE_2026_CS2_Q10",
+      "go_id": null,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.10 \nAn unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5,  \nand 6 is rolled twice in succession and the number on the top face is recorded  \neach time. The probability that the sum of the two recorded numbers is a prime \nnumber is ________ \n \n \n(A) \n3\n36 \n(B) \n13\n36 \n(C) \n15\n36 \n(D) \n19\n36 \n \n \n \n \n \n \n \n \n \n \n \n\n \n \n \nQ.11 \u2013 Q.35 Carry ONE mark Each",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Quantitative Aptitude",
+      "ai_subtopic": "Numerical Ability and Probability",
+      "core_concepts": [
+        {
+          "name": "Data Interpretation and Arithmetic",
+          "family": "Quantitative Aptitude",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 3.5,
+      "cognitive_level": "APPLY",
+      "difficulty_rationale": "Evaluated based on standard GATE 2.0M MCQ format for Data Interpretation and Arithmetic.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "461a9f0d-86a1-4120-8ef0-bacd9f80b314",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 11,
+      "official_id": "GATE_2026_CS2_Q11",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.11 \nFor two different persons \ud835\udc65 and \ud835\udc66, the predicate \ud835\udc40(\ud835\udc65, \ud835\udc66) denotes that x knows y. \nConsider the following statement. \nThere is a person who does not know anyone else, but that person is known by \neveryone else. \nWhich one of the following expressions represents the above statement? \n \n \n(A) \n(\u2203\ud835\udc66)(\u2200\ud835\udc65) ((\ud835\udc65\u2260\ud835\udc66) \u2192(\ud835\udc40(\ud835\udc65, \ud835\udc66) \u2227\u00ac\ud835\udc40(\ud835\udc66, \ud835\udc65))) \n(B) \n(\u2200\ud835\udc66)(\u2203\ud835\udc65) ((\ud835\udc65\u2260\ud835\udc66) \u2192(\ud835\udc40(\ud835\udc65, \ud835\udc66) \u2227\u00ac\ud835\udc40(\ud835\udc66, \ud835\udc65))) \n(C) \n(\u2203\ud835\udc66)(\u2203\ud835\udc65) ((\ud835\udc65\u2260\ud835\udc66) \u2192(\ud835\udc40(\ud835\udc65, \ud835\udc66) \u2227\u00ac\ud835\udc40(\ud835\udc66, \ud835\udc65))) \n(D) \n(\u2200\ud835\udc66)(\u2200\ud835\udc65) ((\ud835\udc65\u2260\ud835\udc66) \u2192(\ud835\udc40(\ud835\udc65, \ud835\udc66) \u2227\u00ac\ud835\udc40(\ud835\udc66, \ud835\udc65)))",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Discrete Mathematics",
+      "ai_subtopic": "Propositional and First Order Logic",
+      "core_concepts": [
+        {
+          "name": "First Order Logic and Predicates",
+          "family": "Discrete Mathematics",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for First Order Logic and Predicates.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "e84e7b69-7370-4403-bca8-4b8bd3f885c2",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 12,
+      "official_id": "GATE_2026_CS2_Q12",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.12 \nThe set T represents various traversals over binary tree. The set S represents the \norder of visiting nodes during a traversal.  \nT \nS \nI: Inorder \nL: left subtree, node, right subtree \nII: Preorder \nM: node, left subtree, right subtree \nIII: Postorder N: left subtree, right subtree, node \nWhich one of the following is the correct match from T to S ? \n \n \n(A) \nI \u2013 L, II \u2013 M, III \u2013 N \n(B) \nI \u2013 M, II \u2013 L, III \u2013 N \n(C) \nI \u2013 N, II \u2013 M, III \u2013 L \n(D) \nI \u2013 L, II \u2013 N, III \u2013 M",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Boolean Algebra",
+      "ai_subtopic": "Minimization of Boolean Functions",
+      "core_concepts": [
+        {
+          "name": "Minimization of Boolean Functions",
+          "family": "Boolean Algebra",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Minimization of Boolean Functions.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "7f72c2a2-ac39-45af-a43e-2b926e698cf3",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 13,
+      "official_id": "GATE_2026_CS2_Q13",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.13 \nWhich one of the following statements is equivalent to the following assertion?  \nTuring machine \ud835\udc40 decides the language \ud835\udc3f\u2286{0,1}\u2217  \n \n \n(A) \nTuring machine \ud835\udc40 halts on all input strings in {0,1}\u2217 \n(B) \nTuring machine \ud835\udc40 accepts all input strings in \ud835\udc3f \n(C) \nTuring machine \ud835\udc40 rejects all input strings in {0,1}\u2217\u2212\ud835\udc3f \n(D) \nTuring machine \ud835\udc40 accepts all input strings in \ud835\udc3f and rejects all input strings in \n{0,1}\u2217\u2212\ud835\udc3f",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Turing Machines and Undecidability",
+      "ai_subtopic": "Turing Machines",
+      "core_concepts": [
+        {
+          "name": "Turing Machine Decidability",
+          "family": "Turing Machines and Undecidability",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Turing Machine Decidability.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "642365ed-da32-498a-ae36-f0408b3bb14a",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 14,
+      "official_id": "GATE_2026_CS2_Q14",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.14 \nThe probability density function \ud835\udc53(\ud835\udc65) of a random variable \ud835\udc4b which takes real \nvalues is \n\ud835\udc53(\ud835\udc65) =\n1\n3\u221a2\ud835\udf0b exp (\u2212\n\ud835\udc652\n18),      \ud835\udc65\u2208(\u2212\u221e, +\u221e) \nWhich one of the following statements is correct about the random variable \ud835\udc4b ?  \n \n \n(A) \n\ud835\udc4b is an exponential random variable \n(B) \n\ud835\udc4b is a normal random variable \n(C) \n\ud835\udc4b is a Poisson random variable \n(D) \n\ud835\udc4b is a uniform random variable",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Probability and Statistics",
+      "ai_subtopic": "Conditional Probability and Bayes Theorem",
+      "core_concepts": [
+        {
+          "name": "Probability Distributions",
+          "family": "Probability and Statistics",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Probability Distributions.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "e8e1c093-73f3-495b-9e41-9ac87e7dfbb9",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 15,
+      "official_id": "GATE_2026_CS2_Q15",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.15 \nIn the context of DBMS, consider the two sets T and S given below. \nT \nS \nI: Logical schema \nL: Views \nII: Physical schema \nM: File organization and indexes \nIII: External schema N: Relations \nWhich one of the following is the correct match from T to S ? \n \n \n(A) \nI \u2013 L, II \u2013 M, III \u2013 N \n(B) \nI \u2013 M, II \u2013 L, III \u2013 N \n(C) \nI \u2013 N, II \u2013 M, III \u2013 L \n(D) \nI \u2013 N, II \u2013 L, III \u2013 M",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Analysis",
+      "ai_subtopic": "Asymptotic Analysis",
+      "core_concepts": [
+        {
+          "name": "Algorithm Complexity",
+          "family": "Algorithm Analysis",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Algorithm Complexity.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "d219f904-8ec8-4dc4-b5e4-ea07d379f684",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 16,
+      "official_id": "GATE_2026_CS2_Q16",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.16 \nWhich one of the following options is not a property of Boolean Algebra?  \nNote:  + is OR operation, . is AND operation, and  \u2032 is NOT operation \n \n \n(A) \n\ud835\udc4e+ \ud835\udc4f= \ud835\udc4f+ \ud835\udc4e \n(B) \n\ud835\udc4e . \ud835\udc4e\u2032 = 1 \n(C) \n\ud835\udc4e+ \ud835\udc4e\u2032 = 1 \n(D) \n\ud835\udc4e . \ud835\udc4f= \ud835\udc4f . \ud835\udc4e",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Boolean Algebra",
+      "ai_subtopic": "Minimization of Boolean Functions",
+      "core_concepts": [
+        {
+          "name": "Minimization of Boolean Functions",
+          "family": "Boolean Algebra",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Minimization of Boolean Functions.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "48f28605-cd31-430f-ad97-af24262e7b0c",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 17,
+      "official_id": "GATE_2026_CS2_Q17",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.17 \nIn C runtime environment, which one of the following is stored in heap? \n \n \n(A) \nA static variable declared inside a function \n(B) \nAn array of integers declared inside a function \n(C) \nA dynamically allocated array of integers created using malloc() function call \n(D) \nReturn address of a function",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Runtime Environments",
+      "ai_subtopic": "Activation Records",
+      "core_concepts": [
+        {
+          "name": "Stack Allocation and Activation Records",
+          "family": "Runtime Environments",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Stack Allocation and Activation Records.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "62d155a5-e731-4cd9-b8a9-5babdca97e8e",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 18,
+      "official_id": "GATE_2026_CS2_Q18",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.18 \nConsider the following two statements about interrupt handling mechanisms in a \nCPU. \nS1: In non-vectored interrupt mechanism, it usually takes more time to start the  \nInterrupt Service Routine (ISR) when compared to that in a vectored interrupt \nmechanism. \nS2: In daisy-chain interrupt mechanism, the CPU polls all the input devices \nindividually to determine the source of the interrupt.  \nWhich one of the following options is correct with respect to S1 and S2 ? \n \n \n(A) \nBoth S1 and S2 are true \n(B) \nBoth S1 and S2 are false \n(C) \nS1 is true and S2 is false \n(D) \nS1 is false and S2 is true",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "I/O Organization",
+      "ai_subtopic": "Interrupts",
+      "core_concepts": [
+        {
+          "name": "Interrupt Handling and DMA",
+          "family": "I/O Organization",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Interrupt Handling and DMA.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "08f48ab3-4d16-445a-b284-5ed4773ae5b9",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 19,
+      "official_id": "GATE_2026_CS2_Q19",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.19 \nConsider the following three ANSI-C programs, P1, P2, and P3. \n \nP1 \nP2 \nP3 \n#include <stdio.h> \nint a=5; \nint main(){   \n  int a=7; \n  return(0); \n} \n#include <stdio.h> \nint main(){   \n  int a=5; \n  int a=7; \n  return(0); \n} \n#include <stdio.h> \nint main(){   \n  int a=5; \n  float a=7; \n  return(0); \n} \n \nWhich one of the following statements is true? \n \n \n(A) \nOnly P1 will compile without any error \n(B) \nOnly P2 will compile without any error \n(C) \nOnly P3 will compile without any error \n(D) \nAll three programs P1, P2, and P3 will compile without any error",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Programming in C",
+      "ai_subtopic": "Pointers and Dynamic Memory Allocation",
+      "core_concepts": [
+        {
+          "name": "Pointers and Recursion in C",
+          "family": "Programming in C",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Pointers and Recursion in C.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "606df613-7ae8-42f3-9473-9299fc4ff5af",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 20,
+      "official_id": "GATE_2026_CS2_Q20",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.20 \nConsider concurrent execution of two transactions \ud835\udc471 and \ud835\udc472 in a DBMS, both of \nwhich access a data object \ud835\udc34. For these two transactions to not conflict on \ud835\udc34, which \none of the following statements must be true? \n \n \n(A) \nBoth \ud835\udc471 and \ud835\udc472 only read \ud835\udc34 \n(B) \n\ud835\udc471 reads \ud835\udc34 and \ud835\udc472 writes \ud835\udc34 \n(C) \n\ud835\udc471 writes \ud835\udc34 and \ud835\udc472 reads \ud835\udc34 \n(D) \nBoth \ud835\udc471 and \ud835\udc472 write \ud835\udc34",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Analysis",
+      "ai_subtopic": "Asymptotic Analysis",
+      "core_concepts": [
+        {
+          "name": "Algorithm Complexity",
+          "family": "Algorithm Analysis",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Algorithm Complexity.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "cecf13c6-ce49-4936-85bb-29ca8ae98540",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 21,
+      "official_id": "GATE_2026_CS2_Q21",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.21 \nConsider a file of size 4 million bytes being transferred between two hosts \nconnected via a path consisting of three consecutive links of bandwidth 2 Mbps, \n500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays \nare negligible. Assume that there is no other background traffic over the path and \nno other additional overhead to transfer the file.  \nWhich one of the following is the total time (in seconds) to transfer the file?  \nNote: 1M=106, 1k=103 \n \n \n(A) \n731 \n(B) \n64 \n(C) \n8 \n(D) \n16",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Analysis",
+      "ai_subtopic": "Asymptotic Analysis",
+      "core_concepts": [
+        {
+          "name": "Algorithm Complexity",
+          "family": "Algorithm Analysis",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Algorithm Complexity.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "9142a634-9a34-4965-b787-61423d3d0974",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 22,
+      "official_id": "GATE_2026_CS2_Q22",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.22 \nWhich one of the following protocols may need to broadcast some of its messages? \n \n \n(A) \nSMTP \n(B) \nFTP \n(C) \nDHCP \n(D) \nHTTP",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Application Layer",
+      "ai_subtopic": "Network Services (DNS, HTTP)",
+      "core_concepts": [
+        {
+          "name": "Application Protocols (DNS, HTTP)",
+          "family": "Application Layer",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Application Protocols (DNS, HTTP).",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "9c035654-7c36-4524-8410-874be92f9cb8",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 23,
+      "official_id": "GATE_2026_CS2_Q23",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.23 \nWhich one of the following CPU scheduling algorithms cannot be preemptive? \n \n \n(A) \nShortest Remaining Time First (SRTF) Scheduling \n(B) \nFirst Come First Serve (FCFS) Scheduling \n(C) \nRound Robin Scheduling \n(D) \nPriority Scheduling",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "CPU Scheduling",
+      "ai_subtopic": "Scheduling Algorithms",
+      "core_concepts": [
+        {
+          "name": "CPU Scheduling Algorithms",
+          "family": "CPU Scheduling",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for CPU Scheduling Algorithms.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "6ee237a4-138a-40bc-9521-0fc1b1745ce4",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 24,
+      "official_id": "GATE_2026_CS2_Q24",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.24 \nConsider the following functions, where \ud835\udc5b is a positive integer.  \n\ud835\udc5b1/3 ,   log(\ud835\udc5b) ,  log(\ud835\udc5b!), 2log(\ud835\udc5b)  \nWhich one of the following options lists the functions in increasing order of \nasymptotic growth rate? \nNote: Assume the base of log to be 2.  \n \n \n(A) \n log(\ud835\udc5b) , \ud835\udc5b1/3, 2log(\ud835\udc5b) , log(\ud835\udc5b!)   \n(B) \n\ud835\udc5b1/3, log(\ud835\udc5b) , log(\ud835\udc5b!) , 2log(\ud835\udc5b)    \n(C) \nlog(\ud835\udc5b) , \ud835\udc5b1/3, log(\ud835\udc5b!) , 2log(\ud835\udc5b)   \n(D) \n 2log(\ud835\udc5b) , \ud835\udc5b1/3, log(\ud835\udc5b) , log(\ud835\udc5b!)",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Boolean Algebra",
+      "ai_subtopic": "Minimization of Boolean Functions",
+      "core_concepts": [
+        {
+          "name": "Minimization of Boolean Functions",
+          "family": "Boolean Algebra",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Minimization of Boolean Functions.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    },
+    {
+      "golden_question_id": "06fab6e1-b68d-451e-843e-68d1ae974916",
+      "exam_year": 2026,
+      "session": "CS2",
+      "paper": "CS",
+      "question_number": 25,
+      "official_id": "GATE_2026_CS2_Q25",
+      "go_id": null,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "answer": "A",
+      "match_status": "AUTO_VERIFIED",
+      "question_text": "Q.25 \nWhich of the following can be recurrence relation(s) corresponding to an algorithm \nwith time complexity \u0398(\ud835\udc5b)? \n \n \n(A) \n\ud835\udc47(\ud835\udc5b) = \ud835\udc47(\ud835\udc5b\u22121) + 1,\n\ud835\udc47(1) = 1 \n(B) \n\ud835\udc47(\ud835\udc5b) = 2\ud835\udc47(\ud835\udc5b\n2) + 1,\n\ud835\udc47(1) = 1 \n(C) \n\ud835\udc47(\ud835\udc5b) = 2\ud835\udc47(\ud835\udc5b\n2) + \ud835\udc5b,\n\ud835\udc47(1) = 1 \n(D) \n\ud835\udc47(\ud835\udc5b) = \ud835\udc47(\ud835\udc5b\u22121) + \ud835\udc5b,\n\ud835\udc47(1) = 1",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Analysis",
+      "ai_subtopic": "Asymptotic Analysis",
+      "core_concepts": [
+        {
+          "name": "Time and Space Complexity",
+          "family": "Algorithm Analysis",
+          "role": "primary"
+        }
+      ],
+      "difficulty_score": 2,
+      "cognitive_level": "UNDERSTAND",
+      "difficulty_rationale": "Evaluated based on standard GATE 1.0M MCQ format for Time and Space Complexity.",
+      "llm_provider": "gemini",
+      "llm_model": "gemini-1.5-pro",
+      "source": "Official GATE"
+    }
+  ]
+}

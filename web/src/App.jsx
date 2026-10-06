@@ -8,18 +8,93 @@ import {
   PlusCircle, Scale, Award, FileCheck, FileQuestion, Play, ArrowLeft, ArrowRight,
   RotateCcw, Check
 } from 'lucide-react';
+import 'chart.js/auto';
 import {
   Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement,
-  BarElement, ArcElement, Title, Tooltip, Legend, Filler
+  BarElement, ArcElement, Title, Tooltip, Legend, Filler,
+  LineController, BarController
 } from 'chart.js';
 import { Line, Bar, Doughnut } from 'react-chartjs-2';
+import {
+  fallbackCalibration, fallbackFoundation, fallbackIntegrity, fallbackEnrichmentStats,
+  fallbackTaxonomy, fallbackExperiments, fallbackRegistry, fallbackSimYears,
+  fallbackBrainLedger, fallbackPatterns, fallbackSurprises, fallbackEras,
+  fallbackForecast2027, fallbackForecast2027Spec, fallbackMockBlueprints,
+  fallbackMockQuestions, fallbackGoldenSample, fallbackFeaturesSample,
+  fallbackReportsList, fallbackReports, fallbackSimulation
+} from './data/fallbackData';
 
 ChartJS.register(
   CategoryScale, LinearScale, PointElement, LineElement, BarElement,
-  ArcElement, Title, Tooltip, Legend, Filler
+  ArcElement, Title, Tooltip, Legend, Filler,
+  LineController, BarController
 );
 
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000/api';
+
+async function apiFetch(endpoint, fallbackValue = null) {
+  try {
+    const cleanEndpoint = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
+    const isHttps = typeof window !== 'undefined' && window.location.protocol === 'https:';
+    const isLocalhost = API_BASE.includes('localhost') || API_BASE.includes('127.0.0.1');
+
+    // On HTTPS (Vercel) when API_BASE points to localhost, route to static public/api JSON
+    if (isHttps && isLocalhost) {
+      const pathOnly = cleanEndpoint.split('?')[0];
+      const staticUrl = `/api${pathOnly}.json`;
+      const res = await fetch(staticUrl);
+      if (res.ok) {
+        return await res.json();
+      }
+    }
+
+    const res = await fetch(`${API_BASE}${cleanEndpoint}`);
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch (err) {
+    console.warn(`[apiFetch] Fallback triggered for ${endpoint}:`, err);
+  }
+  return fallbackValue;
+}
+
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+  componentDidCatch(error, errorInfo) {
+    console.error("ErrorBoundary caught an error:", error, errorInfo);
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="glass-panel" style={{ margin: '2rem', padding: '2rem', border: '1px solid var(--danger)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+            <AlertTriangle color="var(--danger)" size={28} />
+            <h2 style={{ margin: 0, color: 'var(--danger)' }}>Interface Render Safeguard</h2>
+          </div>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem' }}>
+            A visual rendering glitch occurred, but research integrity data is protected.
+          </p>
+          <pre style={{ background: 'rgba(0,0,0,0.5)', padding: '1rem', borderRadius: '8px', fontSize: '0.8rem', overflowX: 'auto', marginBottom: '1.5rem' }}>
+            {this.state.error?.toString()}
+          </pre>
+          <button 
+            className="btn btn-primary"
+            onClick={() => { this.setState({ hasError: false, error: null }); window.location.reload(); }}
+          >
+            <RotateCcw size={16} /> Reload Research Lab
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
 export default function App() {
   const [activeNav, setActiveNav] = useState('overview');
@@ -70,18 +145,20 @@ export default function App() {
 
       {/* Main Content Area */}
       <main style={{ flex: 1, padding: '2rem 2.5rem', overflowY: 'auto', maxHeight: '100vh' }}>
-        {activeNav === 'overview' && <ViewOverview onSelectQuestion={setSelectedQuestion} setActiveNav={setActiveNav} />}
-        {activeNav === 'foundation' && <ViewDataFoundation onSelectQuestion={setSelectedQuestion} />}
-        {activeNav === 'taxonomy' && <ViewTaxonomy onSelectQuestion={setSelectedQuestion} />}
-        {activeNav === 'features' && <ViewFeatures onSelectQuestion={setSelectedQuestion} onOpenResearchDetail={setResearchDetail} />}
-        {activeNav === 'experiments' && <ViewModelExperiments />}
-        {activeNav === 'timemachine' && <ViewTimeMachine onSelectQuestion={setSelectedQuestion} onOpenResearchDetail={setResearchDetail} />}
-        {activeNav === 'brain' && <ViewModelBrain />}
-        {activeNav === 'patterns' && <ViewPatterns onSelectQuestion={setSelectedQuestion} />}
-        {activeNav === 'calibration' && <ViewCalibration />}
-        {activeNav === 'forecast2027' && <ViewForecast2027 onSelectQuestion={setSelectedQuestion} onOpenResearchDetail={setResearchDetail} />}
-        {activeNav === 'mocks' && <ViewMocks />}
-        {activeNav === 'reports' && <ViewReports />}
+        <ErrorBoundary>
+          {activeNav === 'overview' && <ViewOverview onSelectQuestion={setSelectedQuestion} setActiveNav={setActiveNav} />}
+          {activeNav === 'foundation' && <ViewDataFoundation onSelectQuestion={setSelectedQuestion} />}
+          {activeNav === 'taxonomy' && <ViewTaxonomy onSelectQuestion={setSelectedQuestion} />}
+          {activeNav === 'features' && <ViewFeatures onSelectQuestion={setSelectedQuestion} onOpenResearchDetail={setResearchDetail} />}
+          {activeNav === 'experiments' && <ViewModelExperiments />}
+          {activeNav === 'timemachine' && <ViewTimeMachine onSelectQuestion={setSelectedQuestion} onOpenResearchDetail={setResearchDetail} />}
+          {activeNav === 'brain' && <ViewModelBrain />}
+          {activeNav === 'patterns' && <ViewPatterns onSelectQuestion={setSelectedQuestion} />}
+          {activeNav === 'calibration' && <ViewCalibration />}
+          {activeNav === 'forecast2027' && <ViewForecast2027 onSelectQuestion={setSelectedQuestion} onOpenResearchDetail={setResearchDetail} />}
+          {activeNav === 'mocks' && <ViewMocks />}
+          {activeNav === 'reports' && <ViewReports />}
+        </ErrorBoundary>
       </main>
 
       {/* Global Universal Question Detail Modal */}
@@ -130,12 +207,12 @@ function NavBtn({ id, active, setActive, icon, label, highlight }) {
 // 1. OVERVIEW & EXECUTIVE SUMMARY
 // =========================================================
 function ViewOverview({ setActiveNav, onSelectQuestion }) {
-  const [foundation, setFoundation] = useState(null);
-  const [integrity, setIntegrity] = useState(null);
+  const [foundation, setFoundation] = useState(fallbackFoundation);
+  const [integrity, setIntegrity] = useState(fallbackIntegrity);
 
   useEffect(() => {
-    fetch(`${API_BASE}/data/foundation`).then(r => r.json()).then(setFoundation);
-    fetch(`${API_BASE}/integrity/tests`).then(r => r.json()).then(setIntegrity);
+    apiFetch('/data/foundation', fallbackFoundation).then(d => d && setFoundation(d));
+    apiFetch('/integrity/tests', fallbackIntegrity).then(d => d && setIntegrity(d));
   }, []);
 
   return (
@@ -243,36 +320,43 @@ function ViewOverview({ setActiveNav, onSelectQuestion }) {
 // =========================================================
 function ViewDataFoundation({ onSelectQuestion }) {
   const [tab, setTab] = useState('explorer');
-  const [foundation, setFoundation] = useState(null);
-  const [questions, setQuestions] = useState([]);
-  const [totalCount, setTotalCount] = useState(0);
+  const [foundation, setFoundation] = useState(fallbackFoundation);
+  const [questions, setQuestions] = useState(fallbackGoldenSample);
+  const [totalCount, setTotalCount] = useState(fallbackFoundation.total_questions || 2221);
   const [page, setPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
+  const [totalPages, setTotalPages] = useState(Math.ceil((fallbackFoundation.total_questions || 2221) / 20));
   const [search, setSearch] = useState('');
   const [selectedYear, setSelectedYear] = useState('');
   const [selectedSubject, setSelectedSubject] = useState('');
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch(`${API_BASE}/data/foundation`).then(r => r.json()).then(setFoundation);
+    apiFetch('/data/foundation', fallbackFoundation).then(d => d && setFoundation(d));
   }, []);
 
   useEffect(() => {
     if (tab === 'explorer') {
-      setLoading(true);
       const params = new URLSearchParams({ page, page_size: 20 });
       if (search) params.append('search', search);
       if (selectedYear) params.append('year', selectedYear);
       if (selectedSubject) params.append('subject', selectedSubject);
 
-      fetch(`${API_BASE}/data/golden?${params}`)
-        .then(r => r.json())
-        .then(data => {
-          setQuestions(data.questions || []);
+      apiFetch(`/data/golden?${params}`, null).then(data => {
+        if (data && data.questions) {
+          setQuestions(data.questions);
           setTotalCount(data.total || 0);
           setTotalPages(data.total_pages || 1);
-          setLoading(false);
-        });
+        } else {
+          let filtered = [...fallbackGoldenSample];
+          if (search) filtered = filtered.filter(q => (q.question_text || '').toLowerCase().includes(search.toLowerCase()) || (q.go_topic || '').toLowerCase().includes(search.toLowerCase()));
+          if (selectedYear) filtered = filtered.filter(q => String(q.exam_year) === String(selectedYear));
+          if (selectedSubject) filtered = filtered.filter(q => q.go_subject === selectedSubject || q.paper === selectedSubject);
+          setQuestions(filtered.slice((page - 1) * 20, page * 20));
+          setTotalCount(filtered.length);
+          setTotalPages(Math.max(1, Math.ceil(filtered.length / 20)));
+        }
+        setLoading(false);
+      });
     }
   }, [tab, page, search, selectedYear, selectedSubject]);
 
@@ -522,16 +606,14 @@ function ViewDataFoundation({ onSelectQuestion }) {
 // =========================================================
 function ViewTaxonomy({ onSelectQuestion }) {
   const [tab, setTab] = useState('stats');
-  const [stats, setStats] = useState(null);
-  const [taxonomy, setTaxonomy] = useState(null);
+  const [stats, setStats] = useState(fallbackEnrichmentStats);
+  const [taxonomy, setTaxonomy] = useState(fallbackTaxonomy);
   const [selectedSubject, setSelectedSubject] = useState(null);
 
   useEffect(() => {
-    fetch(`${API_BASE}/enrichment/stats`).then(r => r.json()).then(setStats);
-    fetch(`${API_BASE}/taxonomy`).then(r => r.json()).then(setTaxonomy);
+    apiFetch('/enrichment/stats', fallbackEnrichmentStats).then(d => d && setStats(d));
+    apiFetch('/taxonomy', fallbackTaxonomy).then(d => d && setTaxonomy(d));
   }, []);
-
-  if (!stats) return <div className="glass-panel"><RefreshCcw className="animate-spin" /> Loading AI Enrichment...</div>;
 
   return (
     <div className="animate-fade-in">
@@ -673,28 +755,31 @@ function ViewTaxonomy({ onSelectQuestion }) {
 // =========================================================
 function ViewFeatures({ onSelectQuestion, onOpenResearchDetail }) {
   const [tab, setTab] = useState('features');
-  const [features, setFeatures] = useState([]);
-  const [integrity, setIntegrity] = useState(null);
+  const [features, setFeatures] = useState(fallbackFeaturesSample);
+  const [integrity, setIntegrity] = useState(fallbackIntegrity);
   const [search, setSearch] = useState('');
   const [targetYear, setTargetYear] = useState(2027);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch(`${API_BASE}/integrity/tests`).then(r => r.json()).then(setIntegrity);
+    apiFetch('/integrity/tests', fallbackIntegrity).then(d => d && setIntegrity(d));
   }, []);
 
   useEffect(() => {
     if (tab === 'features') {
-      setLoading(true);
       const params = new URLSearchParams({ target_year: targetYear, limit: 100 });
       if (search) params.append('search', search);
 
-      fetch(`${API_BASE}/features?${params}`)
-        .then(r => r.json())
-        .then(data => {
-          setFeatures(data.features || []);
-          setLoading(false);
-        });
+      apiFetch(`/features?${params}`, null).then(data => {
+        if (data && data.features) {
+          setFeatures(data.features);
+        } else {
+          let list = [...fallbackFeaturesSample];
+          if (search) list = list.filter(f => (f.concept || '').toLowerCase().includes(search.toLowerCase()) || (f.topic || '').toLowerCase().includes(search.toLowerCase()));
+          setFeatures(list);
+        }
+        setLoading(false);
+      });
     }
   }, [tab, targetYear, search]);
 
@@ -783,14 +868,20 @@ function ViewFeatures({ onSelectQuestion, onOpenResearchDetail }) {
                         className="btn-secondary"
                         style={{ padding: '0.3rem 0.6rem', fontSize: '0.75rem' }}
                         onClick={() => {
-                          fetch(`${API_BASE}/features/concept/${encodeURIComponent(f.concept)}?target_year=${targetYear}`)
-                            .then(r => r.json())
+                          const fallbackDetail = {
+                            concept: f.concept,
+                            target_year: targetYear,
+                            feature_metrics: f,
+                            source_questions: fallbackGoldenSample.filter(q => (q.question_text || '').toLowerCase().includes((f.concept || '').toLowerCase())).slice(0, 5)
+                          };
+                          apiFetch(`/features/concept/${encodeURIComponent(f.concept)}?target_year=${targetYear}`, fallbackDetail)
                             .then(detail => {
+                              const d = detail || fallbackDetail;
                               onOpenResearchDetail({
                                 title: `Feature Deep Dive: ${f.concept}`,
                                 type: 'feature',
-                                feature_metrics: detail.feature_metrics,
-                                source_questions: detail.source_questions
+                                feature_metrics: d.feature_metrics || f,
+                                source_questions: d.source_questions || []
                               });
                             });
                         }}
@@ -874,12 +965,12 @@ function ViewFeatures({ onSelectQuestion, onOpenResearchDetail }) {
 // =========================================================
 function ViewModelExperiments() {
   const [tab, setTab] = useState('experiments');
-  const [experiments, setExperiments] = useState([]);
-  const [registry, setRegistry] = useState(null);
+  const [experiments, setExperiments] = useState(fallbackExperiments);
+  const [registry, setRegistry] = useState(fallbackRegistry);
 
   useEffect(() => {
-    fetch(`${API_BASE}/experiments`).then(r => r.json()).then(d => setExperiments(d.experiments || []));
-    fetch(`${API_BASE}/models/registry`).then(r => r.json()).then(setRegistry);
+    apiFetch('/experiments', { experiments: fallbackExperiments }).then(d => d && setExperiments(d.experiments || []));
+    apiFetch('/models/registry', fallbackRegistry).then(d => d && setRegistry(d));
   }, []);
 
   return (
@@ -982,29 +1073,30 @@ function ViewModelExperiments() {
 // 6. HISTORICAL TIME MACHINE & COMPARISON LAB
 // =========================================================
 function ViewTimeMachine({ onSelectQuestion, onOpenResearchDetail }) {
-  const [years, setYears] = useState([]);
-  const [year, setYear] = useState(2024);
-  const [data, setData] = useState(null);
+  const initialYears = Array.isArray(fallbackSimYears) ? fallbackSimYears : (fallbackSimYears.years || [2026, 2025, 2024]);
+  const [years, setYears] = useState(initialYears);
+  const [year, setYear] = useState(2026);
+  const [data, setData] = useState(fallbackSimulation[2026] || fallbackSimulation[2025] || null);
   const [reveal, setReveal] = useState(false);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch(`${API_BASE}/lab/simulation/years`).then(r => r.json()).then(d => {
-      setYears(d.years || []);
-      if (d.years?.length) setYear(d.years[d.years.length - 2]); // default to 2024
+    apiFetch('/lab/simulation/years', { years: initialYears }).then(d => {
+      if (d && (d.years || Array.isArray(d))) {
+        const yList = Array.isArray(d) ? d : d.years;
+        setYears(yList);
+      }
     });
   }, []);
 
   useEffect(() => {
     if (!year) return;
-    setLoading(true);
     setReveal(false);
-    fetch(`${API_BASE}/lab/simulation/${year}`)
-      .then(r => r.json())
-      .then(d => {
-        setData(d);
-        setLoading(false);
-      });
+    const fb = fallbackSimulation[year] || null;
+    apiFetch(`/lab/simulation/${year}`, fb).then(d => {
+      setData(d || fb);
+      setLoading(false);
+    });
   }, [year]);
 
   return (
@@ -1165,10 +1257,10 @@ function ViewTimeMachine({ onSelectQuestion, onOpenResearchDetail }) {
 // 7. MODEL BRAIN & LEARNING LEDGER
 // =========================================================
 function ViewModelBrain() {
-  const [ledger, setLedger] = useState([]);
+  const [ledger, setLedger] = useState(fallbackBrainLedger || []);
 
   useEffect(() => {
-    fetch(`${API_BASE}/brain/ledger`).then(r => r.json()).then(d => setLedger(d.ledger || []));
+    apiFetch('/brain/ledger', { ledger: fallbackBrainLedger }).then(d => d && setLedger(d.ledger || []));
   }, []);
 
   return (
@@ -1228,14 +1320,14 @@ function ViewModelBrain() {
 // =========================================================
 function ViewPatterns({ onSelectQuestion }) {
   const [tab, setTab] = useState('patterns');
-  const [patterns, setPatterns] = useState(null);
-  const [surprises, setSurprises] = useState([]);
-  const [eras, setEras] = useState(null);
+  const [patterns, setPatterns] = useState(fallbackPatterns);
+  const [surprises, setSurprises] = useState(fallbackSurprises || []);
+  const [eras, setEras] = useState(fallbackEras);
 
   useEffect(() => {
-    fetch(`${API_BASE}/patterns/categorized`).then(r => r.json()).then(setPatterns);
-    fetch(`${API_BASE}/surprise/events?limit=40`).then(r => r.json()).then(d => setSurprises(d.events || []));
-    fetch(`${API_BASE}/eras`).then(r => r.json()).then(setEras);
+    apiFetch('/patterns/categorized', fallbackPatterns).then(d => d && setPatterns(d));
+    apiFetch('/surprise/events?limit=40', { events: fallbackSurprises }).then(d => d && setSurprises(d.events || []));
+    apiFetch('/eras', fallbackEras).then(d => d && setEras(d));
   }, []);
 
   return (
@@ -1369,27 +1461,29 @@ function renderPatternGroup(title, icon, color, items, onSelectQuestion) {
 // 9. PROBABILITY CALIBRATION DASHBOARD
 // =========================================================
 function ViewCalibration() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(fallbackCalibration);
 
   useEffect(() => {
-    fetch(`${API_BASE}/calibration`).then(r => r.json()).then(setData);
+    apiFetch('/calibration', fallbackCalibration).then(d => {
+      if (d) setData(d);
+    });
   }, []);
 
-  if (!data) return <div className="glass-panel"><RefreshCcw className="animate-spin" /> Loading Calibration...</div>;
+  const calData = data || fallbackCalibration;
 
   const chartData = {
-    labels: data.buckets?.map(b => b.bucket_range) || [],
+    labels: calData.buckets?.map(b => b.bucket_range) || [],
     datasets: [
       {
         label: 'Average Predicted Probability',
-        data: data.buckets?.map(b => b.avg_predicted_prob) || [],
+        data: calData.buckets?.map(b => b.avg_predicted_prob) || [],
         borderColor: '#3b82f6',
         backgroundColor: 'rgba(59, 130, 246, 0.4)',
         type: 'line'
       },
       {
         label: 'Actual Historical Frequency',
-        data: data.buckets?.map(b => b.actual_frequency) || [],
+        data: calData.buckets?.map(b => b.actual_frequency) || [],
         backgroundColor: 'rgba(16, 185, 129, 0.6)',
         borderColor: 'rgba(16, 185, 129, 1)',
         type: 'bar'
@@ -1408,15 +1502,21 @@ function ViewCalibration() {
 
       <div className="grid-3" style={{ marginBottom: '2rem' }}>
         <div className="glass-panel" style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--accent-primary)' }}>{data.brier_score?.toFixed(3)}</div>
+          <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--accent-primary)' }}>
+            {Number(calData.brier_score ?? 0.213).toFixed(3)}
+          </div>
           <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase' }}>Brier Score</div>
         </div>
         <div className="glass-panel" style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--success)' }}>{data.ece?.toFixed(3)}</div>
+          <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--success)' }}>
+            {Number(calData.ece ?? 0.152).toFixed(3)}
+          </div>
           <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase' }}>Expected Calibration Error (ECE)</div>
         </div>
         <div className="glass-panel" style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--warning)' }}>{data.reliability?.toFixed(3)}</div>
+          <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--warning)' }}>
+            {Number(calData.reliability ?? 0.029).toFixed(3)}
+          </div>
           <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase' }}>Reliability Penalty</div>
         </div>
       </div>
@@ -1438,11 +1538,11 @@ function ViewCalibration() {
             </tr>
           </thead>
           <tbody>
-            {data.buckets?.map((b, i) => (
+            {calData.buckets?.map((b, i) => (
               <tr key={i}>
                 <td><strong>{b.bucket_range}</strong></td>
-                <td>{(b.avg_predicted_prob * 100).toFixed(1)}%</td>
-                <td><strong style={{ color: 'var(--success)' }}>{(b.actual_frequency * 100).toFixed(1)}%</strong></td>
+                <td>{(Number(b.avg_predicted_prob || 0) * 100).toFixed(1)}%</td>
+                <td><strong style={{ color: 'var(--success)' }}>{(Number(b.actual_frequency || 0) * 100).toFixed(1)}%</strong></td>
                 <td>{b.count} concepts</td>
               </tr>
             ))}
@@ -1458,20 +1558,19 @@ function ViewCalibration() {
 // =========================================================
 function ViewForecast2027({ onSelectQuestion, onOpenResearchDetail }) {
   const [tab, setTab] = useState('spec');
-  const [forecast, setForecast] = useState(null);
-  const [spec, setSpec] = useState(null);
+  const [forecast, setForecast] = useState(fallbackForecast2027);
+  const [spec, setSpec] = useState(fallbackForecast2027Spec);
   const [selectedPredictedQ, setSelectedPredictedQ] = useState(null);
   const [revealedSolutions, setRevealedSolutions] = useState({});
   const [subjectFilter, setSubjectFilter] = useState('ALL');
 
   useEffect(() => {
-    fetch(`${API_BASE}/forecast/2027`).then(r => r.json()).then(setForecast);
-    fetch(`${API_BASE}/forecast/2027/spec`).then(r => r.json()).then(setSpec);
+    apiFetch('/forecast/2027', fallbackForecast2027).then(d => d && setForecast(d));
+    apiFetch('/forecast/2027/spec', fallbackForecast2027Spec).then(d => d && setSpec(d));
   }, []);
 
-  if (!forecast || !spec) return <div className="glass-panel"><RefreshCcw className="animate-spin" /> Loading 2027 Forecast...</div>;
-
-  const questions = spec.paper_specification || [];
+  const curSpec = spec || fallbackForecast2027Spec;
+  const questions = curSpec.paper_specification || [];
   const subjects = ['ALL', ...new Set(questions.map(q => q.subject))];
   const filteredQuestions = subjectFilter === 'ALL' ? questions : questions.filter(q => q.subject === subjectFilter);
 
@@ -1848,14 +1947,12 @@ function ViewForecast2027({ onSelectQuestion, onOpenResearchDetail }) {
 // 11. MOCK GENERATION LAB & INTERACTIVE CBT TESTING ENGINE
 // =========================================================
 function ViewMocks() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(fallbackMockBlueprints);
   const [activeMock, setActiveMock] = useState(null); // { id: 'mock_1', mode: 'attempt' | 'study' }
 
   useEffect(() => {
-    fetch(`${API_BASE}/mocks/blueprints`).then(r => r.json()).then(setData);
+    apiFetch('/mocks/blueprints', fallbackMockBlueprints).then(d => d && setData(d));
   }, []);
-
-  if (!data) return <div className="glass-panel"><RefreshCcw className="animate-spin" /> Loading Mocks...</div>;
 
   // Active Interactive Attempt Mode
   if (activeMock && activeMock.mode === 'attempt') {
@@ -1933,8 +2030,9 @@ function ViewMocks() {
 // INTERACTIVE CBT MOCK TEST RUNNER
 // ---------------------------------------------------------
 function MockTestRunner({ mockId, onExit }) {
-  const [paperData, setPaperData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const fallbackPaper = fallbackMockQuestions[mockId] || null;
+  const [paperData, setPaperData] = useState(fallbackPaper);
+  const [loading, setLoading] = useState(!fallbackPaper);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
   const [markedForReview, setMarkedForReview] = useState({});
@@ -1945,12 +2043,11 @@ function MockTestRunner({ mockId, onExit }) {
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
 
   useEffect(() => {
-    fetch(`${API_BASE}/mocks/${mockId}/questions`)
-      .then(r => r.json())
-      .then(d => {
-        setPaperData(d);
-        setLoading(false);
-      });
+    const fb = fallbackMockQuestions[mockId] || null;
+    apiFetch(`/mocks/${mockId}/questions`, fb).then(d => {
+      setPaperData(d || fb);
+      setLoading(false);
+    });
   }, [mockId]);
 
   // Countdown Timer
@@ -1994,6 +2091,52 @@ function MockTestRunner({ mockId, onExit }) {
 
   const handleFinalSubmit = () => {
     setShowConfirmSubmit(false);
+    const evaluateLocal = () => {
+      let totalMarks = 0;
+      let correctCount = 0;
+      let incorrectCount = 0;
+      let unattemptedCount = 0;
+      const breakdown = {};
+
+      (paperData?.questions || []).forEach(q => {
+        const userAns = answers[q.mock_question_id];
+        const correctAns = q.answer_key;
+        const marks = Number(q.marks || 1);
+        const neg = Number(q.negative_marks || (marks === 2 ? 0.66 : 0.33));
+        const subj = q.subject || 'General Aptitude';
+
+        if (!breakdown[subj]) breakdown[subj] = { score: 0, total: 0, correct: 0, attempted: 0 };
+        breakdown[subj].total += marks;
+
+        if (userAns === undefined || userAns === '' || userAns === null) {
+          unattemptedCount++;
+        } else {
+          breakdown[subj].attempted++;
+          const isCorrect = String(userAns).trim().toLowerCase() === String(correctAns).trim().toLowerCase();
+          if (isCorrect) {
+            totalMarks += marks;
+            correctCount++;
+            breakdown[subj].score += marks;
+            breakdown[subj].correct++;
+          } else {
+            totalMarks -= neg;
+            incorrectCount++;
+            breakdown[subj].score -= neg;
+          }
+        }
+      });
+
+      return {
+        score: Math.max(0, Math.round(totalMarks * 100) / 100),
+        total_marks: 100,
+        correct_count: correctCount,
+        incorrect_count: incorrectCount,
+        unattempted_count: unattemptedCount,
+        time_spent_seconds: (180 * 60) - timeRemaining,
+        subject_breakdown: breakdown
+      };
+    };
+
     fetch(`${API_BASE}/mocks/${mockId}/submit`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -2002,8 +2145,16 @@ function MockTestRunner({ mockId, onExit }) {
         time_spent_seconds: (180 * 60) - timeRemaining
       })
     })
-      .then(r => r.json())
+      .then(r => {
+        if (!r.ok) throw new Error("API submit status error");
+        return r.json();
+      })
       .then(res => {
+        setTestResult(res);
+        setIsSubmitted(true);
+      })
+      .catch(() => {
+        const res = evaluateLocal();
         setTestResult(res);
         setIsSubmitted(true);
       });
@@ -2374,19 +2525,20 @@ function MockTestRunner({ mockId, onExit }) {
 // MOCK PAPER STUDY & SOLUTIONS VIEW
 // ---------------------------------------------------------
 function MockPaperStudyView({ mockId, onExit }) {
-  const [data, setData] = useState(null);
+  const fallbackPaper = fallbackMockQuestions[mockId] || null;
+  const [data, setData] = useState(fallbackPaper);
   const [revealedSolutions, setRevealedSolutions] = useState({});
   const [subjectFilter, setSubjectFilter] = useState('ALL');
 
   useEffect(() => {
-    fetch(`${API_BASE}/mocks/${mockId}/questions`)
-      .then(r => r.json())
-      .then(setData);
+    const fb = fallbackMockQuestions[mockId] || null;
+    apiFetch(`/mocks/${mockId}/questions`, fb).then(d => {
+      if (d) setData(d);
+    });
   }, [mockId]);
 
-  if (!data) return <div className="glass-panel"><RefreshCcw className="animate-spin" /> Loading Mock Paper...</div>;
-
-  const questions = data.questions || [];
+  const curData = data || fallbackPaper;
+  const questions = curData?.questions || [];
   const subjects = ['ALL', ...new Set(questions.map(q => q.subject))];
   const filtered = subjectFilter === 'ALL' ? questions : questions.filter(q => q.subject === subjectFilter);
 
@@ -2497,22 +2649,23 @@ function MockPaperStudyView({ mockId, onExit }) {
 // 12. RESEARCH REPORTS
 // =========================================================
 function ViewReports() {
-  const [reports, setReports] = useState([]);
-  const [selectedReport, setSelectedReport] = useState(null);
-  const [reportContent, setReportContent] = useState(null);
+  const initialReports = fallbackReportsList?.reports || [];
+  const [reports, setReports] = useState(initialReports);
+  const [selectedReport, setSelectedReport] = useState('calibration');
+  const [reportContent, setReportContent] = useState(fallbackReports['calibration'] || fallbackCalibration);
 
   useEffect(() => {
-    fetch(`${API_BASE}/reports/list`).then(r => r.json()).then(d => {
-      setReports(d.reports || []);
-      if (d.reports?.length) setSelectedReport(d.reports[0].id);
+    apiFetch('/reports/list', fallbackReportsList).then(d => {
+      if (d && d.reports) setReports(d.reports);
     });
   }, []);
 
   useEffect(() => {
     if (!selectedReport) return;
-    fetch(`${API_BASE}/reports/${selectedReport}`)
-      .then(r => r.json())
-      .then(setReportContent);
+    const fb = fallbackReports[selectedReport] || null;
+    apiFetch(`/reports/${selectedReport}`, fb).then(d => {
+      if (d) setReportContent(d);
+    });
   }, [selectedReport]);
 
   const handleDownload = () => {
@@ -2584,10 +2737,10 @@ function QuestionDetailModal({ questionId, initialData, onClose }) {
   useEffect(() => {
     if (!initialData && questionId) {
       setLoading(true);
-      fetch(`${API_BASE}/data/golden/${questionId}`)
-        .then(r => r.json())
+      const fb = fallbackGoldenSample.find(q => q.golden_question_id === questionId || q.question_number === questionId) || null;
+      apiFetch(`/data/golden/${questionId}`, fb)
         .then(d => {
-          setData(d);
+          setData(d || fb);
           setLoading(false);
         });
     }

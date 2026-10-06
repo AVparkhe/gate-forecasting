@@ -1,0 +1,142 @@
+{
+  "eras": {
+    "Era 1 (1987-2000)": [
+      {
+        "subject": "Databases",
+        "count": 38
+      },
+      {
+        "subject": "Compiler Design",
+        "count": 35
+      },
+      {
+        "subject": "Algorithms",
+        "count": 32
+      },
+      {
+        "subject": "Programming and Data Structures",
+        "count": 31
+      },
+      {
+        "subject": "Operating Systems",
+        "count": 29
+      },
+      {
+        "subject": "General Aptitude",
+        "count": 27
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "count": 26
+      },
+      {
+        "subject": "Computer Organization and Architecture",
+        "count": 26
+      },
+      {
+        "subject": "Digital Logic",
+        "count": 25
+      },
+      {
+        "subject": "Theory of Computation",
+        "count": 24
+      },
+      {
+        "subject": "Computer Networks",
+        "count": 20
+      }
+    ],
+    "Era 2 (2001-2012)": [
+      {
+        "subject": "Digital Logic",
+        "count": 92
+      },
+      {
+        "subject": "Computer Organization and Architecture",
+        "count": 90
+      },
+      {
+        "subject": "Programming and Data Structures",
+        "count": 85
+      },
+      {
+        "subject": "Operating Systems",
+        "count": 80
+      },
+      {
+        "subject": "Theory of Computation",
+        "count": 79
+      },
+      {
+        "subject": "Computer Networks",
+        "count": 78
+      },
+      {
+        "subject": "Databases",
+        "count": 76
+      },
+      {
+        "subject": "Algorithms",
+        "count": 72
+      },
+      {
+        "subject": "General Aptitude",
+        "count": 71
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "count": 69
+      },
+      {
+        "subject": "Compiler Design",
+        "count": 65
+      }
+    ],
+    "Era 3 (2013-2025)": [
+      {
+        "subject": "Operating Systems",
+        "count": 114
+      },
+      {
+        "subject": "Digital Logic",
+        "count": 104
+      },
+      {
+        "subject": "Programming and Data Structures",
+        "count": 97
+      },
+      {
+        "subject": "Databases",
+        "count": 96
+      },
+      {
+        "subject": "Computer Networks",
+        "count": 96
+      },
+      {
+        "subject": "Theory of Computation",
+        "count": 95
+      },
+      {
+        "subject": "General Aptitude",
+        "count": 94
+      },
+      {
+        "subject": "Algorithms",
+        "count": 94
+      },
+      {
+        "subject": "Computer Organization and Architecture",
+        "count": 92
+      },
+      {
+        "subject": "Compiler Design",
+        "count": 89
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "count": 80
+      }
+    ]
+  }
+}

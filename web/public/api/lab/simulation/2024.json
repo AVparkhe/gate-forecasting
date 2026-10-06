@@ -1,0 +1,3209 @@
+{
+  "status": "success",
+  "target_year": 2024,
+  "run_info": {
+    "run_id": "sim_2024_xgb_recurrence_v1_incumbent",
+    "model_version": "xgb_recurrence_v1_incumbent",
+    "feature_version": "features_v2_advanced",
+    "training_window_start": 1987,
+    "training_window_end": 2023
+  },
+  "metrics": {
+    "precision": 0.708,
+    "recall": 0.354,
+    "f1": 0.472,
+    "true_positives": 46,
+    "false_positives": 19,
+    "total_predicted": 65,
+    "actual_questions_count": 130
+  },
+  "predictions": [
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank1",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank1",
+      "concept": "Three Address Code",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.8333333333333334,
+      "predicted_rank": 1,
+      "confidence_level": "High",
+      "subject": "Compiler Design",
+      "topic": "Intermediate Code Generation"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank2",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank2",
+      "concept": "Minimization of Boolean Functions",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.7777777777777778,
+      "predicted_rank": 2,
+      "confidence_level": "High",
+      "subject": "Digital Logic",
+      "topic": "Boolean Algebra"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank3",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank3",
+      "concept": "Computer Arithmetic (Integer and Floating Point)",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.75,
+      "predicted_rank": 3,
+      "confidence_level": "High",
+      "subject": "Digital Logic",
+      "topic": "Number Representations"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank4",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank4",
+      "concept": "Scheduling Algorithms",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.75,
+      "predicted_rank": 4,
+      "confidence_level": "High",
+      "subject": "Operating Systems",
+      "topic": "CPU Scheduling"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank5",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank5",
+      "concept": "Functions and Recursion",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.7361111111111112,
+      "predicted_rank": 5,
+      "confidence_level": "High",
+      "subject": "Programming and Data Structures",
+      "topic": "Programming in C"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank6",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank6",
+      "concept": "Time and Space Complexity",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.7083333333333334,
+      "predicted_rank": 6,
+      "confidence_level": "High",
+      "subject": "Algorithms",
+      "topic": "Algorithm Analysis"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank7",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank7",
+      "concept": "Disk Scheduling",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.6805555555555556,
+      "predicted_rank": 7,
+      "confidence_level": "Medium",
+      "subject": "Operating Systems",
+      "topic": "File Systems"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank8",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank8",
+      "concept": "Entities, Attributes, Relationships",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.6666666666666666,
+      "predicted_rank": 8,
+      "confidence_level": "Medium",
+      "subject": "Databases",
+      "topic": "ER Model"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank9",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank9",
+      "concept": "Numerical Reasoning",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.6666666666666666,
+      "predicted_rank": 9,
+      "confidence_level": "Medium",
+      "subject": "General Aptitude",
+      "topic": "Numerical Ability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank10",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank10",
+      "concept": "Pointers and Arrays",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.6666666666666666,
+      "predicted_rank": 10,
+      "confidence_level": "Medium",
+      "subject": "Programming and Data Structures",
+      "topic": "Programming in C"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank11",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank11",
+      "concept": "Data Interpretation",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.6388888888888888,
+      "predicted_rank": 11,
+      "confidence_level": "Medium",
+      "subject": "General Aptitude",
+      "topic": "Numerical Ability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank12",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank12",
+      "concept": "Arrays and Strings",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 3.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.625,
+      "predicted_rank": 12,
+      "confidence_level": "Medium",
+      "subject": "Programming and Data Structures",
+      "topic": "Data Structures"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank13",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank13",
+      "concept": "Asymptotic Worst, Average, and Best Case Analysis",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5972222222222222,
+      "predicted_rank": 13,
+      "confidence_level": "Medium",
+      "subject": "Algorithms",
+      "topic": "Algorithm Analysis"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank14",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank14",
+      "concept": "DFA and NFA",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5972222222222222,
+      "predicted_rank": 14,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Regular Languages and Finite Automata"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank15",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank15",
+      "concept": "Halting Problem",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5972222222222222,
+      "predicted_rank": 15,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Turing Machines and Undecidability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank16",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank16",
+      "concept": "Tokens, Regex, Automata",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5972222222222222,
+      "predicted_rank": 16,
+      "confidence_level": "Medium",
+      "subject": "Compiler Design",
+      "topic": "Lexical Analysis"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank17",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank17",
+      "concept": "Tuple Calculus",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5972222222222222,
+      "predicted_rank": 17,
+      "confidence_level": "Medium",
+      "subject": "Databases",
+      "topic": "Relational Model"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank18",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank18",
+      "concept": "Control Unit Design",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5694444444444444,
+      "predicted_rank": 18,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "ALU, Data Path and Control Unit"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank19",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank19",
+      "concept": "Deadlock Prevention, Avoidance, and Detection",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5694444444444444,
+      "predicted_rank": 19,
+      "confidence_level": "Medium",
+      "subject": "Operating Systems",
+      "topic": "Concurrency and Synchronization"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank20",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank20",
+      "concept": "Interrupts",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5694444444444444,
+      "predicted_rank": 20,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "I/O Interfaces"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank21",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank21",
+      "concept": "Regular Expressions",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5694444444444444,
+      "predicted_rank": 21,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Regular Languages and Finite Automata"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank22",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank22",
+      "concept": "Scope and Binding",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5694444444444444,
+      "predicted_rank": 22,
+      "confidence_level": "Medium",
+      "subject": "Programming and Data Structures",
+      "topic": "Programming in C"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank23",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank23",
+      "concept": "ACID Properties",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 4.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5555555555555556,
+      "predicted_rank": 23,
+      "confidence_level": "Medium",
+      "subject": "Databases",
+      "topic": "Transactions and Concurrency Control"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank24",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank24",
+      "concept": "Activation Records",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5555555555555556,
+      "predicted_rank": 24,
+      "confidence_level": "Medium",
+      "subject": "Compiler Design",
+      "topic": "Runtime Environments"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank25",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank25",
+      "concept": "Numerical Computation",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5555555555555556,
+      "predicted_rank": 25,
+      "confidence_level": "Medium",
+      "subject": "General Aptitude",
+      "topic": "Numerical Ability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank26",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank26",
+      "concept": "Pushdown Automata",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5555555555555556,
+      "predicted_rank": 26,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Context-Free Languages and Pushdown Automata"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank27",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank27",
+      "concept": "Graphs",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 3.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5416666666666666,
+      "predicted_rank": 27,
+      "confidence_level": "Medium",
+      "subject": "Programming and Data Structures",
+      "topic": "Data Structures"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank28",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank28",
+      "concept": "Hashing",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5416666666666666,
+      "predicted_rank": 28,
+      "confidence_level": "Medium",
+      "subject": "Databases",
+      "topic": "File Organization and Indexing"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank29",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank29",
+      "concept": "Number Systems",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5416666666666666,
+      "predicted_rank": 29,
+      "confidence_level": "Medium",
+      "subject": "Digital Logic",
+      "topic": "Number Representations"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank30",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank30",
+      "concept": "Numerical Estimation",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5416666666666666,
+      "predicted_rank": 30,
+      "confidence_level": "Medium",
+      "subject": "General Aptitude",
+      "topic": "Numerical Ability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank31",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank31",
+      "concept": "Trees (Binary Search Trees, Heaps)",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5416666666666666,
+      "predicted_rank": 31,
+      "confidence_level": "Medium",
+      "subject": "Programming and Data Structures",
+      "topic": "Data Structures"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank32",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank32",
+      "concept": "Cache Memory",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5277777777777778,
+      "predicted_rank": 32,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Memory Hierarchy"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank33",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank33",
+      "concept": "Minimum Spanning Trees (Kruskal, Prim)",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5277777777777778,
+      "predicted_rank": 33,
+      "confidence_level": "Medium",
+      "subject": "Algorithms",
+      "topic": "Graph Algorithms"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank34",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank34",
+      "concept": "Stacks and Queues",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5277777777777778,
+      "predicted_rank": 34,
+      "confidence_level": "Medium",
+      "subject": "Programming and Data Structures",
+      "topic": "Data Structures"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank35",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank35",
+      "concept": "OSI and TCP/IP Models",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5138888888888888,
+      "predicted_rank": 35,
+      "confidence_level": "Medium",
+      "subject": "Computer Networks",
+      "topic": "Layered Architecture"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank36",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank36",
+      "concept": "Performance Metrics",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5138888888888888,
+      "predicted_rank": 36,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Instruction Pipelining"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank37",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank37",
+      "concept": "Relational Algebra",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 3.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5138888888888888,
+      "predicted_rank": 37,
+      "confidence_level": "Medium",
+      "subject": "Databases",
+      "topic": "Relational Model"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank38",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank38",
+      "concept": "Addressing Modes",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5,
+      "predicted_rank": 38,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Machine Instructions and Addressing Modes"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank39",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank39",
+      "concept": "Data Path Design",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5,
+      "predicted_rank": 39,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "ALU, Data Path and Control Unit"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank40",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank40",
+      "concept": "Firewalls",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5,
+      "predicted_rank": 40,
+      "confidence_level": "Medium",
+      "subject": "Computer Networks",
+      "topic": "Network Security"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank41",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank41",
+      "concept": "IPv4 and IPv6",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5,
+      "predicted_rank": 41,
+      "confidence_level": "Medium",
+      "subject": "Computer Networks",
+      "topic": "Network Layer"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank42",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank42",
+      "concept": "Pumping Lemma for Regular Languages",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5,
+      "predicted_rank": 42,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Regular Languages and Finite Automata"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank43",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank43",
+      "concept": "Queries",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.5,
+      "predicted_rank": 43,
+      "confidence_level": "Medium",
+      "subject": "Databases",
+      "topic": "SQL"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank44",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank44",
+      "concept": "Turing Machines",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.5,
+      "predicted_rank": 44,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Turing Machines and Undecidability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank45",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank45",
+      "concept": "Critical Reasoning and Verbal Deduction",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.4722222222222222,
+      "predicted_rank": 45,
+      "confidence_level": "Medium",
+      "subject": "General Aptitude",
+      "topic": "Verbal Ability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank46",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank46",
+      "concept": "Decoders and Encoders",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4722222222222222,
+      "predicted_rank": 46,
+      "confidence_level": "Medium",
+      "subject": "Digital Logic",
+      "topic": "Combinational Circuits"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank47",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank47",
+      "concept": "Dynamic Programming",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 4.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.4722222222222222,
+      "predicted_rank": 47,
+      "confidence_level": "Medium",
+      "subject": "Algorithms",
+      "topic": "Algorithm Design Techniques"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank48",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank48",
+      "concept": "Greedy Approach",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4722222222222222,
+      "predicted_rank": 48,
+      "confidence_level": "Medium",
+      "subject": "Algorithms",
+      "topic": "Algorithm Design Techniques"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank49",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank49",
+      "concept": "Context-Free Grammars",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4583333333333333,
+      "predicted_rank": 49,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Context-Free Languages and Pushdown Automata"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank50",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank50",
+      "concept": "English Grammar",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4583333333333333,
+      "predicted_rank": 50,
+      "confidence_level": "Medium",
+      "subject": "General Aptitude",
+      "topic": "Verbal Ability"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank51",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank51",
+      "concept": "Adders and Subtractors",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.4444444444444444,
+      "predicted_rank": 51,
+      "confidence_level": "Medium",
+      "subject": "Digital Logic",
+      "topic": "Combinational Circuits"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank52",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank52",
+      "concept": "Attributes",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4444444444444444,
+      "predicted_rank": 52,
+      "confidence_level": "Medium",
+      "subject": "Compiler Design",
+      "topic": "Syntax-Directed Translation"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank53",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank53",
+      "concept": "Inter-Process Communication",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4444444444444444,
+      "predicted_rank": 53,
+      "confidence_level": "Medium",
+      "subject": "Operating Systems",
+      "topic": "Processes and Threads"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank54",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank54",
+      "concept": "Pumping Lemma for CFLs",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4444444444444444,
+      "predicted_rank": 54,
+      "confidence_level": "Medium",
+      "subject": "Theory of Computation",
+      "topic": "Context-Free Languages and Pushdown Automata"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank55",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank55",
+      "concept": "Semaphores and Mutexes",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.4444444444444444,
+      "predicted_rank": 55,
+      "confidence_level": "Medium",
+      "subject": "Operating Systems",
+      "topic": "Concurrency and Synchronization"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank56",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank56",
+      "concept": "Counters",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.4305555555555556,
+      "predicted_rank": 56,
+      "confidence_level": "Medium",
+      "subject": "Digital Logic",
+      "topic": "Sequential Circuits"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank57",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank57",
+      "concept": "DMA",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4305555555555556,
+      "predicted_rank": 57,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "I/O Interfaces"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank58",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank58",
+      "concept": "Digital Signatures",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4305555555555556,
+      "predicted_rank": 58,
+      "confidence_level": "Medium",
+      "subject": "Computer Networks",
+      "topic": "Network Security"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank59",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank59",
+      "concept": "File Allocation Methods",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4305555555555556,
+      "predicted_rank": 59,
+      "confidence_level": "Medium",
+      "subject": "Operating Systems",
+      "topic": "File Systems"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank60",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank60",
+      "concept": "Instruction Formats",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4305555555555556,
+      "predicted_rank": 60,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Machine Instructions and Addressing Modes"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank61",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank61",
+      "concept": "Parameter Passing",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4305555555555556,
+      "predicted_rank": 61,
+      "confidence_level": "Medium",
+      "subject": "Compiler Design",
+      "topic": "Runtime Environments"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank62",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank62",
+      "concept": "Sorting Algorithms",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4305555555555556,
+      "predicted_rank": 62,
+      "confidence_level": "Medium",
+      "subject": "Algorithms",
+      "topic": "Searching and Sorting"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank63",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank63",
+      "concept": "Binary Search",
+      "is_match": 0,
+      "error_taxonomy": "RECENCY_MISJUDGMENT",
+      "trigger_feature": "recent_frequency",
+      "feature_value": 2.0,
+      "counterfactual_value": 0.0,
+      "model_probability": 0.4166666666666667,
+      "predicted_rank": 63,
+      "confidence_level": "Medium",
+      "subject": "Algorithms",
+      "topic": "Searching and Sorting"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank64",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank64",
+      "concept": "Matrices, Determinants",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4166666666666667,
+      "predicted_rank": 64,
+      "confidence_level": "Medium",
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra"
+    },
+    {
+      "match_id": "match_sim_2024_xgb_recurrence_v1_incumbent_rank65",
+      "prediction_id": "sim_2024_xgb_recurrence_v1_incumbent_rank65",
+      "concept": "Secondary Storage",
+      "is_match": 1,
+      "error_taxonomy": null,
+      "trigger_feature": null,
+      "feature_value": null,
+      "counterfactual_value": null,
+      "model_probability": 0.4166666666666667,
+      "predicted_rank": 65,
+      "confidence_level": "Medium",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Memory Hierarchy"
+    }
+  ],
+  "actual_questions": [
+    {
+      "golden_question_id": "c5e70eea-a31c-4f71-8de5-abe610d52de2",
+      "question_number": 1,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.1 If \u2018\u2192\u2019 denotes increasing order of intensity, then the meaning of the words [walk \u2192 jog \u2192 sprint] is analogous to [bothered \u2192 ________ \u2192 daunted]. Which one of the given options is appropriate to fill the blank? (A) phased (B) phrased (C) fazed (D) fused",
+      "ai_subject": "Databases",
+      "ai_topic": "ER Model",
+      "core_concepts": [
+        {
+          "name": "Entities, Attributes, Relationships",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.6161923338367337,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "ee22078c-4044-478f-b733-a0a094f282d8",
+      "question_number": 1,
+      "marks": 1.0,
+      "question_type": "NAT",
+      "question_text": "Q1",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Discrete Mathematics",
+      "core_concepts": [
+        {
+          "name": "Graphs: Connectivity, Matching, Coloring",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.6130680760851788,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "510e7478-fb99-4f41-a33d-bd1a333a483b",
+      "question_number": 2,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.2 Two wizards try to create a spell using all the four elements, water, air, fire, and earth. For this, they decide to mix all these elements in all possible orders. They also decide to work independently. After trying all possible combination of elements, they conclude that the spell does not work. How many attempts does each wizard make before coming to this conclusion, independently? (A) 24 (B) 48 (C) 16 (D) 12 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Databases",
+      "ai_topic": "Relational Model",
+      "core_concepts": [
+        {
+          "name": "Tuple Calculus",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.7925885125809624,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "7564b582-301f-44d0-8b5e-0d43c3cb9f08",
+      "question_number": 2,
+      "marks": 1.0,
+      "question_type": "NAT",
+      "question_text": "Q2 S1 S2 S3 For an instance of inputs X1=1, X2=1, X3=0, and X4=0, the number of combinations of A, B, C that give the output Y=1 is _________",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Lexical Analysis",
+      "core_concepts": [
+        {
+          "name": "Tokens, Regex, Automata",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.7802540751510714,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "8c1320c5-bf29-47a2-b1d1-b7d2b8cf112a",
+      "question_number": 3,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.3 In an engineering college of 10,000 students, 1,500 like neither their core branches nor other branches. The number of students who like their core branches is 1/4th of the number of students who like other branches. The number of students who like both their core and other branches is 500. The number of students who like their core branches is (A) 1,800 (B) 3,500 (C) 1,600 (D) 1,500",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Numerical Ability",
+      "core_concepts": [
+        {
+          "name": "Data Interpretation",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.148391854470495,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b7589b8d-437f-456d-864c-fbee207f3ec5",
+      "question_number": 3,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.3 Consider the following sample of numbers: 9, 18, 11, 14, 15, 17, 10, 69, 11, 13 The median of the sample is (A) 13.5 (B) 14 (C) 11 (D) 18.7",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Machine Instructions and Addressing Modes",
+      "core_concepts": [
+        {
+          "name": "Instruction Formats",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.090308838151639,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c810b281-0428-43e2-8f67-e9b7bb280960",
+      "question_number": 4,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.4 For positive non-zero real variables \ud835\udc65 and \ud835\udc66, if ln (\ud835\udc65+ \ud835\udc66 2 ) = 1 2 [ln\u2061(\ud835\udc65) + ln\u2061(\ud835\udc66)] then, the value of \ud835\udc65 \ud835\udc66+ \ud835\udc66 \ud835\udc65 is (A) 1 (B) 1/2 (C) 2 (D) 4 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Boolean Algebra",
+      "core_concepts": [
+        {
+          "name": "Minimization of Boolean Functions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.019888522585263,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "62b55885-2807-452d-90f7-0ed17ba1b908",
+      "question_number": 4,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.4 The number of coins of \u20b91, \u20b95, and \u20b910 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in \u20b95 coins is (A) 21% (B) 14 2 7% (C) 10% (D) 30% Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Discrete Mathematics",
+      "core_concepts": [
+        {
+          "name": "Propositional and First Order Logic",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.407206318350295,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "edaebbfc-1048-4143-9dfa-f9a2ad89da49",
+      "question_number": 5,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.5 In the sequence 6, 9, 14, x, 30, 41, a possible value of \ud835\udc65 is (A) 25 (B) 21 (C) 18 (D) 20 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Processes and Threads",
+      "core_concepts": [
+        {
+          "name": "Threads",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.162875158048457,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "e3018607-d7a0-4635-92e6-b1d8f8883dc1",
+      "question_number": 5,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.5 For positive non-zero real variables \ud835\udc5d and \ud835\udc5e, if log (\ud835\udc5d2 + \ud835\udc5e2) = log \ud835\udc5d+ log \ud835\udc5e+ 2 log 3 , then, the value of \ud835\udc5d4+\ud835\udc5e4 \ud835\udc5d2\ud835\udc5e2 is (A) 79 (B) 81 (C) 9 (D) 83 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Transport Layer",
+      "core_concepts": [
+        {
+          "name": "Congestion Control",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.152097187568339,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "ac2fd124-5a04-4886-a1e8-f3ff0f16b02a",
+      "question_number": 6,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.6 Sequence the following sentences in a coherent passage. P: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone. Q: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature. R: The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth\u2019s atmosphere and making it better suited for life. S: Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate. (A) QPSR (B) QSPR (C) SPRQ (D) SRPQ Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Transport Layer",
+      "core_concepts": [
+        {
+          "name": "Congestion Control",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.1805061794803455,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "adc08573-8946-44b5-a8b5-8770dc726d01",
+      "question_number": 6,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.6 In the given text, the blanks are numbered (i)\u2212(iv). Select the best match for all the blanks. Steve was advised to keep his head (i) before heading (ii) to bat; for, while he had a head (iii) batting, he could only do so with a cool head s (iv) his shoulders. (A) (i) down (ii) down (iii) on (iv) for (B) (i) on (ii) down (iii) for (iv) on (C) (i) down (ii) out (iii) for (iv) on (D) (i) on (ii) out (iii) on (iv) for Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Discrete Mathematics",
+      "core_concepts": [
+        {
+          "name": "Propositional and First Order Logic",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.2580034910368765,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "1cf49f40-f40b-4dc5-917b-d32273f4620e",
+      "question_number": 7,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.7 A rectangular paper sheet of dimensions 54 cm \u00d7 4 cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken. Then, the ratio of the volume of the cylindrical tube to the volume of the cube is (A) 1/\u03c0 (B) 2/\u03c0 (C) 3/\u03c0 (D) 4/\u03c0 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Turing Machines and Undecidability",
+      "core_concepts": [
+        {
+          "name": "Turing Machines",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.7282305698192357,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "0fc0bb34-6749-42be-aa39-6cf6acdd1bff",
+      "question_number": 7,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.7 A person sold two different items at the same price. He made 10% profit in one item, and 10% loss in the other item. In selling these two items, the person made a total of (A) 1% profit (B) 2% profit (C) 1% loss (D) 2% loss Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Number Representations",
+      "core_concepts": [
+        {
+          "name": "Number Systems",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.9040246056472725,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "92885582-0a24-45c6-a618-ea47e96e3d9a",
+      "question_number": 8,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.8 The pie chart presents the percentage contribution of different macronutrients to a typical 2,000 kcal diet of a person. The typical energy density (kcal/g) of these macronutrients is given in the table. Macronutrient Energy density (kcal/g) Carbohydrates 4 Proteins 4 Unsaturated fat 9 Saturated fat 9 Trans fat 9 The total fat (all three types), in grams, this person consumes is (A) 44.4 (B) 77.8 (C) 100 (D) 3,600 Carbohydrates 35% Proteins 20% Unsaturated fat 20% Saturated fat 20% Trans fat 5% Macronutrient energy contribution Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Data Structures",
+      "core_concepts": [
+        {
+          "name": "Stacks and Queues",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.0976223776229572,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "0bb584ef-803c-412a-80b7-266bf8eafd66",
+      "question_number": 8,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.8 The pie charts depict the shares of various power generation technologies in the total electricity generation of a country for the years 2007 and 2023. The renewable sources of electricity generation consist of Hydro, Solar and Wind. Assuming that the total electricity generated remains the same from 2007 to 2023, what is the percentage increase in the share of the renewable sources of electricity generation over this period? (A) 25% (B) 50% (C) 77.5% (D) 62.5% Coal 35% Gas 25% Wind 5% Hydro 30% Solar 5% Year 2007 Coal 20% Gas 15% Wind 10% Hydro 35% Solar 20% Year 2023 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Searching and Sorting",
+      "core_concepts": [
+        {
+          "name": "Hashing",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.1468007200114974,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "e3efb5b1-0134-4443-a4c4-6f209306b768",
+      "question_number": 9,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.9 A rectangular paper of 20 cm \u00d7 8 cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is (A) 18 (B) 24 (C) 20 (D) 21",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "File Systems",
+      "core_concepts": [
+        {
+          "name": "Disk Scheduling",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.4172741369436723,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b961ad36-a853-48ad-8c3a-a9832840403c",
+      "question_number": 9,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.9 A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be straight and it should not stop till it reaches the other end of the cube. The minimum number of such cuts required is (A) 3 (B) 4 (C) 7 (D) 8 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Boolean Algebra",
+      "core_concepts": [
+        {
+          "name": "Minimization of Boolean Functions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.264718528831776,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "67965ac4-d181-4ec7-85e9-151a257dd812",
+      "question_number": 10,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.10 In the 4 \u00d7 4 array shown below, each cell of the first three rows has either a cross (X) or a number. The number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row has no crosses (X), the sum of the four numbers to be filled in the last row is (A) 11 (B) 10 (C) 12 (D) 9 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "ALU, Data Path and Control Unit",
+      "core_concepts": [
+        {
+          "name": "Control Unit Design",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.1065590998545747,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "7faf438c-e79f-4d8c-bd40-d3e9822a87c0",
+      "question_number": 10,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.10 The least number of squares to be added in the figure to make AB a line of symmetry is (A) 6 (B) 4 (C) 5 (D) 7 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Intermediate Code Generation",
+      "core_concepts": [
+        {
+          "name": "Three Address Code",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.6555332202577056,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "a7aa6422-a2ff-4622-9a5a-bed922f69693",
+      "question_number": 11,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.11 Consider a computer with a 4 MHz processor. Its DMA controller can transfer 8 bytes in 1 cycle from a device to main memory through cycle stealing at regular intervals. Which one of the following is the data transfer rate (in bits per second) of the DMA controller if 1% of the processor cycles are used for DMA? (A) 2,56,000 (B) 3,200 (C) 25,60,000 (D) 32,000",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "core_concepts": [
+        {
+          "name": "Verbal Analogies",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.594812359701789,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "63a032ca-f8c8-4785-8e3f-71c501268c3b",
+      "question_number": 11,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.11 Let \ud835\udc53: \u211d \u2192 \u211d be a function such that \ud835\udc53(\ud835\udc65) = max{\ud835\udc65, \ud835\udc653}, \ud835\udc65\u2208\u211d , where \u211d is the set of all real numbers. The set of all points where \ud835\udc53(\ud835\udc65) is NOT differentiable is (A) {\u22121, 1, 2} (B) {\u22122, \u22121, 1} (C) {0, 1} (D) {\u22121, 0, 1}",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Lexical Analysis",
+      "core_concepts": [
+        {
+          "name": "Tokens, Regex, Automata",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.9141501386656987,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b360c71a-6852-449a-8da5-aa1185767c61",
+      "question_number": 12,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.12 Let \ud835\udc5d and \ud835\udc5e\u2061be the following propositions: \ud835\udc5d: Fail grade can be given. \ud835\udc5e: Student scores more than 50% marks. Consider the statement: \u201cFail grade cannot be given when student scores more than 50% marks.\u201d Which one of the following is the CORRECT representation of the above statement in propositional logic? (A) \ud835\udc5e\u2192\u00ac\u2061\ud835\udc5d (B) \ud835\udc5e\u2192\ud835\udc5d (C) \ud835\udc5d\u2192\ud835\udc5e (D) \u00ac\u2061\ud835\udc5d\u2192\ud835\udc5e Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "core_concepts": [
+        {
+          "name": "Word Groups",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.115637013372307,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "abb4afbb-c5f9-4c71-a253-e4c5d88aa913",
+      "question_number": 12,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.12 The product of all eigenvalues of the matrix [ 1 2 3 4 5 6 7 8 9 ] is (A) \u22121 (B) 0 (C) 1 (D) 2 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Memory Management",
+      "core_concepts": [
+        {
+          "name": "Paging and Segmentation",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.2178765622074885,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b2621ca0-365e-483d-a7d7-c6d4e3a06847",
+      "question_number": 13,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.13 Consider the following C program. Assume parameters to a function are evaluated from right to left. #include <stdio.h> int g(int p) { printf(\"%d\", p); return p; } int h(int q) { printf(\"%d\", q); return q; } void f(int x, int y) { g(x); h(y); } int main() { f(g(10),h(20)); } Which one of the following options is the CORRECT output of the above C program? (A) 20101020 (B) 10202010 (C) 20102010 (D) 10201020 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "CPU Scheduling",
+      "core_concepts": [
+        {
+          "name": "Scheduling Algorithms",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.7287816485435692,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b61ac4ca-faac-43d3-9d3c-a3a728b9ab8b",
+      "question_number": 13,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.13 Consider a system that uses 5 bits for representing signed integers in 2\u2019s complement format. In this system, two integers \ud835\udc34 and \ud835\udc35 are represented as \ud835\udc34=01010 and \ud835\udc35=11010. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow? (A) \ud835\udc34+ \ud835\udc35 (B) \ud835\udc34\u2212\ud835\udc35 (C) \ud835\udc35\u2212\ud835\udc34 (D) 2 \u2217\ud835\udc35",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Numerical Ability",
+      "core_concepts": [
+        {
+          "name": "Data Interpretation",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.0870692243255746,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "a47d9f68-fe66-4e46-af37-7d8cad6690db",
+      "question_number": 14,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.14 The format of a single-precision floating-point number as per the IEEE 754 standard is: Sign (1bit) Exponent (8 bits) Mantissa (23 bits) Choose the largest floating-point number among the following options. (A) Sign Exponent Mantissa 0 0111 1111 1111 1111 1111 1111 1111 111 (B) Sign Exponent Mantissa 0 1111 1110 1111 1111 1111 1111 1111 111 (C) Sign Exponent Mantissa 0 1111 1111 1111 1111 1111 1111 1111 111 (D) Sign Exponent Mantissa 0 0111 1111 0000 0000 0000 0000 0000 000 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "I/O Interfaces",
+      "core_concepts": [
+        {
+          "name": "DMA",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.585844140796404,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c12ed618-b053-44a7-952c-52de0d162429",
+      "question_number": 14,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.14 Consider a permutation sampled uniformly at random from the set of all permutations of {1, 2, 3, \u22ef, \ud835\udc5b} for some \ud835\udc5b \u22654. Let \ud835\udc4b be the event that 1 occurs before 2 in the permutation, and \ud835\udc4c the event that 3 occurs before 4. Which one of the following statements is TRUE? (A) The events \ud835\udc4b and \ud835\udc4c are mutually exclusive (B) The events \ud835\udc4b and \ud835\udc4c are independent (C) Either event \ud835\udc4b or \ud835\udc4c must occur (D) Event \ud835\udc4b is more likely than event \ud835\udc4c Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Network Layer",
+      "core_concepts": [
+        {
+          "name": "Subnetting and CIDR",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.556354153273112,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "2f314c37-0aa4-4f03-98ba-46b1a69d68ff",
+      "question_number": 15,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.15 Let \ud835\udc47(\ud835\udc5b) be the recurrence relation defined as follows: \ud835\udc47(0) = 1, \ud835\udc47(1) = 2, and \ud835\udc47(\ud835\udc5b) = 5\ud835\udc47(\ud835\udc5b\u22121) \u22126\ud835\udc47(\ud835\udc5b\u22122) for \ud835\udc5b\u22652 Which one of the following statements is TRUE? (A) \ud835\udc47(\ud835\udc5b) = \u2061\u0398(2\ud835\udc5b)\u2061 (B) \ud835\udc47(\ud835\udc5b) = \u2061\u0398(\ud835\udc5b2\ud835\udc5b) (C) \ud835\udc47(\ud835\udc5b) = \u2061\u0398(3\ud835\udc5b) (D) \ud835\udc47(\ud835\udc5b) = \u2061\u0398(\ud835\udc5b3\ud835\udc5b)",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Memory Hierarchy",
+      "core_concepts": [
+        {
+          "name": "Main Memory",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.7827258060775977,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "7b9af09a-881b-4e91-86ee-921278610868",
+      "question_number": 15,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.15 Which one of the following statements is FALSE? (A) In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle (B) For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode (C) Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism (D) The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Data Structures",
+      "core_concepts": [
+        {
+          "name": "Stacks and Queues",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.5918866744268203,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "e1d943bd-5c2a-480b-a7af-50b04e26a785",
+      "question_number": 16,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.16 Let \ud835\udc53(\ud835\udc65) be a continuous function from \u211d to \u211d such that \ud835\udc53(\ud835\udc65) = 1 \u2212\ud835\udc53(2 \u2212\ud835\udc65) Which one of the following options is the CORRECT value of \u222b\ud835\udc53(\ud835\udc65)\ud835\udc51\ud835\udc65 2 0 ? (A) 0 (B) 1 (C) 2 (D) \u22121 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Calculus",
+      "core_concepts": [
+        {
+          "name": "Maxima and Minima",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.9968711140580644,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "1d94dd70-089b-4365-ba41-3b9de82d0922",
+      "question_number": 16,
+      "marks": 1.0,
+      "question_type": "MSQ",
+      "question_text": "Q.16 A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The following packets leave the user\u2019s computer in some order. (i) HTTP GET request for the index page (ii) DNS request to resolve the web server\u2019s name to its IP address (iii) HTTP GET request for an image object (iv) TCP SYN to open a connection to the web server Which one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the computer ? (A) (iv), (ii), (iii), (i) (B) (ii), (iv), (iii), (i) (C) (ii), (iv), (i), (iii) (D) (iv), (ii), (i), (iii)",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Programming in C",
+      "core_concepts": [
+        {
+          "name": "Scope and Binding",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.2939728928558987,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "e6fc837b-438e-47c5-b3fd-9d1743bd06ac",
+      "question_number": 17,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.17 Given an integer array of size N, we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is (A) both \u039f(\ud835\udc41) and \u03a9(\ud835\udc41) (B) \u039f(\ud835\udc41) but not \u03a9(\ud835\udc41) (C) \u03a9(\ud835\udc41) but not \u039f(\ud835\udc41) (D) neither \u039f(\ud835\udc41) nor \u03a9(\ud835\udc41) Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Regular Languages and Finite Automata",
+      "core_concepts": [
+        {
+          "name": "DFA and NFA",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.0236040107054634,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "fbdcda9d-9034-48fb-8b6a-9fec778eedfb",
+      "question_number": 17,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.17 Let \ud835\udc34 be the adjacency matrix of a simple undirected graph \ud835\udc3a. Suppose \ud835\udc34 is its own inverse. Which one of the following statements is always TRUE? (A) \ud835\udc3a is a cycle (B) \ud835\udc3a is a perfect matching (C) \ud835\udc3a is a complete graph (D) There is no such graph \ud835\udc3a",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Discrete Mathematics",
+      "core_concepts": [
+        {
+          "name": "Partial Orders and Lattices",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.6552203637981613,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "62db041e-d2bb-4f02-9d3d-bb1b362b1410",
+      "question_number": 18,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.18 When six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers (i.e., 1, 2, 3, 4, 5, and 6) is (A) 1 324 (B) 5 324 (C) 7 324 (D) 11 324 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Regular Languages and Finite Automata",
+      "core_concepts": [
+        {
+          "name": "Regular Expressions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.667650586317784,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "3f1ff38b-ea0e-446d-9a5a-16dc1477b118",
+      "question_number": 18,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.18 Consider the following C program: #include <stdio.h> int main(){ int a = 6; int b = 0; while(a < 10) { a = a / 12 + 1; a += b;} printf(\u201d%d\u201d, a); return 0;} Which one of the following statements is CORRECT? (A) The program prints 9 as output (B) The program prints 10 as output (C) The program gets stuck in an infinite loop (D) The program prints 6 as output Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Programming in C",
+      "core_concepts": [
+        {
+          "name": "Functions and Recursion",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.985055983246071,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "fb5425c6-baac-446e-81df-382e4c97cdf4",
+      "question_number": 19,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.19 Consider the following C program: #include <stdio.h> void fX(); int main(){ fX(); return 0;} void fX(){ char a; if((a=getchar()) != \u2019\\n\u2019) fX(); if(a != \u2019\\n\u2019) putchar(a);} Assume that the input to the program from the command line is 1234 followed by a newline character. Which one of the following statements is CORRECT? (A) The program will not terminate (B) The program will terminate with no output (C) The program will terminate with 4321 as output (D) The program will terminate with 1234 as output Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Context-Free Languages and Pushdown Automata",
+      "core_concepts": [
+        {
+          "name": "Pumping Lemma for CFLs",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.7391724245032654,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "497749b1-9db5-4106-aefb-5e7b4bdd8898",
+      "question_number": 19,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.19 Once the DBMS informs the user that a transaction has been successfully completed, its effect should persist even if the system crashes before all its changes are reflected on disk. This property is called (A) durability (B) atomicity (C) consistency (D) isolation",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Boolean Algebra",
+      "core_concepts": [
+        {
+          "name": "Minimization of Boolean Functions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.741043066984398,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "38bdecb5-729a-408b-8f3a-20c3641de8a2",
+      "question_number": 20,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.20 In the context of owner and weak entity sets in the ER (Entity-Relationship) data model, which one of the following statements is TRUE? (A) The weak entity set MUST have total participation in the identifying relationship (B) The owner entity set MUST have total participation in the identifying relationship (C) Both weak and owner entity sets MUST have total participation in the identifying relationship (D) Neither weak entity set nor owner entity set MUST have total participation in the identifying relationship Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Regular Languages and Finite Automata",
+      "core_concepts": [
+        {
+          "name": "Pumping Lemma for Regular Languages",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.176125218331078,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "4301c7cf-2121-4b25-a564-5d4b27c7378b",
+      "question_number": 20,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.20 Let S be the specification: \"Instructors teach courses. Students register for courses. Courses are allocated classrooms. Instructors guide students.\" Which one of the following ER diagrams CORRECTLY represents S? (A) (i) (B) (ii) (C) (iii) (D) (iv) Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Instruction Pipelining",
+      "core_concepts": [
+        {
+          "name": "Performance Metrics",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.937538381677895,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "5c71e327-7a09-4fc5-be5e-13b876f2c9e4",
+      "question_number": 21,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.21 In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the following cases? (A) Only the root node (B) All leaf nodes (C) All internal nodes (D) Only the leftmost leaf node",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Data Link Layer",
+      "core_concepts": [
+        {
+          "name": "MAC Protocols (CSMA/CD)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.7491283377174685,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "ad13ff01-6b4e-4db6-b845-46159262b390",
+      "question_number": 21,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.21 Consider the following two sets: Set X Set Y P. Lexical Analyzer 1. Abstract Syntax Tree Q. Syntax Analyzer 2. Token R. Intermediate Code Generator 3. Parse Tree S. Code Optimizer 4. Constant Folding Which one of the following options is the CORRECT match from Set X to Set Y ? (A) P \u2013 4; Q \u2013 1; R \u2013 3; S \u2013 2 (B) P \u2013 2; Q \u2013 3; R \u2013 1; S \u2013 4 (C) P \u2013 2; Q \u2013 1; R \u2013 3; S \u2013 4 (D) P \u2013 4; Q \u2013 3; R \u2013 2; S \u2013 1 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Number Representations",
+      "core_concepts": [
+        {
+          "name": "Computer Arithmetic (Integer and Floating Point)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.376030713550624,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "86728357-71c4-4a7a-8dfe-45fb2f4691be",
+      "question_number": 22,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.22 Which one of the following regular expressions is equivalent to the language accepted by the DFA given below? 1 1 0 0 (A) 0\u22171(0 + 10\u22171)\u2217 (B) 0\u2217(10\u221711)\u22170\u2217 (C) 0\u22171(010\u22171)\u22170\u2217 (D) 0(1 + 0\u221710\u22171)\u22170\u2217 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "core_concepts": [
+        {
+          "name": "English Grammar",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.302832839444534,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "5824ebf3-f4e6-43e8-a7e8-a31e34cd1740",
+      "question_number": 22,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.22 Which of the following statements about a relation R in first normal form (1NF) is/are TRUE ? (A) R can have a multi-attribute key (B) R cannot have a foreign key (C) R cannot have a composite attribute (D) R cannot have more than one candidate key Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Analysis",
+      "core_concepts": [
+        {
+          "name": "Asymptotic Worst, Average, and Best Case Analysis",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.9676271622843386,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c82402c8-8243-44e5-bbf6-e89f12d58f4e",
+      "question_number": 23,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.23 Node X has a TCP connection open to node Y. The packets from X to Y go through an intermediate IP router R. Ethernet switch S is the first switch on the network path between X and R. Consider a packet sent from X to Y over this connection. Which of the following statements is/are TRUE about the destination IP and MAC addresses on this packet at the time it leaves X? (A) The destination IP address is the IP address of R (B) The destination IP address is the IP address of Y (C) The destination MAC address is the MAC address of S (D) The destination MAC address is the MAC address of Y",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Number Representations",
+      "core_concepts": [
+        {
+          "name": "Computer Arithmetic (Integer and Floating Point)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.972606693612635,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "2f697637-a0c5-4c26-85b7-f03198c76585",
+      "question_number": 23,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.23 Let \ud835\udc3f1, \ud835\udc3f2 be two regular languages and \ud835\udc3f3 a language which is not regular. Which of the following statements is/are always TRUE? (A) \ud835\udc3f1 = \ud835\udc3f2 if and only if \ud835\udc3f1 \u2229 \ud835\udc3f2\u0305\u0305\u0305 = \ud835\udf19 (B) \ud835\udc3f1 \u222a\ud835\udc3f3 is not regular (C) \ud835\udc3f3\u0305\u0305\u0305 is not regular (D) \ud835\udc3f1\u0305\u0305\u0305 \u222a\ud835\udc3f2\u0305\u0305\u0305 is regular",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Analysis",
+      "core_concepts": [
+        {
+          "name": "Time and Space Complexity",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.433823443513046,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "4a3cca82-e0ed-4aae-a4cb-cc0ad17273d0",
+      "question_number": 24,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.24 Which of the following tasks is/are the responsibility/responsibilities of the memory management unit (MMU) in a system with paging-based memory management? (A) Allocate a new page table for a newly created process (B) Translate a virtual address to a physical address using the page table (C) Raise a trap when a virtual address is not found in the page table (D) Raise a trap when a process tries to write to a page marked with read-only permission in the page table Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "File Systems",
+      "core_concepts": [
+        {
+          "name": "File Allocation Methods",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.5285345367164105,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "4d890e56-c2ed-4cf9-83cc-a8dc2fa1de0d",
+      "question_number": 24,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.24 Which of the following statements about threads is/are TRUE? (A) Threads can only be implemented in kernel space (B) Each thread has its own file descriptor table for open files (C) All the threads belonging to a process share a common stack (D) Threads belonging to a process are by default not protected from each other Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Layered Architecture",
+      "core_concepts": [
+        {
+          "name": "OSI and TCP/IP Models",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.1060297831217762,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "910478dd-f4a4-479f-9c3c-38309d050829",
+      "question_number": 25,
+      "marks": 1.0,
+      "question_type": "MSQ",
+      "question_text": "Q.25 Consider a process P running on a CPU. Which one or more of the following events will always trigger a context switch by the OS that results in process P moving to a non-running state (e.g., ready, blocked)? (A) P makes a blocking system call to read a block of data from the disk (B) P tries to access a page that is in the swap space, triggering a page fault (C) An interrupt is raised by the disk to deliver data requested by some other process (D) A timer interrupt is raised by the hardware",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Processes and Threads",
+      "core_concepts": [
+        {
+          "name": "Inter-Process Communication",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.743875834819994,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "3c8ca6b9-803e-41e3-ab0e-3ea0f166417f",
+      "question_number": 25,
+      "marks": 1.0,
+      "question_type": "MCQ",
+      "question_text": "Q.25 Which of the following process state transitions is/are NOT possible? (A) Running to Ready (B) Waiting to Running (C) Ready to Waiting (D) Running to Terminated",
+      "ai_subject": "Databases",
+      "ai_topic": "ER Model",
+      "core_concepts": [
+        {
+          "name": "Entities, Attributes, Relationships",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.2841562939792435,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c356b881-a3f0-46ed-bb10-d832b82e6de6",
+      "question_number": 26,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.26 Which of the following file organizations is/are I/O efficient for the scan operation in DBMS? (A) Sorted (B) Heap (C) Unclustered tree index (D) Unclustered hash index Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Network Security",
+      "core_concepts": [
+        {
+          "name": "Digital Signatures",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.918566260133895,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "adff7fa6-e3bf-4862-bc7a-3b10d53bbced",
+      "question_number": 26,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.26 Which of the following is/are Bottom-Up Parser(s)? (A) Shift-reduce Parser (B) Predictive Parser (C) LL(1) Parser (D) LR Parser Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "CPU Scheduling",
+      "core_concepts": [
+        {
+          "name": "Scheduling Algorithms",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.2770723656265615,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b0ba74f4-4e90-4430-aaea-aaab39cfe803",
+      "question_number": 27,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.27 Let \ud835\udc34 and \ud835\udc35 be two events in a probability space with \ud835\udc43(\ud835\udc34) = 0.3, \ud835\udc43(\ud835\udc35) = 0.5, and \ud835\udc43(\ud835\udc34\u2229\ud835\udc35) = 0.1. Which of the following statements is/are TRUE? (A) The two events \ud835\udc34 and \ud835\udc35 are independent (B) \ud835\udc43(\ud835\udc34\u222a\ud835\udc35) = 0.7 (C) \ud835\udc43(\ud835\udc34\u2229\ud835\udc35\ud835\udc50) = 0.2, where \ud835\udc35\ud835\udc50 is the complement of the event \ud835\udc35 (D) \ud835\udc43(\ud835\udc34\ud835\udc50\u2229\ud835\udc35\ud835\udc50) = 0.4, where \ud835\udc34\ud835\udc50 and \ud835\udc35\ud835\udc50 are the complements of the events \ud835\udc34 and \ud835\udc35, respectively",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "core_concepts": [
+        {
+          "name": "English Grammar",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.29106596809015,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "927eab5b-5cfa-4e59-bd28-39b1c3c1cfeb",
+      "question_number": 27,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.27 Which of the following statements about the Two Phase Locking (2PL) protocol is/are TRUE? (A) 2PL permits only serializable schedules (B) With 2PL, a transaction always locks the data item being read or written just before every operation and always releases the lock just after the operation (C) With 2PL, once a lock is released on any data item inside a transaction, no more locks on any data item can be obtained inside that transaction (D) A deadlock is possible with 2PL",
+      "ai_subject": "Databases",
+      "ai_topic": "ER Model",
+      "core_concepts": [
+        {
+          "name": "Entities, Attributes, Relationships",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.571624733003453,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "2289c5ea-723d-4089-a34b-cf450ac864fd",
+      "question_number": 28,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.28 Which of the following statements about IPv4 fragmentation is/are TRUE? (A) The fragmentation of an IP datagram is performed only at the source of the datagram (B) The fragmentation of an IP datagram is performed at any IP router which finds that the size of the datagram to be transmitted exceeds the MTU (C) The reassembly of fragments is performed only at the destination of the datagram (D) The reassembly of fragments is performed at all intermediate routers along the path from the source to the destination Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Memory Hierarchy",
+      "core_concepts": [
+        {
+          "name": "Main Memory",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.657817773345435,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b3e9114b-1c49-462c-a9c4-53a90f389ba6",
+      "question_number": 28,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.28 Consider the circuit shown below where the gates may have propagation delays. Assume that all signal transitions occur instantaneously and that wires have no delays. Which of the following statements about the circuit is/are CORRECT? (A) With no propagation delays, the output \ud835\udc80 is always logic Zero (B) With no propagation delays, the output \ud835\udc80 is always logic One (C) With propagation delays, the output \ud835\udc80 can have a transient logic One after \ud835\udc7f transitions from logic Zero to logic One (D) With propagation delays, the output \ud835\udc80 can have a transient logic Zero after \ud835\udc7f transitions from logic One to logic Zero Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Syntax-Directed Translation",
+      "core_concepts": [
+        {
+          "name": "Attributes",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.4994631438598862,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "a5ab93ba-2e0d-4c30-9ee6-f75786d2d4f6",
+      "question_number": 29,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.29 TCP client P successfully establishes a connection to TCP server Q. Let \ud835\udc41\ud835\udc43 denote the sequence number in the SYN sent from P to Q. Let \ud835\udc41\ud835\udc44 denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT? (A) The sequence number \ud835\udc41\ud835\udc43 is chosen randomly by P (B) The sequence number \ud835\udc41\ud835\udc43 is always 0 for a new connection (C) The acknowledgement number \ud835\udc41\ud835\udc44 is equal to \ud835\udc41\ud835\udc43 (D) The acknowledgement number \ud835\udc41\ud835\udc44 is equal to \ud835\udc41\ud835\udc43+ 1",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Searching and Sorting",
+      "core_concepts": [
+        {
+          "name": "Sorting Algorithms",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.874936299545635,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "eaf7017e-6e03-4169-9947-eea6e64c6c39",
+      "question_number": 29,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.29 Which of the following statements is/are FALSE? (A) An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic rules have no side effects (B) The attributes in a L-attributed definition cannot always be evaluated in a depth- first order (C) Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed (D) All L-attributed definitions based on LR(1) grammar can be evaluated using a bottom-up parsing strategy",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Programming in C",
+      "core_concepts": [
+        {
+          "name": "Pointers and Arrays",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.5365018597909974,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "f6a7f350-a021-428d-a7c9-f371838bf0da",
+      "question_number": 30,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.30 Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT? (A) In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction (B) In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction (C) Forwarding cannot prevent all pipeline stalls (D) Forwarding does not require any extra hardware to retrieve the data from the pipeline stages Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Analysis",
+      "core_concepts": [
+        {
+          "name": "Asymptotic Worst, Average, and Best Case Analysis",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.064161289723736,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "a1f34b02-a89e-44b5-8678-4ab6cf1594b4",
+      "question_number": 30,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.30 For a Boolean variable \ud835\udc65, which of the following statements is/are FALSE? (A) \ud835\udc65. 1 = \ud835\udc65 (B) \ud835\udc65+ 1 = \ud835\udc65 (C) \ud835\udc65. \ud835\udc65= 0 (D) \ud835\udc65+ \ud835\udc65\u0305 = 1 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Application Layer",
+      "core_concepts": [
+        {
+          "name": "DNS",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.144376272384106,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c710cea8-60ee-4c0f-a7e8-cd48f9456068",
+      "question_number": 31,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.31 Which of the following fields is/are modified in the IP header of a packet going out of a network address translation (NAT) device from an internal network to an external network? (A) Source IP (B) Destination IP (C) Header Checksum (D) Total Length",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Programming in C",
+      "core_concepts": [
+        {
+          "name": "Pointers and Arrays",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.458654887866516,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c0ade146-d62d-4c1c-afbf-cad06320d0d7",
+      "question_number": 31,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.31 An instruction format has the following structure: Instruction Number: Opcode destination reg, source reg-1, source reg-2 Consider the following sequence of instructions to be executed in a pipelined processor: I1: DIV R3, R1, R2 I2: SUB R5, R3, R4 I3: ADD R3, R5, R6 I4: MUL R7, R3, R8 Which of the following statements is/are TRUE? (A) There is a RAW dependency on R3 between I1 and I2 (B) There is a WAR dependency on R3 between I1 and I3 (C) There is a RAW dependency on R3 between I2 and I3 (D) There is a WAW dependency on R3 between I3 and I4 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Probability and Statistics",
+      "core_concepts": [
+        {
+          "name": "Mean, Median, Mode and Standard Deviation",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.767147488252683,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b5c81029-cd8b-4133-bb32-6b6b1c30343e",
+      "question_number": 32,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.32 Which of the following fields of an IP header is/are always modified by any router before it forwards the IP packet? (A) Source IP Address (B) Protocol (C) Time to Live (TTL) (D) Header Checksum",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Regular Languages and Finite Automata",
+      "core_concepts": [
+        {
+          "name": "Pumping Lemma for Regular Languages",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.3960348865685743,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "f6de98ff-abb4-4df9-918d-6136250ea9b0",
+      "question_number": 32,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.32 Let \ud835\udc34 and \ud835\udc35 be non-empty finite sets such that there exist one-to-one and onto functions (i) from \ud835\udc34 to \ud835\udc35 and (ii) from \ud835\udc34\u00d7 \ud835\udc34 to \ud835\udc34\u222a\ud835\udc35. The number of possible values of |\ud835\udc34| is __________",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Programming in C",
+      "core_concepts": [
+        {
+          "name": "Functions and Recursion",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.76078570408356,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "74ad462c-17af-4131-8904-dc30bbe5b7f3",
+      "question_number": 33,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.33 Consider the following C function definition. int fX(char *a){ char *b = a; while(*b) b++; return b - a;} Which of the following statements is/are TRUE? (A) The function call fX(\u201dabcd\u201d) will always return a value (B) Assuming a character array c is declared as char c[] = \u201dabcd\u201d in main(), the function call fX(c)will always return a value (C) The code of the function will not compile (D) Assuming a character pointer c is declared as char *c = \u201dabcd\u201d in main(), the function call fX(c)will always return a value Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Boolean Algebra",
+      "core_concepts": [
+        {
+          "name": "Minimization of Boolean Functions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.118090026423685,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "964bd10b-9bd4-425c-8309-da1aee3a0235",
+      "question_number": 33,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.33 Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table below. Operator Precedence Associativity + Highest Left \u2212 High Right \u2217 Medium Right / Low Right The value of the expression 3 + 1 + 5 \u22172 / 7 + 2 \u22124 \u22127 \u22126 / 2 as per the above rules is __________ Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Databases",
+      "ai_topic": "File Organization and Indexing",
+      "core_concepts": [
+        {
+          "name": "Hashing",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.847733209817303,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "a7f45bb9-35c4-488f-bf89-e65d1b51f131",
+      "question_number": 34,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.34 Let \ud835\udc43 be the partial order defined on the set {1,2,3,4} as follows \ud835\udc43= {(\ud835\udc65, \ud835\udc65)\u2061|\u2061\ud835\udc65\u2061 \u2208{1,2,3,4}} \u222a{(1,2), (3,2), (3,4)} The number of total orders on {1,2,3,4} that contain \ud835\udc43 is __________",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Data Structures",
+      "core_concepts": [
+        {
+          "name": "Stacks and Queues",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.7939990488234963,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "bafe9a7a-ceac-425b-aac0-55b126b1dc80",
+      "question_number": 34,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.34 The number of spanning trees in a complete graph of 4 vertices labelled A, B, C, and D is _________",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Graph Algorithms",
+      "core_concepts": [
+        {
+          "name": "Shortest Paths (Dijkstra, Bellman-Ford)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.1236436421611136,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "884fcd32-2783-400c-89b2-c387c48456a6",
+      "question_number": 35,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.35 Let \ud835\udc34\u2061be an array containing integer values. The distance of \ud835\udc34 is defined as the minimum number of elements in \ud835\udc34 that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array [2, 5, 3, 1, 4, 2, 6] is ___________ Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Instruction Pipelining",
+      "core_concepts": [
+        {
+          "name": "Performance Metrics",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.7853372482435064,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "fa8dfdf6-aba0-442b-9f6d-de0e29d64b72",
+      "question_number": 35,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.35 Consider the following two relations, R(A,B) and S(A,C): \ud835\udc79 \ud835\udc7a \ud835\udc68 \ud835\udc69 \ud835\udc68 \ud835\udc6a 10 20 10 90 20 30 30 45 30 40 40 80 30 50 50 95 The total number of tuples obtained by evaluating the following expression \ud835\udf48\ud835\udc69<\ud835\udc6a(\ud835\udc79\u22c8\ud835\udc79.\ud835\udc68=\ud835\udc7a.\ud835\udc68\ud835\udc7a) is _________ Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Code Optimization",
+      "core_concepts": [
+        {
+          "name": "Local Optimization",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.751858879475564,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "e66b40da-2db8-4cd0-9f19-9c3b2a61326a",
+      "question_number": 36,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.36 What is the output of the following C program? #include <stdio.h> int main() { double a[2]={20.0, 25.0}, *p, *q; p = a; q = p + 1; printf(\u201d%d,%d\u201d, (int)(q \u2013 p), (int)(*q \u2013 *p)); return 0;} (A) 4,8 (B) 1,5 (C) 8,5 (D) 1,8 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Sequential Circuits",
+      "core_concepts": [
+        {
+          "name": "Latches and Flip-Flops",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.08778906469404,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "0a2d0ec3-b123-4b50-bda4-281a03cf57bd",
+      "question_number": 36,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.36 Consider a network path P\u2014Q\u2014R between nodes P and R via router Q. Node P sends a file of size 106 bytes to R via this path by splitting the file into chunks of 103 bytes each. Node P sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU. Each of the links P\u2014Q and Q\u2014R has a bandwidth of 106 bits/sec, and negligible propagation latency. Router Q immediately transmits every packet it receives from P to R, with negligible processing and queueing delays. Router Q can simultaneously receive on link P\u2014Q and transmit on link Q\u2014R. Assume P starts transmitting the chunks at time \ud835\udc61= 0. Which one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which R receives all the chunks of the file? (A) 8.000 (B) 8.008 (C) 15.992 (D) 16.000 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Turing Machines and Undecidability",
+      "core_concepts": [
+        {
+          "name": "Halting Problem",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.3835246229899822,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "a25e5c87-9028-4cb3-839d-d54890dedf46",
+      "question_number": 37,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.37 Consider a single processor system with four processes A, B, C, and D, represented as given below, where for each process the first value is its arrival time, and the second value is its CPU burst time. A (0, 10), B (2, 6), C (4, 3), and D (6, 7). Which one of the following options gives the average waiting times when preemptive Shortest Remaining Time First (SRTF) and Non-Preemptive Shortest Job First (NP-SJF) CPU scheduling algorithms are applied to the processes? (A) SRTF = 6, NP-SJF = 7 (B) SRTF = 6, NP-SJF = 7.5 (C) SRTF = 7, NP-SJF = 7.5 (D) SRTF = 7, NP-SJF = 8.5",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Intermediate Code Generation",
+      "core_concepts": [
+        {
+          "name": "Three Address Code",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.211499363310859,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "4a1fae2f-da9b-46da-85ae-47c40e593bc5",
+      "question_number": 37,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.37 Consider the following syntax-directed definition (SDD). \ud835\udc46\u2192\ud835\udc37\ud835\udc3b\ud835\udc47\ud835\udc48 { \ud835\udc46. \ud835\udc63\ud835\udc4e\ud835\udc59 = \ud835\udc37. \ud835\udc63\ud835\udc4e\ud835\udc59 + \ud835\udc3b. \ud835\udc63\ud835\udc4e\ud835\udc59 + \ud835\udc47. \ud835\udc63\ud835\udc4e\ud835\udc59 + \ud835\udc48. \ud835\udc63\ud835\udc4e\ud835\udc59; } \ud835\udc37\u2192\"M\"\ud835\udc371 { \ud835\udc37. \ud835\udc63\ud835\udc4e\ud835\udc59 = 5 + \ud835\udc371. \ud835\udc63\ud835\udc4e\ud835\udc59; } \ud835\udc37\u2192\ud835\udf16 { \ud835\udc37. \ud835\udc63\ud835\udc4e\ud835\udc59 = \u22125; } \ud835\udc3b\u2192\"L\"\ud835\udc3b1 { \ud835\udc3b. \ud835\udc63\ud835\udc4e\ud835\udc59 = 5 \u221710 + \ud835\udc3b1. \ud835\udc63\ud835\udc4e\ud835\udc59; } \ud835\udc3b\u2192\ud835\udf16 { \ud835\udc3b. \ud835\udc63\ud835\udc4e\ud835\udc59 = \u221210; } \ud835\udc47\u2192\"C\"\ud835\udc471 { \ud835\udc47. \ud835\udc63\ud835\udc4e\ud835\udc59 = 5 \u2217100 + \ud835\udc471. \ud835\udc63\ud835\udc4e\ud835\udc59; } \ud835\udc47\u2192\ud835\udf16 { \ud835\udc47. \ud835\udc63\ud835\udc4e\ud835\udc59 = \u22125; } \ud835\udc48\u2192\"K\" { \ud835\udc48. \ud835\udc63\ud835\udc4e\ud835\udc59 = 5; } Given \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute \ud835\udc46. \ud835\udc63\ud835\udc4e\ud835\udc59)? (A) 45 (B) 50 (C) 55 (D) 65 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Context-Free Languages and Pushdown Automata",
+      "core_concepts": [
+        {
+          "name": "Pumping Lemma for CFLs",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.463674850055485,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c311c1ac-8efa-40a3-a824-5508b2990b71",
+      "question_number": 38,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.38 Which one of the following CIDR prefixes exactly represents the range of IP addresses 10.12.2.0 to 10.12.3.255? (A) 10.12.2.0/23 (B) 10.12.2.0/24 (C) 10.12.0.0/22 (D) 10.12.2.0/22 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Databases",
+      "ai_topic": "Database Design",
+      "core_concepts": [
+        {
+          "name": "Normalization (1NF, 2NF, 3NF, BCNF)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.3407739881146141,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "0f24687c-f795-4f5c-97b9-73222c2b11d6",
+      "question_number": 38,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.38 Consider the following grammar \ud835\udc3a, with \ud835\udc46 as the start symbol. The grammar \ud835\udc3a has three incomplete productions denoted by (1), (2), and (3). \ud835\udc46\u2192\ud835\udc51\ud835\udc4e\ud835\udc47 | (1) \ud835\udc47\u2192\ud835\udc4e\ud835\udc46 | \ud835\udc4f\ud835\udc47 | (2) \ud835\udc45\u2192 (3) | \ud835\udf16 The set of terminals is {\ud835\udc4e, \ud835\udc4f, \ud835\udc50, \ud835\udc51, \ud835\udc53}. The FIRST and FOLLOW sets of the different non-terminals are as follows. FIRST(\ud835\udc46) = {\ud835\udc50, \ud835\udc51, \ud835\udc53}, FIRST(\ud835\udc47) = {\ud835\udc4e, \ud835\udc4f, \ud835\udf16}, FIRST(\ud835\udc45) = {\ud835\udc50, \ud835\udf16} FOLLOW(\ud835\udc46) = FOLLOW(\ud835\udc47) = {\ud835\udc50, \ud835\udc53, $}, FOLLOW(\ud835\udc45) = {\ud835\udc53} Which one of the following options CORRECTLY fills in the incomplete productions? (A) (1) \ud835\udc46\u2192\ud835\udc45\ud835\udc53 (2) \ud835\udc47\u2192\ud835\udf16 (3) \ud835\udc45\u2192\ud835\udc50\ud835\udc47\ud835\udc45 (B) (1) \ud835\udc46\u2192\ud835\udc53\ud835\udc45 (2) \ud835\udc47\u2192\ud835\udf16 (3) \ud835\udc45\u2192\ud835\udc50\ud835\udc47\ud835\udc45 (C) (1) \ud835\udc46\u2192\ud835\udc53\ud835\udc45 (2) \ud835\udc47\u2192\ud835\udc50\ud835\udc47 (3) \ud835\udc45\u2192\ud835\udc50\ud835\udc45 (D) (1) \ud835\udc46\u2192\ud835\udc45\ud835\udc53 (2) \ud835\udc47\u2192\ud835\udc50\ud835\udc47 (3) \ud835\udc45\u2192\ud835\udc50\ud835\udc45 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Context-Free Languages and Pushdown Automata",
+      "core_concepts": [
+        {
+          "name": "Context-Free Grammars",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.6234935492545004,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "8f79ed49-73cd-4564-a8e6-fbbadd4b88c2",
+      "question_number": 39,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.39 Consider the following pseudo-code. \ud835\udc3f1: \ud835\udc611 = \u22121 \ud835\udc3f2: \ud835\udc612 = 0 \ud835\udc3f3: \ud835\udc613 = 0 \ud835\udc3f4: \ud835\udc614 = 4 \u2217\ud835\udc613 \ud835\udc3f5: \ud835\udc615 = 4 \u2217\ud835\udc612 \ud835\udc3f6: \ud835\udc616 = \ud835\udc615 \u2217\ud835\udc40 \ud835\udc3f7: \ud835\udc617 = \ud835\udc614 + \ud835\udc616 \ud835\udc3f8: \ud835\udc618 = \ud835\udc4e[\ud835\udc617] \ud835\udc3f9: if \ud835\udc618 <= \ud835\udc5a\ud835\udc4e\ud835\udc65 goto \ud835\udc3f11 \ud835\udc3f10: \ud835\udc611 = \ud835\udc618 \ud835\udc3f11: \ud835\udc613 = \ud835\udc613 + 1 \ud835\udc3f12: if \ud835\udc613 < \ud835\udc40 goto \ud835\udc3f4 \ud835\udc3f13: \ud835\udc612 = \ud835\udc612 + 1 \ud835\udc3f14: if \ud835\udc612 < \ud835\udc41 goto \ud835\udc3f3 \ud835\udc3f15: \ud835\udc5a\ud835\udc4e\ud835\udc65 = \ud835\udc611 Which one of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively ? (A) 6 and 6 (B) 6 and 7 (C) 7 and 7 (D) 7 and 6 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Turing Machines and Undecidability",
+      "core_concepts": [
+        {
+          "name": "Decidability and Undecidability",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.105548905725929,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "ff7c67bf-0d72-425c-a113-0d6399ff1458",
+      "question_number": 39,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.39 You are given a set \ud835\udc49 of distinct integers. A binary search tree \ud835\udc47 is created by inserting all elements of \ud835\udc49 one by one, starting with an empty tree. The tree \ud835\udc47 follows the convention that, at each node, all values stored in the left subtree of the node are smaller than the value stored at the node. You are not aware of the sequence in which these values were inserted into \ud835\udc47, and you do not have access to \ud835\udc47. Which one of the following statements is TRUE? (A) Inorder traversal of \ud835\udc47 can be determined from \ud835\udc49 (B) Root node of \ud835\udc47 can be determined from \ud835\udc49 (C) Preorder traversal of \ud835\udc47 can be determined from \ud835\udc49 (D) Postorder traversal of \ud835\udc47 can be determined from \ud835\udc49 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Data Structures",
+      "core_concepts": [
+        {
+          "name": "Stacks and Queues",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.430975299779069,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "1344552d-089c-409c-b557-4eff399e6eff",
+      "question_number": 40,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.40 Consider the following two threads T1 and T2 that update two shared variables a and b. Assume that initially a = b = 1. Though context switching between threads can happen at any time, each statement of T1 or T2 is executed atomically without interruption. T1 T2 a = a + 1; b = 2 * b; b = b + 1; a = 2 * a; Which one of the following options lists all the possible combinations of values of a and b after both T1 and T2 finish execution? (A) (a = 4, b = 4); (a = 3, b = 3); (a = 4, b = 3) (B) (a = 3, b = 4); (a = 4, b = 3); (a = 3, b = 3) (C) (a = 4, b = 4); (a = 4, b = 3); (a = 3, b = 4) (D) (a = 2, b = 2); (a = 2, b = 3); (a = 3, b = 4)",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Machine Instructions and Addressing Modes",
+      "core_concepts": [
+        {
+          "name": "Instruction Formats",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.830079366638362,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "dc782887-22df-43b3-858b-bfc57de566cb",
+      "question_number": 40,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.40 Consider the following context-free grammar where the start symbol is \ud835\udc46 and the set of terminals is {\ud835\udc4e,\ud835\udc4f,\ud835\udc50,\ud835\udc51}. \ud835\udc46\u2192\ud835\udc34\ud835\udc4e\ud835\udc34\ud835\udc4f\u2061|\u2061\ud835\udc35\ud835\udc4f\ud835\udc35\ud835\udc4e \ud835\udc34\u2192\ud835\udc50\ud835\udc46\u2061|\u2061\ud835\udf16 \ud835\udc35\u2192\ud835\udc51\ud835\udc46\u2061|\u2061\ud835\udf16 The following is a partially-filled LL(1) parsing table. \ud835\udc4e \ud835\udc4f \ud835\udc50 \ud835\udc51 $ \ud835\udc46 \ud835\udc46\u2192\ud835\udc34\ud835\udc4e\ud835\udc34\ud835\udc4f \ud835\udc46\u2192\ud835\udc35\ud835\udc4f\ud835\udc35\ud835\udc4e (1) (2) \ud835\udc34 \ud835\udc34\u2192\ud835\udf16 (3) \ud835\udc34\u2192\ud835\udc50\ud835\udc46 \ud835\udc35 (4) \ud835\udc35\u2192\ud835\udf16 \ud835\udc35\u2192\ud835\udc51\ud835\udc46 Which one of the following options represents the CORRECT combination for the numbered cells in the parsing table? Note: In the options, \u201cblank\u201d denotes that the corresponding cell is empty. (A) (1) \ud835\udc46\u2192\ud835\udc34\ud835\udc4e\ud835\udc34\ud835\udc4f (2) \ud835\udc46\u2192\ud835\udc35\ud835\udc4f\ud835\udc35\ud835\udc4e (3) \ud835\udc34\u2192\ud835\udf16 (4) \ud835\udc35\u2192\ud835\udf16 (B) (1) \ud835\udc46\u2192\ud835\udc35\ud835\udc4f\ud835\udc35\ud835\udc4e (2) \ud835\udc46\u2192\ud835\udc34\ud835\udc4e\ud835\udc34\ud835\udc4f (3) \ud835\udc34\u2192\ud835\udf16 (4) \ud835\udc35\u2192\ud835\udf16 (C) (1) \ud835\udc46\u2192\ud835\udc34\ud835\udc4e\ud835\udc34\ud835\udc4f (2) \ud835\udc46\u2192\ud835\udc35\ud835\udc4f\ud835\udc35\ud835\udc4e (3) blank (4) blank (D) (1) \ud835\udc46\u2192\ud835\udc35\ud835\udc4f\ud835\udc35\ud835\udc4e (2) \ud835\udc46\u2192\ud835\udc34\ud835\udc4e\ud835\udc34\ud835\udc4f (3) blank (4) blank Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Turing Machines and Undecidability",
+      "core_concepts": [
+        {
+          "name": "Halting Problem",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.1396344045416686,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "d3e1f992-91be-4dc6-93fa-8e0ccc5bc500",
+      "question_number": 41,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.41 An array [82, 101, 90, 11, 111, 75, 33, 131, 44, 93] is heapified. Which one of the following options represents the first three elements in the heapified array? (A) 82, 90, 101 (B) 82, 11, 93 (C) 131, 11, 93 (D) 131, 111, 90 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Data Link Layer",
+      "core_concepts": [
+        {
+          "name": "Ethernet",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.944068724237679,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "a7e9f39b-c502-40ff-acd7-c472fae807c7",
+      "question_number": 41,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.41 Let \ud835\udc40 be the 5-state NFA with \ud835\udf16-transitions shown in the diagram below. Which one of the following regular expressions represents the language accepted by \ud835\udc40 ? (A) \u2061(00)\u2217\u2061+ \u20611(11)\u2217 (B) \u20610\u2217+ (1 + 0(00)\u2217)(11)\u2217\u2061 (C) \u2061(00)\u2217+ (1 + (00)\u2217)(11)\u2217\u2061 (D) \u20610+ + 1(11)\u2217+ 0(11)\u2217\u2061 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Numerical Ability",
+      "core_concepts": [
+        {
+          "name": "Data Interpretation",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.398900812558968,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b7cc68a8-595f-437b-8e3f-4bcabe0eec37",
+      "question_number": 42,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.42 Consider the following recurrence relation: \ud835\udc47(\ud835\udc5b) = {\u221a\ud835\udc5b\ud835\udc47(\u221a\ud835\udc5b) + \ud835\udc5b for \ud835\udc5b\u22651, 1 for \ud835\udc5b= 1. Which one of the following options is CORRECT? (A) \ud835\udc47(\ud835\udc5b) = \u0398(\ud835\udc5b log log \ud835\udc5b) (B) \ud835\udc47(\ud835\udc5b) = \u0398(\ud835\udc5b log \ud835\udc5b) (C) \ud835\udc47(\ud835\udc5b) = \u0398(\ud835\udc5b2 log \ud835\udc5b) (D) \ud835\udc47(\ud835\udc5b) = \u0398(\ud835\udc5b2 log log \ud835\udc5b)",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Memory Hierarchy",
+      "core_concepts": [
+        {
+          "name": "Main Memory",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.240638768463446,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "09809d0d-d2a0-4882-a2fb-70286a511a66",
+      "question_number": 42,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.42 Consider an array X that contains n positive integers. A subarray of X is defined to be a sequence of array locations with consecutive indices. The C code snippet given below has been written to compute the length of the longest subarray of X that contains at most two distinct integers. The code has two missing expressions labelled (\ud835\udc43)\u2061and (\ud835\udc44). int first=0, second=0, len1=0, len2=0, maxlen=0; for (int i=0; i < n; i++) { if (X[i] == first) { len2++; len1++; } else if (X[i] == second) { len2++; len1 = \u2061\u2061\u2061\u2061\u2061(\ud835\udc43)\u2061\u2061\u2061\u2061\u2061\u2061\u2061; second = first; } else { len2 = \u2061\u2061\u2061\u2061\u2061(\ud835\udc44)\u2061\u2061\u2061\u2061\u2061\u2061; len1 = 1; second = first; } if (len2 > maxlen) { maxlen = len2; } first = X[i]; } Which one of the following options gives the CORRECT missing expressions? (Hint: At the end of the i-th iteration, the value of len1 is the length of the longest subarray ending with X[i] that contains all equal values, and len2 is the length of the longest subarray ending with X[i] that contains at most two distinct values.) (A) (\ud835\udc43) len1+1 (\ud835\udc44) len2+1 (B) (\ud835\udc43) 1 (\ud835\udc44) len1+1 (C) (\ud835\udc43) 1 (\ud835\udc44) len2+1 (D) (\ud835\udc43) len2+1 (\ud835\udc44) len1+1 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Databases",
+      "ai_topic": "ER Model",
+      "core_concepts": [
+        {
+          "name": "Entities, Attributes, Relationships",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.078172976010443,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c143634a-6937-4618-b6e6-788e5d2137b7",
+      "question_number": 43,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.43 Consider a binary min-heap containing 105 distinct elements. Let \ud835\udc58 be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of \ud835\udc58 is (A) 53 (B) 52 (C) 27 (D) 1 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Design Techniques",
+      "core_concepts": [
+        {
+          "name": "Greedy Approach",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.0980754973897784,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b84c1ed7-59a6-4fc8-9656-2d21e13775ec",
+      "question_number": 43,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.43 Consider the following expression: \ud835\udc65[\ud835\udc56] = (\ud835\udc5d+ \ud835\udc5f) \u2217\u2212\ud835\udc60[\ud835\udc56] + \ud835\udc62/\ud835\udc64. The following sequence shows the list of triples representing the given expression, with entries missing for triples (1), (3), and (6). Which one of the following options fills in the missing entries CORRECTLY? (0) + \ud835\udc5d \ud835\udc5f (1) (2) uminus (1) (3) (4) / \ud835\udc62 \ud835\udc64 (5) + (3) (4) (6) (7) = (6) (5) (A) (1) =[]\u2061\u2061\ud835\udc60\u2061\u2061\ud835\udc56 (3) * (0) (2) (6) []=\u2061\u2061\ud835\udc65\u2061\u2061\ud835\udc56 (B) (1) []=\u2061\u2061\ud835\udc60\u2061\u2061\ud835\udc56 (3) \u2013\u2061(0)\u2061(2) (6) =[] \u2061\ud835\udc65\u2061\u2061(5) (C) (1) =[] \u2061\ud835\udc60\u2061\ud835\udc56 (3) * (0)\u2061\u2061(2) (6) []= \u2061\ud835\udc65\u2061\u2061(5) (D) (1) []= \u2061\ud835\udc60\u2061\u2061\ud835\udc56 (3) \u2013\u2061(0)\u2061(2) (6) =[] \ud835\udc65\u2061\u2061\ud835\udc56 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Processes and Threads",
+      "core_concepts": [
+        {
+          "name": "Threads",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.383165379517855,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "864afff8-8705-48e2-b3ef-89b559aed772",
+      "question_number": 44,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.44 Let \ud835\udc65 and \ud835\udc66 be random variables, not necessarily independent, that take real values in the interval [0,1]. Let \ud835\udc67= \ud835\udc65\ud835\udc66 and let the mean values of \ud835\udc65, \ud835\udc66, \ud835\udc67 be \ud835\udc65\u0305, \ud835\udc66\u0305, \ud835\udc67\u0305, respectively. Which one of the following statements is TRUE? (A) \ud835\udc67\u0305 =\u2061\ud835\udc65\u0305\ud835\udc66\u0305 (B) \ud835\udc67\u0305 \u2061\u2264\u2061\ud835\udc65\u0305\ud835\udc66\u0305 (C) \ud835\udc67\u0305 \u2061\u2265\u2061\ud835\udc65\u2061\u0305\ud835\udc66\u0305 (D) \ud835\udc67\u0305 \u2061\u2264\u2061\ud835\udc65\u0305\u2061",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Turing Machines and Undecidability",
+      "core_concepts": [
+        {
+          "name": "Halting Problem",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.160038677116832,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "b9055181-2a1c-4042-853e-e96fe64947b6",
+      "question_number": 44,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.44 The symbol \u2192 indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE? (A) (\ud835\udc4b, \ud835\udc4c) \u2192(\ud835\udc4d, \ud835\udc4a) implies \ud835\udc4b\u2192(\ud835\udc4d, \ud835\udc4a) (B) (\ud835\udc4b, \ud835\udc4c) \u2192(\ud835\udc4d, \ud835\udc4a) implies (\ud835\udc4b, \ud835\udc4c) \u2192\ud835\udc4d (C) ((\ud835\udc4b, \ud835\udc4c) \u2192\ud835\udc4d and \ud835\udc4a\u2192\ud835\udc4c) implies (\ud835\udc4b, \ud835\udc4a) \u2192\ud835\udc4d (D) (\ud835\udc4b\u2192\ud835\udc4c and \ud835\udc4c\u2192\ud835\udc4d) implies \ud835\udc4b\u2192\ud835\udc4d",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Network Security",
+      "core_concepts": [
+        {
+          "name": "Digital Signatures",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.145083680436523,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "89637838-9dda-4530-85cc-0022359f629d",
+      "question_number": 45,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.45 The relation schema, Person(pid,city), describes the city of residence for every person uniquely identified by pid. The following relational algebra operators are available: selection, projection, cross product, and rename. To find the list of cities where at least 3 persons reside, using the above operators, the minimum number of cross product operations that must be used is (A) 1 (B) 2 (C) 3 (D) 4 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Turing Machines and Undecidability",
+      "core_concepts": [
+        {
+          "name": "Decidability and Undecidability",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.029149026408644,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "ccb5fcf7-d970-4460-b6bc-6cea170d22fe",
+      "question_number": 45,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.45 Let \ud835\udc3a be a directed graph and \ud835\udc47 a depth first search (DFS) spanning tree in \ud835\udc3a that is rooted at a vertex \ud835\udc63. Suppose \ud835\udc47 is also a breadth first search (BFS) tree in \ud835\udc3a, rooted at \ud835\udc63. Which of the following statements is/are TRUE for every such graph \ud835\udc3a and tree \ud835\udc47 ? (A) There are no back-edges in \ud835\udc3a with respect to the tree \ud835\udc47 (B) There are no cross-edges in \ud835\udc3a with respect to the tree \ud835\udc47 (C) There are no forward-edges in \ud835\udc3a with respect to the tree \ud835\udc47 (D) The only edges in \ud835\udc3a are the edges in \ud835\udc47 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Databases",
+      "ai_topic": "Database Design",
+      "core_concepts": [
+        {
+          "name": "Normalization (1NF, 2NF, 3NF, BCNF)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.7682577325575215,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "d21bd80b-7f63-42e5-acaf-b30572c38761",
+      "question_number": 46,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.46 Consider a multi-threaded program with two threads T1 and T2. The threads share two semaphores: s1 (initialized to 1) and s2 (initialized to 0). The threads also share a global variable x (initialized to 0). The threads execute the code shown below. // code of T1 wait(s1); x = x+1; print(x); wait(s2); signal(s1); // code of T2 wait(s1); x = x+1; print(x); signal(s2); signal(s1); Which of the following outcomes is/are possible when threads T1 and T2 execute concurrently? (A) T1 runs first and prints 1, T2 runs next and prints 2 (B) T2 runs first and prints 1, T1 runs next and prints 2 (C) T1 runs first and prints 1, T2 does not print anything (deadlock) (D) T2 runs first and prints 1, T1 does not print anything (deadlock)",
+      "ai_subject": "Programming and Data Structures",
+      "ai_topic": "Programming in C",
+      "core_concepts": [
+        {
+          "name": "Pointers and Arrays",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.1176143541635946,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "4ed622dc-d652-4442-aa76-ad4e266dbc94",
+      "question_number": 46,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.46 Consider the following read-write schedule \ud835\udc46 over three transactions \ud835\udc471, \ud835\udc472, and \ud835\udc473, where the subscripts in the schedule indicate transaction IDs: \ud835\udc46: \ud835\udc5f1(\ud835\udc67); \ud835\udc641(\ud835\udc67); \ud835\udc5f2(\ud835\udc65); \ud835\udc5f3(\ud835\udc66); \ud835\udc643(\ud835\udc66); \ud835\udc5f2(\ud835\udc66); \ud835\udc642(\ud835\udc65); \ud835\udc642(\ud835\udc66); Which of the following transaction schedules is/are conflict equivalent to \ud835\udc46 ? (A) \ud835\udc471\ud835\udc472\ud835\udc473 (B) \ud835\udc471\ud835\udc473\ud835\udc472 (C) \ud835\udc473\ud835\udc472\ud835\udc471 (D) \ud835\udc473\ud835\udc471\ud835\udc472",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Instruction Pipelining",
+      "core_concepts": [
+        {
+          "name": "Pipeline Hazards",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.7472651412827656,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "56fa0f3e-4cfe-4cb3-8a98-33b5a4a5f743",
+      "question_number": 47,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.47 Let \ud835\udc34 be an \ud835\udc5b\u00d7 \ud835\udc5b matrix over the set of all real numbers \u211d. Let \ud835\udc35 be a matrix obtained from \ud835\udc34 by swapping two rows. Which of the following statements is/are TRUE? (A) The determinant of \ud835\udc35 is the negative of the determinant of \ud835\udc34 (B) If \ud835\udc34 is invertible, then \ud835\udc35 is also invertible (C) If \ud835\udc34\u2061is symmetric, then \ud835\udc35 is also symmetric (D) If the trace of \ud835\udc34 is zero, then the trace of \ud835\udc35\u2061is also zero Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Regular Languages and Finite Automata",
+      "core_concepts": [
+        {
+          "name": "Regular Expressions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.9553836149898212,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "c5e22a96-d98a-46b6-847c-d091eb5b240e",
+      "question_number": 47,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.47 Consider a Boolean expression given by \ud835\udc39(\ud835\udc4b, \ud835\udc4c, \ud835\udc4d) = \u2211(3,5,6,7). Which of the following statements is/are CORRECT? (A) \ud835\udc39(\ud835\udc4b, \ud835\udc4c, \ud835\udc4d) = \u03a0(0,1,2,4) (B) \ud835\udc39(\ud835\udc4b, \ud835\udc4c, \ud835\udc4d) = \ud835\udc4b\ud835\udc4c+ \ud835\udc4c\ud835\udc4d+ \ud835\udc4b\ud835\udc4d (C) \ud835\udc39(\ud835\udc4b, \ud835\udc4c, \ud835\udc4d) is independent of input \ud835\udc4c (D) \ud835\udc39(\ud835\udc4b, \ud835\udc4c, \ud835\udc4d) is independent of input \ud835\udc4b Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Memory Management",
+      "core_concepts": [
+        {
+          "name": "Page Replacement Algorithms",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.5694656228377895,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "cd6e9f70-344f-478d-8adc-c716e1c6965f",
+      "question_number": 48,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.48 Let S1 and S2 be two stacks. S1 has capacity of 4 elements. S2 has capacity of 2 elements. S1 already has 4 elements: 100, 200, 300, and 400, whereas S2 is empty, as shown below. Only the following three operations are available: PushToS2: Pop the top element from S1 and push it on S2. PushToS1: Pop the top element from S2 and push it on S1. GenerateOutput: Pop the top element from S1 and output it to the user. Note that the pop operation is not allowed on an empty stack and the push operation is not allowed on a full stack. Which of the following output sequences can be generated by using the above operations? 400 (Top) 300 200 100 Stack S1 Stack S2 (A) 100, 200, 400, 300 (B) 200, 300, 400, 100 (C) 400, 200, 100, 300 (D) 300, 200, 400, 100 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Verbal Ability",
+      "core_concepts": [
+        {
+          "name": "Instructions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.5584304439230103,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "71ef6982-ba48-4193-8b2b-56468ce540ce",
+      "question_number": 48,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.48 Consider the following C function definition. int f(int x, int y) { for (int i=0; i<y; i++) { x=x+x+y; } return x; } Which of the following statements is/are TRUE about the above function? (A) If the inputs are x=20, y=10, then the return value is greater than 220 (B) If the inputs are x=20, y=20, then the return value is greater than 220 (C) If the inputs are x=20, y=10, then the return value is less than 210 (D) If the inputs are x=10, y=20, then the return value is greater than 220",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Probability and Statistics",
+      "core_concepts": [
+        {
+          "name": "Mean, Median, Mode and Standard Deviation",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.9439493674092523,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "0f79662f-ecda-44ec-b2c0-9f0b421c244f",
+      "question_number": 49,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.49 Which of the following is/are EQUAL to 224 in radix-5 (i.e., base-5) notation? (A) 64 in radix-10 (B) 100 in radix-8 (C) 50 in radix-16 (D) 121 in radix-7 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Numerical Ability",
+      "core_concepts": [
+        {
+          "name": "Numerical Estimation",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.7572027078837316,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "efca497c-4ed5-489a-9473-8f8ed8ce4d0b",
+      "question_number": 49,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.49 Let \ud835\udc34 be any \ud835\udc5b\u00d7 \ud835\udc5a matrix, where \ud835\udc5a > \ud835\udc5b. Which of the following statements is/are TRUE about the system of linear equations \ud835\udc34\ud835\udc65= 0 ? (A) There exist at least \ud835\udc5a\u2212\ud835\udc5b linearly independent solutions to this system (B) There exist \ud835\udc5a\u2212\ud835\udc5b linearly independent vectors such that every solution is a linear combination of these vectors (C) There exists a non-zero solution in which at least \ud835\udc5a\u2212\ud835\udc5b variables are 0 (D) There exists a solution in which at least \ud835\udc5b variables are non-zero Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Runtime Environments",
+      "core_concepts": [
+        {
+          "name": "Parameter Passing",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.1877363208666596,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "da5161f6-837d-41eb-be8f-57500cdb6b40",
+      "question_number": 50,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.50 Consider 4-variable functions f1, f2, f3, f4 expressed in sum-of-minterms form as given below. f1 = \u2211(0,2,3,5,7,8,11,13) f2 = \u2211(1,3,5,7,11,13, 15) f3 = \u2211(0,1,4,11) f4 = \u2211(0,2,6,13) With respect to the circuit given above, which of the following options is/are CORRECT? (A) \ud835\udc80= \u2211(0,1,2,11,13) (B) \ud835\udc80= \u03a0(3,4, 5,6,7,8,9,10,12,14,15) (C) \ud835\udc80= \u2211(0,1,2,3,4,5,6,7) (D) \ud835\udc80= \u03a0(8,9,10,11,12,13,14,15) Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Intermediate Code Generation",
+      "core_concepts": [
+        {
+          "name": "Three Address Code",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.813112429616892,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "bdeaa3fa-621e-499d-9695-6928333e3e92",
+      "question_number": 50,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.50 Consider the 5-state DFA \ud835\udc40 accepting the language \ud835\udc3f(\ud835\udc40) \u2282(0 + 1)\u2217 shown below. For any string \ud835\udc64\u2208(0 + 1)\u2217 let \ud835\udc5b0(\ud835\udc64) be the number of 0\u2032\ud835\udc60 in \ud835\udc64 and \ud835\udc5b1(\ud835\udc64) be the number of 1\u2032\ud835\udc60 in \ud835\udc64. Which of the following statements is/are FALSE? (A) States 2 and 4 are distinguishable in \ud835\udc40 (B) States 3 and 4 are distinguishable in \ud835\udc40 (C) States 2 and 5 are distinguishable in \ud835\udc40 (D) Any string \ud835\udc64 with \ud835\udc5b0(\ud835\udc64) = \ud835\udc5b1(\ud835\udc64) is in \ud835\udc3f(\ud835\udc40) Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Concurrency and Synchronization",
+      "core_concepts": [
+        {
+          "name": "Deadlock Prevention, Avoidance, and Detection",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.1488012680417676,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "76f13864-a6fa-4673-a502-0ecd5353d377",
+      "question_number": 51,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.51 Let \ud835\udc3a be an undirected connected graph in which every edge has a positive integer weight. Suppose that every spanning tree in \ud835\udc3a has even weight. Which of the following statements is/are TRUE for every such graph \ud835\udc3a ? (A) All edges in \ud835\udc3a have even weight (B) All edges in \ud835\udc3a have even weight OR all edges in \ud835\udc3a have odd weight (C) In each cycle \ud835\udc36 in \ud835\udc3a, all edges in \ud835\udc36 have even weight (D) In each cycle \ud835\udc36 in \ud835\udc3a, either all edges in \ud835\udc36 have even weight OR all edges in \ud835\udc36 have odd weight",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Processes and Threads",
+      "core_concepts": [
+        {
+          "name": "Inter-Process Communication",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.452817203965106,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "ba7d5f09-0d3c-41e1-bd4d-2999d0a4d5ac",
+      "question_number": 51,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.51 The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let \ud835\udc3a be any graph with \ud835\udc5b vertices and chromatic number \ud835\udc58. Which of the following statements is/are always TRUE? (A) \ud835\udc3a contains a complete subgraph with \ud835\udc58 vertices (B) \ud835\udc3a contains an independent set of size at least \ud835\udc5b/\ud835\udc58 (C) \ud835\udc3a contains at least \ud835\udc58(\ud835\udc58\u22121)/2 edges (D) \ud835\udc3a contains a vertex of degree at least \ud835\udc58",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Memory Hierarchy",
+      "core_concepts": [
+        {
+          "name": "Secondary Storage",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.134909414857831,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "fbe5f642-e53f-4edc-b194-c9966df9106d",
+      "question_number": 52,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.52 Consider the operators \u25ca and \u25a1 defined by \ud835\udc4e\u25ca\ud835\udc4f= \ud835\udc4e+ 2\ud835\udc4f, \ud835\udc4e\u25a1\ud835\udc4f= \ud835\udc4e\ud835\udc4f, for positive integers. Which of the following statements is/are TRUE? (A) Operator \u25ca obeys the associative law (B) Operator \u25a1 obeys the associative law (C) Operator \u25ca over the operator \u25a1 obeys the distributive law (D) Operator \u25a1 over the operator \u25ca obeys the distributive law Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Instruction Pipelining",
+      "core_concepts": [
+        {
+          "name": "Pipeline Hazards",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.116155501342777,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "f56261e9-88f8-46be-855e-d172ab5dd4bd",
+      "question_number": 52,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.52 Consider a context-free grammar \ud835\udc3a with the following 3 rules. \ud835\udc46\u2192\ud835\udc4e\ud835\udc46, \ud835\udc46\u2192\ud835\udc4e\ud835\udc46\ud835\udc4f\ud835\udc46, \ud835\udc46\u2192\ud835\udc50 Let \ud835\udc64\u2208\u2061\ud835\udc3f(\ud835\udc3a). Let \ud835\udc5b\ud835\udc4e(\ud835\udc64), \ud835\udc5b\ud835\udc4f(\ud835\udc64), \ud835\udc5b\ud835\udc50(\ud835\udc64)\u2061denote the number of times \ud835\udc4e, \ud835\udc4f, \ud835\udc50 occur in \ud835\udc64, respectively. Which of the following statements is/are TRUE? (A) \ud835\udc5b\ud835\udc4e(\ud835\udc64) > \ud835\udc5b\ud835\udc4f(\ud835\udc64)\u2061 (B) \ud835\udc5b\ud835\udc4e(\ud835\udc64) > \ud835\udc5b\ud835\udc50(\ud835\udc64) \u22122 (C) \ud835\udc5b\ud835\udc50(\ud835\udc64) = \ud835\udc5b\ud835\udc4f(\ud835\udc64) + 1 (D) \ud835\udc5b\ud835\udc50(\ud835\udc64) = \ud835\udc5b\ud835\udc4f(\ud835\udc64) \u22172 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Runtime Environments",
+      "core_concepts": [
+        {
+          "name": "Activation Records",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.054520634183202,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "0c46681a-4fd7-4a0e-bd52-03aa495a4957",
+      "question_number": 53,
+      "marks": 2.0,
+      "question_type": "MCQ",
+      "question_text": "Q.53 Consider two set-associative cache memory architectures: WBC, which uses the write back policy, and WTC, which uses the write through policy. Both of them use the LRU (Least Recently Used) block replacement policy. The cache memory is connected to the main memory. Which of the following statements is/are TRUE? (A) A read miss in WBC never evicts a dirty block (B) A read miss in WTC never triggers a write back operation of a cache block to main memory (C) A write hit in WBC can modify the value of the dirty bit of a cache block (D) A write miss in WTC always writes the victim cache block to main memory before loading the missed block to the cache",
+      "ai_subject": "Algorithms",
+      "ai_topic": "Algorithm Design Techniques",
+      "core_concepts": [
+        {
+          "name": "Greedy Approach",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.4936594017033222,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "62f06c14-56e1-417b-a371-cb88a4942f0f",
+      "question_number": 53,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.53 Consider a disk with the following specifications: rotation speed of 6000 RPM, average seek time of 5 milliseconds, 500 sectors/track, 512-byte sectors. A file has content stored in 3000 sectors located randomly on the disk. Assuming average rotational latency, the total time (in seconds, rounded off to 2 decimal places) to read the entire file from the disk is _________",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Code Optimization",
+      "core_concepts": [
+        {
+          "name": "Liveness Analysis",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.007958294351628,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "d1292199-c534-4d55-909c-976f3135f4c5",
+      "question_number": 54,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.54 Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per track and each sector holds 1024 bytes of data. The number of cylinders in the hard disk is _________",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Combinational Circuits",
+      "core_concepts": [
+        {
+          "name": "Decoders and Encoders",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.018843256380063,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "62c5633a-b238-4b11-86aa-49e2236e6257",
+      "question_number": 54,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.54 Consider a TCP connection operating at a point of time with the congestion window of size 12 MSS (Maximum Segment Size), when a timeout occurs due to packet loss. Assuming that all the segments transmitted in the next two RTTs (Round Trip Time) are acknowledged correctly, the congestion window size (in MSS) during the third RTT will be _________",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Intermediate Code Generation",
+      "core_concepts": [
+        {
+          "name": "Three Address Code",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.365871200469806,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "2656ff3b-637c-4ac4-8e6f-5fa40e558cc3",
+      "question_number": 55,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.55 Consider an Ethernet segment with a transmission speed of 108 bits/sec and a maximum segment length of 500 meters. If the speed of propagation of the signal in the medium is 2\u00d7108 meters/sec, then the minimum frame size (in bits) required for collision detection is _________",
+      "ai_subject": "General Aptitude",
+      "ai_topic": "Numerical Ability",
+      "core_concepts": [
+        {
+          "name": "Numerical Reasoning",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.5297994662285763,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "1806be7c-d3a9-44a6-8316-4f42859792c4",
+      "question_number": 55,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.55 The baseline execution time of a program on a 2 GHz single core machine is 100 nanoseconds (ns). The code corresponding to 90% of the execution time can be fully parallelized. The overhead for using an additional core is 10 ns when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelized code for an equal amount of time. The number of cores that minimize the execution time of the program is ________",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Memory Management",
+      "core_concepts": [
+        {
+          "name": "Virtual Memory and Demand Paging",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.128626156778704,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "1032b844-9868-4e59-b0a6-dd19336bfa04",
+      "question_number": 56,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.56 A functional dependency \ud835\udc39:\u2061\ud835\udc4b\u2192\ud835\udc4c is termed as a useful functional dependency if and only if it satisfies all the following three conditions: \u2022 \ud835\udc4b is not the empty set. \u2022 \ud835\udc4c is not the empty set. \u2022 Intersection of \ud835\udc4b and \ud835\udc4c is the empty set. For a relation \ud835\udc45 with 4 attributes, the total number of possible useful functional dependencies is ________",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "I/O Interfaces",
+      "core_concepts": [
+        {
+          "name": "DMA",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.186581245079669,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "eb5f9bd7-a84f-4bb3-b25b-252867559f3f",
+      "question_number": 56,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.56 A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per instruction) without any memory stalls is 2. The program exhibits 2% miss rate on instruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles. The speedup (rounded off to two decimal places) achieved with a perfect cache (i.e., with NO data or instruction cache misses) is _________ Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "Machine Instructions and Addressing Modes",
+      "core_concepts": [
+        {
+          "name": "Instruction Formats",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.7514581210074054,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "8930380a-0802-46df-a1a1-3c5bb1879c26",
+      "question_number": 57,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.57 A processor with 16 general purpose registers uses a 32-bit instruction format. The instruction format consists of an opcode field, an addressing mode field, two register operand fields, and a 16-bit scalar field. If 8 addressing modes are to be supported, the maximum number of unique opcodes possible for every addressing mode is _________ Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Organization and Architecture",
+      "ai_topic": "I/O Interfaces",
+      "core_concepts": [
+        {
+          "name": "Interrupts",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.264805625720784,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "523d9a46-861f-47c4-84ad-7aa7e877a0b9",
+      "question_number": 57,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.57 Consider the following code snippet using the fork() and wait() system calls. Assume that the code compiles and runs correctly, and that the system calls run successfully without any errors. int x = 3; while(x > 0) { fork(); printf(\"hello\"); wait(NULL); x--; } The total number of times the printf statement is executed is _______",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Linear Algebra",
+      "core_concepts": [
+        {
+          "name": "Matrices, Determinants",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.178955585053654,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "0583463b-5863-4c29-86f1-054f2bc2866f",
+      "question_number": 58,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.58 A non-pipelined instruction execution unit operating at 2 GHz takes an average of 6 cycles to execute an instruction of a program P. The unit is then redesigned to operate on a 5-stage pipeline at 2 GHz. Assume that the ideal throughput of the pipelined unit is 1 instruction per cycle. In the execution of program P, 20% instructions incur an average of 2 cycles stall due to data hazards and 20% instructions incur an average of 3 cycles stall due to control hazards. The speedup (rounded off to one decimal place) obtained by the pipelined design over the non-pipelined design is _________",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Lexical Analysis",
+      "core_concepts": [
+        {
+          "name": "Tokens, Regex, Automata",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.279424336040227,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "aef78c4f-2150-4368-a5ff-5d0fef9f5ffa",
+      "question_number": 58,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.58 Consider the entries shown below in the forwarding table of an IP router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation \u201c/N\u201d in a prefix indicates a subnet mask with the most significant N bits set to 1. Prefix Next hop router 10.1.1.0/24 R1 10.1.1.128/25 R2 10.1.1.64/26 R3 10.1.1.192/26 R4 This router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205 . The number of packets forwarded via the next hop router R2 is _______",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "CPU Scheduling",
+      "core_concepts": [
+        {
+          "name": "Scheduling Algorithms",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.7822928371270494,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "92e49ee2-45e9-4a85-891d-6bc8b64df58e",
+      "question_number": 59,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.59 The number of distinct minimum-weight spanning trees of the following graph is _________ a b g d c f e 3 2 2 1 2 3 2 2 2 1 1 1",
+      "ai_subject": "Theory of Computation",
+      "ai_topic": "Context-Free Languages and Pushdown Automata",
+      "core_concepts": [
+        {
+          "name": "Pushdown Automata",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.4389446522749463,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "aa57895e-1a22-43d1-93a5-f64c3adf3e96",
+      "question_number": 59,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.59 Let \ud835\udc3a = (\ud835\udc49, \u03a3, \ud835\udc46, \ud835\udc43) be a context-free grammar in Chomsky Normal Form with \u03a3 = {\ud835\udc4e, \ud835\udc4f, \ud835\udc50} and \ud835\udc49 containing 10 variable symbols including the start symbol \ud835\udc46. The string \ud835\udc64 = \ud835\udc4e30\ud835\udc4f30\ud835\udc5030 is derivable from \ud835\udc46. The number of steps (application of rules) in the derivation \ud835\udc46\u2192\u2217\ud835\udc64 is _________ Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Code Optimization",
+      "core_concepts": [
+        {
+          "name": "Liveness Analysis",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.7135178795568065,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "56274bd3-0c8f-4407-a927-f23a68120f45",
+      "question_number": 60,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.60 The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. The chromatic number of the following graph is _________ Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Parsing",
+      "core_concepts": [
+        {
+          "name": "Bottom-Up Parsing (LR, SLR, LALR)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.6802876138299006,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "caddf768-c27f-442d-8fa2-13a94d6688f7",
+      "question_number": 60,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.60 The number of edges present in the forest generated by the DFS traversal of an undirected graph \ud835\udc3a with 100 vertices is 40. The number of connected components in \ud835\udc3a is _________",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Number Representations",
+      "core_concepts": [
+        {
+          "name": "Computer Arithmetic (Integer and Floating Point)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.3943593448147418,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "09486387-e4a0-483e-be72-84d327ce1884",
+      "question_number": 61,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.61 A processor uses a 32-bit instruction format and supports byte-addressable memory access. The ISA of the processor has 150 distinct instructions. The instructions are equally divided into two types, namely R-type and I-type, whose formats are shown below. R-type Instruction Format: OPCODE UNUSED DST Register SRC Register1 SRC Register 2 I-type Instruction Format: OPCODE DST Register SRC Register # Immediate value/address In the OPCODE, 1 bit is used to distinguish between I-type and R-type instructions and the remaining bits indicate the operation. The processor has 50 architectural registers, and all register fields in the instructions are of equal size. Let \ud835\udc4b be the number of bits used to encode the UNUSED field, \ud835\udc4c be the number of bits used to encode the OPCODE field, and \ud835\udc4d be the number of bits used to encode the immediate value/address field. The value of \ud835\udc4b+ 2\ud835\udc4c+ \ud835\udc4d is ________",
+      "ai_subject": "Operating Systems",
+      "ai_topic": "Processes and Threads",
+      "core_concepts": [
+        {
+          "name": "Threads",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.872002529833793,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "5efd15d0-acba-405d-86dd-09690a00a482",
+      "question_number": 61,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.61 Consider the following two regular expressions over the alphabet {0,1}: \ud835\udc5f= 0\u2217+ 1\u2217 \ud835\udc60= 01\u2217+ 10\u2217 The total number of strings of length less than or equal to 5, which are neither in \ud835\udc5f nor in \ud835\udc60, is _________",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Network Layer",
+      "core_concepts": [
+        {
+          "name": "Routing (Distance Vector, Link State)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.2016757534736793,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "9c201d06-03f7-4e20-b213-327e69294ff0",
+      "question_number": 62,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.62 Consider a memory management system that uses a page size of 2 KB. Assume that both the physical and virtual addresses start from 0. Assume that the pages 0, 1, 2, and 3 are stored in the page frames 1, 3, 2, and 0, respectively. The physical address (in decimal format) corresponding to the virtual address 2500 (in decimal format) is _________",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Sequential Circuits",
+      "core_concepts": [
+        {
+          "name": "Latches and Flip-Flops",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.5262043360980453,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "cd4b8cbd-e93a-4214-930e-3a7891ef1509",
+      "question_number": 62,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.62 Let \ud835\udc3f1 be the language represented by the regular expression \ud835\udc4f\u2217\ud835\udc4e\ud835\udc4f\u2217(\ud835\udc4e\ud835\udc4f\u2217\ud835\udc4e\ud835\udc4f\u2217)\u2217 and \ud835\udc3f2 = {\u2061\ud835\udc64\u2208(\ud835\udc4e+ \ud835\udc4f)\u2217\u2061|\u2061\u2061|\ud835\udc64| \u22644}, where |\ud835\udc64| denotes the length of string \ud835\udc64. The number of strings in \ud835\udc3f2 which are also in \ud835\udc3f1 is ___________",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Discrete Mathematics",
+      "core_concepts": [
+        {
+          "name": "Propositional and First Order Logic",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.417062193591499,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "708fe6fc-6b73-4441-8335-5529770d29f6",
+      "question_number": 63,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.63 A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is _________ Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Layered Architecture",
+      "core_concepts": [
+        {
+          "name": "OSI and TCP/IP Models",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.846135259853201,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "f7445814-4db8-49f1-9cd9-986e85a66b32",
+      "question_number": 63,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.63 Let \ud835\udc4d\ud835\udc5b be the group of integers {0, 1, 2, \u2026 , \ud835\udc5b\u22121} with addition modulo \ud835\udc5b as the group operation. The number of elements in the group \ud835\udc4d2 \u00d7 \ud835\udc4d3 \u00d7 \ud835\udc4d4 that are their own inverses is ________ Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru",
+      "ai_subject": "Computer Networks",
+      "ai_topic": "Transport Layer",
+      "core_concepts": [
+        {
+          "name": "Flow Control",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 3.4811862510511364,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "30784397-3bbc-4d99-a045-9ff343a93524",
+      "question_number": 64,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.64 Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. X1 and X2 are inputs of M1. X3 and X4 are inputs of M2. A, B, and C are select lines of M1, M2, and M3, respectively. M1 M2 M3 A B C 1 0 1 0 1 0 X2 X1 X4 X3 Y",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Number Representations",
+      "core_concepts": [
+        {
+          "name": "Computer Arithmetic (Integer and Floating Point)",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.7485220742455758,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "e708c2f1-c567-4425-adaf-abc886757a8f",
+      "question_number": 64,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.64 Consider a 32-bit system with 4 KB page size and page table entries of size 4 bytes each. Assume 1 KB = 210 bytes. The OS uses a 2-level page table for memory management, with the page table containing an outer page directory and an inner page table. The OS allocates a page for the outer page directory upon process creation. The OS uses demand paging when allocating memory for the inner page table, i.e., a page of the inner page table is allocated only if it contains at least one valid page table entry. An active process in this system accesses 2000 unique pages during its execution, and none of the pages are swapped out to disk. After it completes the page accesses, let X denote the minimum and Y denote the maximum number of pages across the two levels of the page table of the process. The value of X+Y is ________",
+      "ai_subject": "Digital Logic",
+      "ai_topic": "Combinational Circuits",
+      "core_concepts": [
+        {
+          "name": "Multiplexers and Demultiplexers",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 1.9671189285980928,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "93a71103-376a-4a9f-8a37-a6991307b0c0",
+      "question_number": 65,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.65 Consider the following augmented grammar, which is to be parsed with a SLR parser. The set of terminals is {\ud835\udc4e,\ud835\udc4f,\ud835\udc50,\ud835\udc51,#,@} \ud835\udc46\u2032 \u2192\ud835\udc46 \ud835\udc46\u2192\ud835\udc46\ud835\udc46\u2061|\u2061\ud835\udc34\ud835\udc4e\u2061|\u2061\ud835\udc4f\ud835\udc34\ud835\udc50\u2061|\u2061\ud835\udc35\ud835\udc50\u2061|\u2061\ud835\udc4f\ud835\udc35\ud835\udc4e \ud835\udc34\u2192\ud835\udc51# \ud835\udc35\u2192@ Let \ud835\udc3c0 = \ud835\udc36\ud835\udc3f\ud835\udc42\ud835\udc46\ud835\udc48\ud835\udc45\ud835\udc38({\ud835\udc46\u2032 \u2192\u2061\u2022 \ud835\udc46}). The number of items in the set \ud835\udc3a\ud835\udc42\ud835\udc47\ud835\udc42(\ud835\udc3c0, \ud835\udc46) is ___________",
+      "ai_subject": "Compiler Design",
+      "ai_topic": "Code Optimization",
+      "core_concepts": [
+        {
+          "name": "Liveness Analysis",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 2.108888721664447,
+      "cognitive_level": "APPLY"
+    },
+    {
+      "golden_question_id": "14a82362-60af-418b-9cc6-114249544ade",
+      "question_number": 65,
+      "marks": 2.0,
+      "question_type": "NAT",
+      "question_text": "Q.65 Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is ________",
+      "ai_subject": "Engineering Mathematics",
+      "ai_topic": "Probability and Statistics",
+      "core_concepts": [
+        {
+          "name": "Uniform, Normal, Exponential, Poisson and Binomial Distributions",
+          "weight": 1.0
+        }
+      ],
+      "difficulty_score": 4.256188454943393,
+      "cognitive_level": "APPLY"
+    }
+  ]
+}

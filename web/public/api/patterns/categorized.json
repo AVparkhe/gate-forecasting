@@ -1,0 +1,864 @@
+{
+  "frequently_asked": [
+    {
+      "concept": "Three Address Code",
+      "subject": "Compiler Design",
+      "historical_frequency": 23,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Appeared 23 times; tested 4 times in last 5 years.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 28,
+          "marks": 2.0,
+          "question_text": "Q.28 A regular language \ud835\udc3f is accepted by a non-deterministic finite automaton (NFA) with \ud835\udc5b states. Which of the following statement(s) is/are FALSE? (A) \ud835\udc3f may have an accepting NFA with < \ud835\udc5b states. (B) \ud835\udc3f may have an accepting DFA with < \ud835\udc5b states. (C) There exists a DFA with \u22642\ud835\udc5b states that accepts \ud835\udc3f. (D) Every DFA that accepts \ud835\udc3f has > 2\ud835\udc5b states. Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 54,
+          "marks": 2.0,
+          "question_text": "Q.54 Consider a TCP connection operating at a point of time with the congestion window of size 12 MSS (Maximum Segment Size), when a timeout occurs due to packet loss. Assuming that all the segments transmitted in the next two RTTs (Round Trip Time) are acknowledged correctly, the congestion window size (in MSS) during the third RTT will be _________"
+        }
+      ]
+    },
+    {
+      "concept": "Functions and Recursion",
+      "subject": "Programming and Data Structures",
+      "historical_frequency": 21,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Appeared 21 times; tested 3 times in last 5 years.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 16,
+          "marks": 1.0,
+          "question_text": "Q.16 Identify the ONE CORRECT matching between the OSI layers and their corresponding functionalities as shown. OSI Layers Functionalities (a) Network layer (I) Packet routing (b) Transport layer (II) Framing and error handling (c) Datalink layer (III) Host to host communication (A) (a)-(I), (b)-(II), (c)-(III) (B) (a)-(I), (b)-(III), (c)-(II) (C) (a)-(II), (b)-(I), (c)-(III) (D) (a)-(III), (b)-(II), (c)-(I) Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 40,
+          "marks": 2.0,
+          "question_text": "Q.40 A packet with the destination IP address 145.36.109.70 arrives at a router whose routing table is shown. Which interface will the packet be forwarded to? (A) E3 (B) E1 (C) E2 (D) E5 Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        }
+      ]
+    },
+    {
+      "concept": "Minimization of Boolean Functions",
+      "subject": "Digital Logic",
+      "historical_frequency": 21,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Appeared 21 times; tested 4 times in last 5 years.",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 63,
+          "marks": 2.0,
+          "question_text": "Q.63 \nSuppose an unbiased coin is tossed 6 times. Each coin toss is independent of all \nprevious coin tosses. Let \ud835\udc381 be the event that among the second, fourth, and sixth \ncoin tosses, there are at least two heads. Let \ud835\udc382 be the event that among the first, \nsecond, third, and fifth coin tosses, there are equal number of heads and tails. \nThe conditional probability P(\ud835\udc381| \ud835\udc382) is equal to ____________. (rounded off to \none decimal place)"
+        },
+        {
+          "exam_year": 2026,
+          "question_number": 61,
+          "marks": 2.0,
+          "question_text": "Q.61 \nConsider the following ANSI-C function. \nint func(int start, int end){ \n  int length=end+1-start; \n  if((length<1)||(start<0)||(end<0)){ return(0); }   \n  if(length%3==0){    \n    return(func(start+1, end)); \n  } else if(length%3==1){ \n    return(1+func(start, end-1)); \n  } else { \n    return(func(start+2, end)); \n  } \n} \nThe maximum possible value that can be returned from this function is \n____________. (answer in integer) \nNote: Ignore syntax errors (if any) in the function."
+        }
+      ]
+    },
+    {
+      "concept": "Computer Arithmetic (Integer and Floating Point)",
+      "subject": "Digital Logic",
+      "historical_frequency": 20,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Appeared 20 times; tested 4 times in last 5 years.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 32,
+          "marks": 2.0,
+          "question_text": "Q.32 The following two signed 2\u2019s complement numbers (multiplicand M and multiplier Q) are being multiplied using Booth\u2019s algorithm: M: 1100 1101 1110 1101 and Q: 1010 0100 1010 1010 The total number of addition and subtraction operations to be performed is ___________. (Answer in integer) Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 60,
+          "marks": 2.0,
+          "question_text": "Q.60 The number of edges present in the forest generated by the DFS traversal of an undirected graph \ud835\udc3a with 100 vertices is 40. The number of connected components in \ud835\udc3a is _________"
+        }
+      ]
+    },
+    {
+      "concept": "Numerical Reasoning",
+      "subject": "General Aptitude",
+      "historical_frequency": 20,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Appeared 20 times; tested 3 times in last 5 years.",
+      "examples": [
+        {
+          "exam_year": 2024,
+          "question_number": 55,
+          "marks": 2.0,
+          "question_text": "Q.55 Consider an Ethernet segment with a transmission speed of 108 bits/sec and a maximum segment length of 500 meters. If the speed of propagation of the signal in the medium is 2\u00d7108 meters/sec, then the minimum frame size (in bits) required for collision detection is _________"
+        },
+        {
+          "exam_year": 2023,
+          "question_number": 6,
+          "marks": 1.0,
+          "question_text": "Relational Model: | Question: 6 Which one of the options given below refers to the degree (or arity) of a relation in relational database systems? A. Number of attributes of its relation schema. B. Number of tuples stored in the relation. C. Number of entries in the relation. D. Number of distinct domains of its relation schema. gatecse-2023 databases relational-model one-mark easy"
+        }
+      ]
+    },
+    {
+      "concept": "Scheduling Algorithms",
+      "subject": "Operating Systems",
+      "historical_frequency": 20,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Appeared 20 times; tested 4 times in last 5 years.",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 23,
+          "marks": 1.0,
+          "question_text": "Q.23 \nWhich one of the following CPU scheduling algorithms cannot be preemptive? \n \n \n(A) \nShortest Remaining Time First (SRTF) Scheduling \n(B) \nFirst Come First Serve (FCFS) Scheduling \n(C) \nRound Robin Scheduling \n(D) \nPriority Scheduling"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 61,
+          "marks": 2.0,
+          "question_text": "Q.61 An application executes 6.4 \u00d7 108 number of instructions in 6.3 seconds. There are four types of instructions, the details of which are given in the table. The duration of a clock cycle in nanoseconds is _________. (rounded off to one decimal place) Instruction type Clock cycles required per instruction (CPI) Number of instructions executed Branch 2 2.25 \u00d7 108 Load 5 1.20 \u00d7 108 Store 4 1.65 \u00d7 108 Arithmetic 3 1.30 \u00d7 108 Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        }
+      ]
+    }
+  ],
+  "active": [
+    {
+      "concept": "Time and Space Complexity",
+      "subject": "Algorithms",
+      "historical_frequency": 20,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Active recurrence pattern (tested recently, current gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 38,
+          "marks": 2.0,
+          "question_text": "Q.38 \nConsider an array \ud835\udc34 of integers of size \ud835\udc5b. The indices of \ud835\udc34 run from 1 to \ud835\udc5b. An \nalgorithm is to be designed to check whether \ud835\udc34 satisfies the condition given below. \n\u2200\ud835\udc56, \ud835\udc57\u2208{1, \u2026 , \ud835\udc5b\u22121} such that \ud835\udc56> \ud835\udc57, (\ud835\udc34[\ud835\udc56+ 1] \u2212\ud835\udc34[\ud835\udc56]) > (\ud835\udc34[\ud835\udc57+ 1] \u2212\ud835\udc34[\ud835\udc57])  \nWhich one of the following gives the worst case time complexity of the fastest \nalgorithm that can be designed for the problem? \n \n \n(A) \n\u0398(\ud835\udc5b) \n(B) \n\u0398(log(\ud835\udc5b)) \n(C) \n\u0398(\ud835\udc5b log(\ud835\udc5b)) \n(D) \n\u0398(\ud835\udc5b2)"
+        },
+        {
+          "exam_year": 2026,
+          "question_number": 25,
+          "marks": 1.0,
+          "question_text": "Q.25 \nWhich of the following can be recurrence relation(s) corresponding to an algorithm \nwith time complexity \u0398(\ud835\udc5b)? \n \n \n(A) \n\ud835\udc47(\ud835\udc5b) = \ud835\udc47(\ud835\udc5b\u22121) + 1,\n\ud835\udc47(1) = 1 \n(B) \n\ud835\udc47(\ud835\udc5b) = 2\ud835\udc47(\ud835\udc5b\n2) + 1,\n\ud835\udc47(1) = 1 \n(C) \n\ud835\udc47(\ud835\udc5b) = 2\ud835\udc47(\ud835\udc5b\n2) + \ud835\udc5b,\n\ud835\udc47(1) = 1 \n(D) \n\ud835\udc47(\ud835\udc5b) = \ud835\udc47(\ud835\udc5b\u22121) + \ud835\udc5b,\n\ud835\udc47(1) = 1"
+        }
+      ]
+    },
+    {
+      "concept": "Disk Scheduling",
+      "subject": "Operating Systems",
+      "historical_frequency": 19,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Active recurrence pattern (tested recently, current gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 10,
+          "marks": 1.0,
+          "question_text": "Q.10 The diagram below shows a river system consisting of 7 segments, marked P, Q, R, S, T, U, and V. It splits the land into 5 zones, marked Z1, Z2, Z3, Z4, and Z5. We need to connect these zones using the least number of bridges. Out of the following options, which one is correct? Note: The figure shown is representative. (A) Bridges on P, Q, and T (B) Bridges on P, Q, S, and T (C) Bridges on Q, R, T, and V (D) Bridges on P, Q, S, U, and V P Q R S T U V Z1 Z2 Z3 Z4 Z5 Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 53,
+          "marks": 2.0,
+          "question_text": "Q.53 Consider the database transactions T1 and T2, and data items X and Y. Which of the schedule(s) is/are conflict serializable? (A) R1(X), W2(X), W1(Y), W2(Y), R1(X), W1(X), COMMIT(T2), COMMIT(T1) (B) W2(X), R1(X), W2(Y), W1(Y), R1(X), COMMIT(T2), W1(X), COMMIT(T1) (C) R1(X), W1(Y), W2(X), W2(Y), R1(X), W1(X), COMMIT(T1), COMMIT(T2) (D) W2(X), R1(X), W1(Y), W2(Y), R1(X), COMMIT(T2), W1(X), COMMIT(T1) Transaction T1 R1(X) W1(Y) R1(X) W1(X) COMMIT(T1) Transaction T2 W2(X) W2(Y) COMMIT(T2) Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        }
+      ]
+    },
+    {
+      "concept": "Entities, Attributes, Relationships",
+      "subject": "Databases",
+      "historical_frequency": 17,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Active recurrence pattern (tested recently, current gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 20,
+          "marks": 1.0,
+          "question_text": "Q.20 Consider an unordered list of \ud835\udc41 distinct integers. What is the minimum number of element comparisons required to find an integer in the list that is NOT the largest in the list? (A) 1 (B) \ud835\udc41\u22121 (C) \ud835\udc41 (D) 2\ud835\udc41\u22121"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 28,
+          "marks": 2.0,
+          "question_text": "Q.28 Which of the following is/are part of an Instruction Set Architecture of a processor? (A) The size of the cache memory (B) The clock frequency of the processor (C) The number of cache memory levels (D) The total number of registers Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        }
+      ]
+    },
+    {
+      "concept": "Pointers and Arrays",
+      "subject": "Programming and Data Structures",
+      "historical_frequency": 17,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Active recurrence pattern (tested recently, current gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 19,
+          "marks": 1.0,
+          "question_text": "Q.19 Consider the following C program: #include <stdio.h> void stringcopy(char *, char *); int main(){ char a[30] = \"@#Hello World!\"; stringcopy(a, a + 2); printf(\"%s\\n\", a); return 0; } void stringcopy(char *s, char *t) { while(*t) *s++ = *t++; } Which ONE of the following will be the output of the program? (A) @#Hello World! (B) Hello World! (C) ello World! (D) Hello World!d! Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 47,
+          "marks": 2.0,
+          "question_text": "Q.47 Consider a demand paging system with three frames, and the following page reference string: 1 2 3 4 5 4 1 6 4 5 1 3 2. The contents of the frames are as follows initially and after each reference (from left to right): initially after - 1* 2* 3* 4* 5* 4 1 6* 4 5 1* 3* 2* - 1 1 1 1 1 1 1 6 6 6 6 6 2 - - 2 2 4 4 4 4 4 4 4 1 1 1 - - - 3 3 5 5 5 5 5 5 5 3 3 The *-marked references cause page replacements. Which one or more of the following could be the page replacement policy/policies in use? (A) Least Recently Used page replacement policy (B) Least Frequently Used page replacement policy (C) Most Frequently Used page replacement policy (D) Optimal page replacement policy Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        }
+      ]
+    },
+    {
+      "concept": "Tuple Calculus",
+      "subject": "Databases",
+      "historical_frequency": 17,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Active recurrence pattern (tested recently, current gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 31,
+          "marks": 2.0,
+          "question_text": "Q.31 Consider the following logic circuit diagram. Which is/are the CORRECT option(s) for the output function \ud835\udc39? (A) \ud835\udc4b \ud835\udc4c\u0305\u0305\u0305\u0305\u0305 (B) \ud835\udc4b\u0305 + \ud835\udc4c\u0305 + \ud835\udc4b\ud835\udc4c\u0305 (C) \ud835\udc4b \ud835\udc4c\u0305\u0305\u0305\u0305\u0305 + \ud835\udc4b\u0305 + \ud835\udc4b\ud835\udc4c\u0305 (D) \ud835\udc4b + \ud835\udc4c\u0305"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 2,
+          "marks": 1.0,
+          "question_text": "Q.2 Two wizards try to create a spell using all the four elements, water, air, fire, and earth. For this, they decide to mix all these elements in all possible orders. They also decide to work independently. After trying all possible combination of elements, they conclude that the spell does not work. How many attempts does each wizard make before coming to this conclusion, independently? (A) 24 (B) 48 (C) 16 (D) 12 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru"
+        }
+      ]
+    },
+    {
+      "concept": "Activation Records",
+      "subject": "Compiler Design",
+      "historical_frequency": 16,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Active recurrence pattern (tested recently, current gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 17,
+          "marks": 1.0,
+          "question_text": "Q.17 \nIn C runtime environment, which one of the following is stored in heap? \n \n \n(A) \nA static variable declared inside a function \n(B) \nAn array of integers declared inside a function \n(C) \nA dynamically allocated array of integers created using malloc() function call \n(D) \nReturn address of a function"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 52,
+          "marks": 2.0,
+          "question_text": "Q.52 Consider a context-free grammar \ud835\udc3a with the following 3 rules. \ud835\udc46\u2192\ud835\udc4e\ud835\udc46, \ud835\udc46\u2192\ud835\udc4e\ud835\udc46\ud835\udc4f\ud835\udc46, \ud835\udc46\u2192\ud835\udc50 Let \ud835\udc64\u2208\u2061\ud835\udc3f(\ud835\udc3a). Let \ud835\udc5b\ud835\udc4e(\ud835\udc64), \ud835\udc5b\ud835\udc4f(\ud835\udc64), \ud835\udc5b\ud835\udc50(\ud835\udc64)\u2061denote the number of times \ud835\udc4e, \ud835\udc4f, \ud835\udc50 occur in \ud835\udc64, respectively. Which of the following statements is/are TRUE? (A) \ud835\udc5b\ud835\udc4e(\ud835\udc64) > \ud835\udc5b\ud835\udc4f(\ud835\udc64)\u2061 (B) \ud835\udc5b\ud835\udc4e(\ud835\udc64) > \ud835\udc5b\ud835\udc50(\ud835\udc64) \u22122 (C) \ud835\udc5b\ud835\udc50(\ud835\udc64) = \ud835\udc5b\ud835\udc4f(\ud835\udc64) + 1 (D) \ud835\udc5b\ud835\udc50(\ud835\udc64) = \ud835\udc5b\ud835\udc4f(\ud835\udc64) \u22172 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru"
+        }
+      ]
+    }
+  ],
+  "occasional": [
+    {
+      "concept": "Arrays and Strings",
+      "subject": "Programming and Data Structures",
+      "historical_frequency": 16,
+      "recent_frequency": 3,
+      "current_gap": 2,
+      "lifecycle": "ACTIVE",
+      "evidence": "Tested occasionally (16 times total, gap: 2 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 64,
+          "marks": 2.0,
+          "question_text": "Q.64 A quadratic polynomial (\ud835\udc65\u2212 \ud835\udefc)(\ud835\udc65\u2212\ud835\udefd) over complex numbers is said to be square invariant if (\ud835\udc65\u2212 \ud835\udefc)(\ud835\udc65\u2212\ud835\udefd) = (\ud835\udc65\u2212\ud835\udefc2)(\ud835\udc65\u2212\ud835\udefd2). Suppose from the set of all square invariant quadratic polynomials we choose one at random. The probability that the roots of the chosen polynomial are equal is __________. (rounded off to one decimal place) Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2023,
+          "question_number": 21,
+          "marks": 1.0,
+          "question_text": "Definite Integral: | Question: 21 The value of the definite integral is _________. (Rounded off to the nearest integer) gatecse-2023 calculus definite-integral numerical-answers one-mark"
+        }
+      ]
+    },
+    {
+      "concept": "Asymptotic Worst, Average, and Best Case Analysis",
+      "subject": "Algorithms",
+      "historical_frequency": 16,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Tested occasionally (16 times total, gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 19,
+          "marks": 1.0,
+          "question_text": "Q.19 Consider the following context-free grammar \ud835\udc3a, where \ud835\udc46, \ud835\udc34, and \ud835\udc35 are the variables (non-terminals), \ud835\udc4e and \ud835\udc4f are the terminal symbols, \ud835\udc46 is the start variable, and the rules of \ud835\udc3a are described as: \ud835\udc46\u2192\ud835\udc4e\ud835\udc4e\ud835\udc35 | \ud835\udc34\ud835\udc4f\ud835\udc4f \ud835\udc34\u2192\ud835\udc4e | \ud835\udc4e\ud835\udc34 \ud835\udc35\u2192\ud835\udc4f | \ud835\udc4f\ud835\udc35 Which ONE of the languages \ud835\udc3f(\ud835\udc3a) is accepted by \ud835\udc3a? (A) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e2\ud835\udc4f\ud835\udc5b | \ud835\udc5b\u22651} \u222a{\ud835\udc4e\ud835\udc5b\ud835\udc4f2 | \ud835\udc5b\u22651} (B) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e\ud835\udc5b\ud835\udc4f2\ud835\udc5b | \ud835\udc5b\u22651} \u222a{\ud835\udc4e2\ud835\udc5b\ud835\udc4f\ud835\udc5b | \ud835\udc5b\u22651} (C) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e\ud835\udc5b\ud835\udc4f\ud835\udc5b | \ud835\udc5b\u22651} (D) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e2\ud835\udc5b\ud835\udc4f2\ud835\udc5b | \ud835\udc5b\u22651} Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 50,
+          "marks": 2.0,
+          "question_text": "Q.50 Consider the following deterministic finite automaton (DFA) defined over the alphabet, \u03a3 = {\ud835\udc4e, \ud835\udc4f}. Identify which of the following language(s) is/are accepted by the given DFA. (A) The set of all strings containing an even number of \ud835\udc4f\u2019s. (B) The set of all strings containing the pattern \ud835\udc4f\ud835\udc4e\ud835\udc4f. (C) The set of all strings ending with the pattern \ud835\udc4f\ud835\udc4e\ud835\udc4f. (D) The set of all strings not containing the pattern \ud835\udc4e\ud835\udc4f\ud835\udc4e. Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        }
+      ]
+    },
+    {
+      "concept": "DFA and NFA",
+      "subject": "Theory of Computation",
+      "historical_frequency": 16,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Tested occasionally (16 times total, gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 47,
+          "marks": 2.0,
+          "question_text": "Q.47 \nConsider the following two finite automata \ud835\udc371 and \ud835\udc372.  \n \n \n \nWhich of the following statements is/are true? \n \n \n(A) \n\ud835\udc3f(\ud835\udc371) = \ud835\udc3f(\ud835\udc372) \n(B) \n\ud835\udc3f(\ud835\udc371) is a proper subset of \ud835\udc3f(\ud835\udc372) \n(C) \n\ud835\udc3f(\ud835\udc371) \u2229\ud835\udc3f(\ud835\udc372) = { \ud835\udf16}  \n(D) \n(\ud835\udc3f(\ud835\udc371) \u222a\ud835\udc3f(\ud835\udc372))\n\u2217 consists of all strings in {0,1}\u2217 whose length is divisible by 3"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 36,
+          "marks": 2.0,
+          "question_text": "Q.36 Consider a memory system with 1M bytes of main memory and 16K bytes of cache memory. Assume that the processor generates 20-bit memory address, and the cache block size is 16 bytes. If the cache uses direct mapping, how many bits will be required to store all the tag values? [Assume memory is byte addressable, 1K=210, 1M=220 .] (A) 6 \u00d7 210 (B) 8 \u00d7 210 (C) 212 (D) 214 Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        }
+      ]
+    },
+    {
+      "concept": "Data Interpretation",
+      "subject": "General Aptitude",
+      "historical_frequency": 16,
+      "recent_frequency": 4,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Tested occasionally (16 times total, gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 10,
+          "marks": 2.0,
+          "question_text": "Q.10 \nAn unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5,  \nand 6 is rolled twice in succession and the number on the top face is recorded  \neach time. The probability that the sum of the two recorded numbers is a prime \nnumber is ________ \n \n \n(A) \n3\n36 \n(B) \n13\n36 \n(C) \n15\n36 \n(D) \n19\n36 \n \n \n \n \n \n \n \n \n \n \n \n\n \n \n \nQ.11 \u2013 Q.35 Carry ONE mark Each"
+        },
+        {
+          "exam_year": 2026,
+          "question_number": 4,
+          "marks": 1.0,
+          "question_text": "Q. 4 \nThe values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, \nrespectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He \nsells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B  \nis Rs. 70. The profit made by the investor is Rs. ________ \n \n \n(A) \n0  \n(B) \n5 \n(C) \n10 \n(D) \n20"
+        }
+      ]
+    },
+    {
+      "concept": "Deadlock Prevention, Avoidance, and Detection",
+      "subject": "Operating Systems",
+      "historical_frequency": 16,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Tested occasionally (16 times total, gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 48,
+          "marks": 2.0,
+          "question_text": "Q.48 Which of the following predicate logic formulae/formula is/are CORRECT representation(s) of the statement: \u201cEveryone has exactly one mother\u201d? The meanings of the predicates used are: \u2022 \ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65): \ud835\udc66 is the mother of \ud835\udc65 \u2022 \ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc65, \ud835\udc66): \ud835\udc65 and \ud835\udc66 are not equal (A) \u2200\ud835\udc65\u2203\ud835\udc66\u2203\ud835\udc67(\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u00ac\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65)) (B) \u2200\ud835\udc65\u2203\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u2200\ud835\udc67(\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66) \u2192\u00ac\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65))] (C) \u2200\ud835\udc65\u2200\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2192\u2203\ud835\udc67(\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65) \u2227\u00ac\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66))] (D) \u2200\ud835\udc65\u2203\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u00ac\u2203\ud835\udc67(\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66) \u2227\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65))] Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 50,
+          "marks": 2.0,
+          "question_text": "Q.50 Consider the 5-state DFA \ud835\udc40 accepting the language \ud835\udc3f(\ud835\udc40) \u2282(0 + 1)\u2217 shown below. For any string \ud835\udc64\u2208(0 + 1)\u2217 let \ud835\udc5b0(\ud835\udc64) be the number of 0\u2032\ud835\udc60 in \ud835\udc64 and \ud835\udc5b1(\ud835\udc64) be the number of 1\u2032\ud835\udc60 in \ud835\udc64. Which of the following statements is/are FALSE? (A) States 2 and 4 are distinguishable in \ud835\udc40 (B) States 3 and 4 are distinguishable in \ud835\udc40 (C) States 2 and 5 are distinguishable in \ud835\udc40 (D) Any string \ud835\udc64 with \ud835\udc5b0(\ud835\udc64) = \ud835\udc5b1(\ud835\udc64) is in \ud835\udc3f(\ud835\udc40) Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru"
+        }
+      ]
+    },
+    {
+      "concept": "Halting Problem",
+      "subject": "Theory of Computation",
+      "historical_frequency": 16,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Tested occasionally (16 times total, gap: 1 yrs).",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 8,
+          "marks": 1.0,
+          "question_text": "Q.8 A fair six-faced dice, with the faces labelled \u20181\u2019, \u20182\u2019, \u20183\u2019, \u20184\u2019, \u20185\u2019, and \u20186\u2019, is rolled thrice. What is the probability of rolling \u20186\u2019 exactly once? (A) 75 216 (B) 1 6 (C) 1 18 (D) 25 216 Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 36,
+          "marks": 2.0,
+          "question_text": "Q.36 Consider a network path P\u2014Q\u2014R between nodes P and R via router Q. Node P sends a file of size 106 bytes to R via this path by splitting the file into chunks of 103 bytes each. Node P sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU. Each of the links P\u2014Q and Q\u2014R has a bandwidth of 106 bits/sec, and negligible propagation latency. Router Q immediately transmits every packet it receives from P to R, with negligible processing and queueing delays. Router Q can simultaneously receive on link P\u2014Q and transmit on link Q\u2014R. Assume P starts transmitting the chunks at time \ud835\udc61= 0. Which one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which R receives all the chunks of the file? (A) 8.000 (B) 8.008 (C) 15.992 (D) 16.000 Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru"
+        }
+      ]
+    }
+  ],
+  "dormant": [
+    {
+      "concept": "Trees (Binary Search Trees, Heaps)",
+      "subject": "Programming and Data Structures",
+      "historical_frequency": 16,
+      "recent_frequency": 1,
+      "current_gap": 5,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 5 years despite 16 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2020,
+          "question_number": 30,
+          "marks": 2.0,
+          "question_text": "Cache Memory: | Question: 30 A computer system with a word length of bits has a MB byte- addressable main memory and a KB, -way set associative cache memory with a block size of bytes. Consider the following four physical addresses represented in hexadecimal notation. , , , Which one of the following is TRUE? A. and are mapped to different cache sets. B. and are mapped to the same cache set. C. and are mapped to the same cache set. D. and are mapped to the same cache set. gatecse-2020 co-and-architecture cache-memory two-marks"
+        },
+        {
+          "exam_year": 2019,
+          "question_number": 34,
+          "marks": 2.0,
+          "question_text": "Countable Uncountable Set: | Question: 34 Consider the following sets: S1: Set of all recursively enumerable languages over the alphabet A. S1 and S2 B. S3 and S4 C. S2 and S3 D. S1 and S4 6.5 6.5.1 6.5.2 6.5.3 6.5.4 6.5.5 S2: Set of all syntactically valid C programs S3: Set of all languages over the alphabet S4: Set of all non-regular languages over the alphabet Which of the above sets are uncountable? gatecse-2019 theory-of-computation countable-uncountable-set two-marks"
+        }
+      ]
+    },
+    {
+      "concept": "Counters",
+      "subject": "Digital Logic",
+      "historical_frequency": 12,
+      "recent_frequency": 1,
+      "current_gap": 5,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 5 years despite 12 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 57,
+          "marks": 2.0,
+          "question_text": "Q.57 \n \n \n \n \n \n \n \n \nA non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an \naverage of 5 clock cycles to complete the execution of an instruction. To improve \nthe performance, the system was pipelined with a goal of achieving an average \nthroughput of one instruction per clock cycle. However, it could operate only at  \n1.2 GHz due to pipeline overheads. While executing a program in the pipelined \ndesign, 30% of instructions encountered a stall of 2 cycles due to pipeline hazards. \nThe speed-up obtained by the pipelined design over the non-pipelined one for this \nprogram is ___________. (rounded off to two decimal places) \nNote: 1G=109"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 64,
+          "marks": 2.0,
+          "question_text": "Q.64 The maximum value of \ud835\udc65 such that the edge between the nodes B and C is included in every minimum spanning tree of the given graph is _________ . (answer in integer)"
+        }
+      ]
+    },
+    {
+      "concept": "Divide and Conquer",
+      "subject": "Algorithms",
+      "historical_frequency": 10,
+      "recent_frequency": 0,
+      "current_gap": 7,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 7 years despite 10 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2018,
+          "question_number": 39,
+          "marks": 2.0,
+          "question_text": "Bankers Algorithm: | Question: 39 In a system, there are three types of resources: and . Four processes , , and execute concurrently. At the outset, the processes have declared their maximum resource requirements using a matrix named Max as given below. For example, Max[ ] is the maximum number of instances of that would require. The number of instances of the resources allocated to the various processes at any given state is given by a matrix named Allocation. Consider a state of the system with the Allocation matrix as shown below, and in which instances of and instances of are only resources available. From the perspective of deadlock avoidance, which one of the following is true? A. The system is in state B. The system is not in state, but would be if one more instance of were available C. The system is not in state, but would be if one more instance of were available D. The system is not in state, but would be if one more instance of were available gatecse-2018 operating-system deadlock-prevention-avoidance-detection bankers-algorithm normal two-marks"
+        },
+        {
+          "exam_year": 2018,
+          "question_number": 44,
+          "marks": 2.0,
+          "question_text": "Conditional Probability: | Question: 44 Consider Guwahati, and Delhi whose temperatures can be classi\ufb01ed as high , medium and low . Let denote the probability that Guwahati has high temperature. Similarly, and denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use and for Delhi. The following table gives the conditional probabilities for Delhi\u2019s temperature given Guwahati\u2019s temperature. Consider the \ufb01rst row in the table above. The \ufb01rst entry denotes that if Guwahati has high temperature then the probability of Delhi also having a high temperature is i.e., . Similarly, the next two entries are and . Similarly for the other rows. If it is known that , and , then the probability (correct to two decimal places) that Guwahati has high temperature given that Delhi has high temperature is ________. gatecse-2018 probability conditional-probability numerical-answers two-marks"
+        }
+      ]
+    },
+    {
+      "concept": "Top-Down Parsing (LL)",
+      "subject": "Compiler Design",
+      "historical_frequency": 10,
+      "recent_frequency": 1,
+      "current_gap": 5,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 5 years despite 10 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2020,
+          "question_number": 40,
+          "marks": 2.0,
+          "question_text": "Shortest Path: | Question: 40 Let be a directed, weighted graph with weight function . For some function , for each edge , define as . Which one of the options completes the following sentence so that it is TRUE? \u201cThe shortest paths in under are shortest paths under too,_____________\u201d. A. for every B. if and only if is positive C. if and only if is negative D. if and only if is the distance from to in the graph obtained by adding a new vertex to and edges of zero weight from to every vertex of gatecse-2020 algorithms graph-algorithms two-marks shortest-path"
+        },
+        {
+          "exam_year": 2019,
+          "question_number": 37,
+          "marks": 2.0,
+          "question_text": "Time Complexity: | Question: 37 There are unsorted arrays: . Assume that is odd.Each of contains distinct elements. There are no common elements between any two arrays. The worst-case time complexity of computing the median of the medians of is gatecse-2019 algorithms time-complexity two-marks"
+        }
+      ]
+    },
+    {
+      "concept": "Graph Traversal (BFS, DFS)",
+      "subject": "Algorithms",
+      "historical_frequency": 9,
+      "recent_frequency": 1,
+      "current_gap": 5,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 5 years despite 9 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2020,
+          "question_number": 31,
+          "marks": 2.0,
+          "question_text": "Minimum Spanning Tree: | Question: 31 L e t be a weighted undirected graph and let be a Minimum Spanning Tree (MST) of maintained using adjacency lists. Suppose a new weighed edge is added to . The worst case time complexity of determining if is still an MST of the resultant graph is gatecse-2020 algorithms minimum-spanning-tree graph-algorithms two-marks"
+        },
+        {
+          "exam_year": 2018,
+          "question_number": 5,
+          "marks": 1.0,
+          "question_text": "CISC RISC Architecture: | Question: 5 Consider the following processor design characteristics: I. Register-to-register arithmetic operations only II. Fixed-length instruction format III. Hardwired control unit Which of the characteristics above are used in the design of a RISC processor? gatecse-2018 co-and-architecture cisc-risc-architecture easy one-mark"
+        }
+      ]
+    },
+    {
+      "concept": "LU Decomposition",
+      "subject": "Engineering Mathematics",
+      "historical_frequency": 8,
+      "recent_frequency": 0,
+      "current_gap": 6,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 6 years despite 8 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2019,
+          "question_number": 8,
+          "marks": 1.0,
+          "question_text": "Number Representation: | Question: 8 Consider where and Z are all in sign-magnitude form. X and Y are each represented in bits. To avoid overflow, the representation of would require a minimum of: gatecse-2019 digital-logic number-representation one-mark"
+        },
+        {
+          "exam_year": 2018,
+          "question_number": 36,
+          "marks": 2.0,
+          "question_text": "Q.36 Consider the following problems. \ud835\udc3f(\ud835\udc3a) denotes the language generated by a grammar \ud835\udc3a. \ud835\udc3f(\ud835\udc40) denotes the language accepted by a machine \ud835\udc40. (I) For an unrestricted grammar \ud835\udc3a and a string \ud835\udc64, whether \ud835\udc64\u2208\ud835\udc3f(\ud835\udc3a) (II) Given a Turing machine M, whether L(M) is regular (III) Given two grammars \ud835\udc3a1 and \ud835\udc3a2, whether \ud835\udc3f(\ud835\udc3a1) = \ud835\udc3f(\ud835\udc3a2) (IV) Given an NFA N, whether there is a deterministic PDA P such that N and P accept the same language. Which one of the following statements is correct? (A) Only I and II are undecidable (B) Only III is undecidable (C) Only II and IV are undecidable (D) Only I, II and III are undecidable GATE 2018 COMPUTER SCIENCE AND INFORMATION TECHNOLOGY CS 12/20"
+        }
+      ]
+    },
+    {
+      "concept": "Data Flow Analysis",
+      "subject": "Compiler Design",
+      "historical_frequency": 7,
+      "recent_frequency": 0,
+      "current_gap": 7,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 7 years despite 7 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 22,
+          "marks": 1.0,
+          "question_text": "Q.22 Given the following syntax directed translation rules: Rule 1: \ud835\udc45 \u2192 \ud835\udc34\ud835\udc35 {\ud835\udc35. \ud835\udc56= \ud835\udc45. \ud835\udc56\u22121; \ud835\udc34. \ud835\udc56= \ud835\udc35. \ud835\udc56; \ud835\udc45. \ud835\udc56= \ud835\udc34. \ud835\udc56+ 1; } Rule 2: \ud835\udc43 \u2192 \ud835\udc36\ud835\udc37 {\ud835\udc43. \ud835\udc56= \ud835\udc36. \ud835\udc56+ \ud835\udc37. \ud835\udc56; \ud835\udc37. \ud835\udc56= \ud835\udc36. \ud835\udc56+ 2; } Rule 3: \ud835\udc44 \u2192 \ud835\udc38\ud835\udc39 {\ud835\udc44. \ud835\udc56= \ud835\udc38. \ud835\udc56+ \ud835\udc39. \ud835\udc56; } Which ONE is the CORRECT option among the following? (A) Rule 1 is S-attributed and L-attributed; Rule 2 is S-attributed and not L-attributed; Rule 3 is neither S-attributed nor L-attributed (B) Rule 1 is neither S-attributed nor L-attributed; Rule 2 is S-attributed and L- attributed; Rule 3 is S-attributed and L-attributed (C) Rule 1 is neither S-attributed nor L-attributed; Rule 2 is not S-attributed and is L-attributed; Rule 3 is S-attributed and L-attributed (D) Rule 1 is S-attributed and not L-attributed; Rule 2 is not S-attributed and is L-attributed; Rule 3 is S-attributed and L-attributed Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 55,
+          "marks": 2.0,
+          "question_text": "Q.55 Consider the following database tables of a sports league. player(pid,pname,age) coach(cid,cname) team(tid,tname,city,cid) members(pid,tid) An instance of the table and an SQL query are given. player coach team members SELECT MIN(P.age) FROM player P WHERE P.pid IN ( SELECT M.pid FROM team T, coach C, members M WHERE C.cname = 'Mark' AND T.cid = C.cid AND M.tid = T.tid ) The value returned by the given SQL query is ______ . (Answer in integer) Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        }
+      ]
+    },
+    {
+      "concept": "Limits, Continuity and Differentiability",
+      "subject": "Engineering Mathematics",
+      "historical_frequency": 7,
+      "recent_frequency": 0,
+      "current_gap": 7,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 7 years despite 7 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2018,
+          "question_number": 17,
+          "marks": 1.0,
+          "question_text": "Q.17 Consider a matrix T A uv \uf03d where 1 1 , 2 1 u v \uf0e6\uf0f6 \uf0e6\uf0f6 \uf0e7\uf0f7 \uf0e7\uf0f7 \uf0e8\uf0f8 \uf0e8\uf0f8 \uf03d \uf03d . Note that Tv denotes the transpose of v. The largest eigenvalue of A is _____."
+        },
+        {
+          "exam_year": 2018,
+          "question_number": 29,
+          "marks": 2.0,
+          "question_text": "Q.29 Consider the following C program: #include<stdio.h> void fun1(char *s1, char *s2){ char *tmp; tmp = s1; s1 = s2; s2 = tmp; } void fun2(char **s1, char **s2){ char *tmp; tmp = *s1; *s1 = *s2; *s2 = tmp; } int main(){ char *str1 = \"Hi\", *str2 = \"Bye\"; fun1(str1, str2); printf(\"%s %s \", str1, str2); fun2(&str1, &str2); printf(\"%s %s\", str1, str2); return 0; } The output of the program above is (A) Hi Bye Bye Hi (B) Hi Bye Hi Bye (C) Bye Hi Hi Bye (D) Bye Hi Bye Hi"
+        }
+      ]
+    },
+    {
+      "concept": "Sets, Relations, Functions",
+      "subject": "Engineering Mathematics",
+      "historical_frequency": 7,
+      "recent_frequency": 0,
+      "current_gap": 7,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 7 years despite 7 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2018,
+          "question_number": 7,
+          "marks": 1.0,
+          "question_text": "Q.7 The set of all recursively enumerable languages is (A) closed under complementation. (B) closed under intersection. (C) a subset of the set of all recursive languages. (D) an uncountable set."
+        },
+        {
+          "exam_year": 2012,
+          "question_number": 36,
+          "marks": 2.0,
+          "question_text": "Runtime Environment: | Question: 36 Consider the program given below, in a block-structured pseudo-language with lexical scoping and nesting of procedures permitted. Program main; Var ... Procedure A1; Var ... Call A2; End A1 Procedure A2; Var ... Procedure A21; Var ... Call A1; End A21 Call A21; End A2 Call A1; End main. Consider the calling chain The correct set of activation records along with their access links is given by: gatecse-2012 compiler-design runtime-environment normal"
+        }
+      ]
+    },
+    {
+      "concept": "Linked Lists",
+      "subject": "Programming and Data Structures",
+      "historical_frequency": 6,
+      "recent_frequency": 1,
+      "current_gap": 5,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 5 years despite 6 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2020,
+          "question_number": 18,
+          "marks": 1.0,
+          "question_text": "Group Theory: | Question: 18 Let be a group of elements. Then the largest possible size of a subgroup of other than itself is _______. gatecse-2020 numerical-answers group-theory easy one-mark"
+        },
+        {
+          "exam_year": 2018,
+          "question_number": 2,
+          "marks": 1.0,
+          "question_text": "Q.2 Consider the following C program. #include<stdio.h> struct Ournode{ char x,y,z; }; int main(){ struct Ournode p = {'1', '0', 'a'+2}; struct Ournode *q = &p; printf (\"%c, %c\", *((char*)q+1), *((char*)q+2)); return 0; } The output of this program is: (A) 0, c (B) 0, a+2 (C) '0', 'a+2' (D) '0', 'c'"
+        }
+      ]
+    },
+    {
+      "concept": "Concurrency Control Protocols (2PL, Timestamp)",
+      "subject": "Databases",
+      "historical_frequency": 5,
+      "recent_frequency": 1,
+      "current_gap": 5,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 5 years despite 5 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 2,
+          "marks": 1.0,
+          "question_text": "Q.2 The CEO\u2019s decision to downsize the workforce was considered myopic because it sacrificed long-term stability to accommodate short-term gains. Select the most appropriate option that can replace the word \u201cmyopic\u201d without changing the meaning of the sentence. (A) visionary (B) shortsighted (C) progressive (D) innovative Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2020,
+          "question_number": 34,
+          "marks": 2.0,
+          "question_text": "Semaphore: | Question: 34 Each of a set of processes executes the following code using two semaphores and initialized to and , respectively. Assume that is a shared variable initialized to and not used in CODE SECTION P. wait(a); count=count+1; if (count==n) signal (b); signal (a); wait (b) ; signal (b); What does the code achieve? 5.28.7 5.28.8 A. B. C. D. 5.28.9 A. It ensures that no process executes CODE SECTION Q before every process has finished CODE SECTION P. B. It ensures that atmost two processes are in CODE SECTION Q at any time. C. It ensures that all processes execute CODE SECTION P mutually exclusively. D. It ensures that at most processes are in CODE SECTION P at any time. gatecse-2020 operating-system semaphore two-marks"
+        }
+      ]
+    },
+    {
+      "concept": "FTP",
+      "subject": "Computer Networks",
+      "historical_frequency": 5,
+      "recent_frequency": 1,
+      "current_gap": 5,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 5 years despite 5 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 34,
+          "marks": 2.0,
+          "question_text": "Q.34 In a 4-bit ripple counter, if the period of the waveform at the last flip-flop is 64 microseconds, then the frequency of the ripple counter in kHz is ________. (Answer in integer)"
+        },
+        {
+          "exam_year": 2020,
+          "question_number": 5,
+          "marks": 1.0,
+          "question_text": "Binary Search Tree: | Question: 5 The preorder traversal of a binary search tree is . Which one of the following is the postorder traversal of the tree? gatecse-2020 binary-search-tree one-mark"
+        }
+      ]
+    },
+    {
+      "concept": "HTTP",
+      "subject": "Computer Networks",
+      "historical_frequency": 4,
+      "recent_frequency": 0,
+      "current_gap": 7,
+      "lifecycle": "DORMANT",
+      "evidence": "Has not appeared in 7 years despite 4 historical appearances.",
+      "examples": [
+        {
+          "exam_year": 2026,
+          "question_number": 22,
+          "marks": 1.0,
+          "question_text": "Q.22 \nWhich one of the following protocols may need to broadcast some of its messages? \n \n \n(A) \nSMTP \n(B) \nFTP \n(C) \nDHCP \n(D) \nHTTP"
+        },
+        {
+          "exam_year": 2018,
+          "question_number": 32,
+          "marks": 2.0,
+          "question_text": "Q.32 Consider the following C code. Assume that unsigned long int type length is 64 bits. unsigned long int fun(unsigned long int n){ unsigned long int i, j = 0, sum = 0; for (i = n; i > 1; i = i/2) j++; for ( ; j > 1; j = j/2) sum++; return(sum); } The value returned when we call fun with the input 240 is (A) 4 (B) 5 (C) 6 (D) 40"
+        }
+      ]
+    }
+  ],
+  "vanished": [],
+  "emerging": [
+    {
+      "concept": "Mean, Median, Mode and Standard Deviation",
+      "subject": "Engineering Mathematics",
+      "historical_frequency": 6,
+      "recent_frequency": 2,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Rapidly rising frequency in recent modern exam papers.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 18,
+          "marks": 1.0,
+          "question_text": "Q.18 Let \ud835\udc3a be any undirected graph with positive edge weights, and \ud835\udc47 be a minimum spanning tree of \ud835\udc3a. For any two vertices, \ud835\udc62 and \ud835\udc63, let \ud835\udc511(\ud835\udc62, \ud835\udc63) and \ud835\udc512(\ud835\udc62, \ud835\udc63) be the shortest distances between \ud835\udc62 and \ud835\udc63 in \ud835\udc3a and \ud835\udc47, respectively. Which ONE of the options is CORRECT for all possible \ud835\udc3a, \ud835\udc47, \ud835\udc62 and \ud835\udc63? (A) \ud835\udc511(\ud835\udc62, \ud835\udc63) = \ud835\udc512(\ud835\udc62, \ud835\udc63) (B) \ud835\udc511(\ud835\udc62, \ud835\udc63) \u2264\ud835\udc512(\ud835\udc62, \ud835\udc63) (C) \ud835\udc511(\ud835\udc62, \ud835\udc63) \u2265\ud835\udc512(\ud835\udc62, \ud835\udc63) (D) \ud835\udc511(\ud835\udc62, \ud835\udc63) \u2260\ud835\udc512(\ud835\udc62, \ud835\udc63) Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 31,
+          "marks": 2.0,
+          "question_text": "Q.31 An instruction format has the following structure: Instruction Number: Opcode destination reg, source reg-1, source reg-2 Consider the following sequence of instructions to be executed in a pipelined processor: I1: DIV R3, R1, R2 I2: SUB R5, R3, R4 I3: ADD R3, R5, R6 I4: MUL R7, R3, R8 Which of the following statements is/are TRUE? (A) There is a RAW dependency on R3 between I1 and I2 (B) There is a WAR dependency on R3 between I1 and I3 (C) There is a RAW dependency on R3 between I2 and I3 (D) There is a WAW dependency on R3 between I3 and I4 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru"
+        }
+      ]
+    },
+    {
+      "concept": "TCP and UDP",
+      "subject": "Computer Networks",
+      "historical_frequency": 6,
+      "recent_frequency": 2,
+      "current_gap": 2,
+      "lifecycle": "ACTIVE",
+      "evidence": "Rapidly rising frequency in recent modern exam papers.",
+      "examples": [
+        {
+          "exam_year": 2023,
+          "question_number": 2,
+          "marks": 1.0,
+          "question_text": "Q2,"
+        },
+        {
+          "exam_year": 2023,
+          "question_number": 49,
+          "marks": 2.0,
+          "question_text": "Stack: | Question: 49 Consider a sequence of elements , and . The following operations are performed on a stack and a queue both of which are initially empty. I. the elements of from to in that order into . II. the elements of from to in that order into . III. an element from . IV. an element from . V. an element from . VI. an element from . VII. an element from and push the same element into . VIII. Repeat operation three times. IX. an element from . X. an element from . The top element of after executing the above operations is ______________. gatecse-2023 data-structures stack numerical-answers two-marks easy"
+        }
+      ]
+    },
+    {
+      "concept": "Uniform, Normal, Exponential, Poisson and Binomial Distributions",
+      "subject": "Engineering Mathematics",
+      "historical_frequency": 6,
+      "recent_frequency": 2,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Rapidly rising frequency in recent modern exam papers.",
+      "examples": [
+        {
+          "exam_year": 2024,
+          "question_number": 65,
+          "marks": 2.0,
+          "question_text": "Q.65 Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is ________"
+        },
+        {
+          "exam_year": 2023,
+          "question_number": 43,
+          "marks": 2.0,
+          "question_text": "Independent Events: | Question: 43 Consider a random experiment where two fair coins are tossed. Let be the event that denotes on both the throws, be the event that denotes on the \ufb01rst throw, and be the event that denotes on the second throw. Which of the following statements is/are gatecse-2023 probability independent-events multiple-selects two-marks"
+        }
+      ]
+    },
+    {
+      "concept": "Local Optimization",
+      "subject": "Compiler Design",
+      "historical_frequency": 5,
+      "recent_frequency": 3,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Rapidly rising frequency in recent modern exam papers.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 52,
+          "marks": 2.0,
+          "question_text": "Q.52 Refer to the given 3-address code sequence. This code sequence is split into basic blocks. The number of basic blocks is ________. (Answer in integer) 1001: i = 1 1002: j = 1 1003: t1 = 10*i 1004: t2 = t1+j 1005: t3 = 8*t2 1006: t4 = t3-88 1007: a[t4] = 0.0 1008: j = j+1 1009: if j <= 10 goto 1003 1010: i = i+1 1011: if i <= 10 goto 1002 1012: i = 1 1013: t5 = i-1 1014: t6 = 88*t5 1015: a[t6] = 1.0 1016: i = i+1 1017: if i <= 10 goto 1013 Computer Science and Information Technology (CS1) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 35,
+          "marks": 2.0,
+          "question_text": "Q.35 Consider the following two relations, R(A,B) and S(A,C): \ud835\udc79 \ud835\udc7a \ud835\udc68 \ud835\udc69 \ud835\udc68 \ud835\udc6a 10 20 10 90 20 30 30 45 30 40 40 80 30 50 50 95 The total number of tuples obtained by evaluating the following expression \ud835\udf48\ud835\udc69<\ud835\udc6a(\ud835\udc79\u22c8\ud835\udc79.\ud835\udc68=\ud835\udc7a.\ud835\udc68\ud835\udc7a) is _________ Computer Science and Information Technology Set 1 (CS1) Organizing Institute: IISc Bengaluru"
+        }
+      ]
+    },
+    {
+      "concept": "Maxima and Minima",
+      "subject": "Engineering Mathematics",
+      "historical_frequency": 5,
+      "recent_frequency": 2,
+      "current_gap": 1,
+      "lifecycle": "ACTIVE",
+      "evidence": "Rapidly rising frequency in recent modern exam papers.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 4,
+          "marks": 1.0,
+          "question_text": "Q.4 The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube? Note: The figures shown are representative. (A) (B) (C) (D) Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2024,
+          "question_number": 16,
+          "marks": 1.0,
+          "question_text": "Q.16 Let \ud835\udc53(\ud835\udc65) be a continuous function from \u211d to \u211d such that \ud835\udc53(\ud835\udc65) = 1 \u2212\ud835\udc53(2 \u2212\ud835\udc65) Which one of the following options is the CORRECT value of \u222b\ud835\udc53(\ud835\udc65)\ud835\udc51\ud835\udc65 2 0 ? (A) 0 (B) 1 (C) 2 (D) \u22121 Computer Science and Information Technology Set 2 (CS2) Organizing Institute: IISc, Bengaluru"
+        }
+      ]
+    },
+    {
+      "concept": "Mean Value Theorem",
+      "subject": "Engineering Mathematics",
+      "historical_frequency": 5,
+      "recent_frequency": 2,
+      "current_gap": 2,
+      "lifecycle": "ACTIVE",
+      "evidence": "Rapidly rising frequency in recent modern exam papers.",
+      "examples": [
+        {
+          "exam_year": 2025,
+          "question_number": 57,
+          "marks": 2.0,
+          "question_text": "Q.57 In a B+- tree where each node can hold at most four key values, a root to leaf path consists of the following nodes: A = (49, 77, 83, -), B = (7, 19, 33, 44), C = (20*, 22*, 25*, 26*) The *-marked keys signify that these are data entries in a leaf. Assume that a pointer between keys \ud835\udc581 and \ud835\udc582 points to a subtree containing keys in [\ud835\udc581, \ud835\udc582), and that when a leaf is created, the smallest key in it is copied up into its parent. A record with key value 23 is inserted into the B+- tree. The smallest key value in the parent of the leaf that contains 25* is __________. (Answer in integer) Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        },
+        {
+          "exam_year": 2025,
+          "question_number": 35,
+          "marks": 2.0,
+          "question_text": "Q.35 Suppose the values 10, \u22124, 15, 30, 20, 5, 60, 19 are inserted in that order into an initially empty binary search tree. Let \ud835\udc47 be the resulting binary search tree. The number of edges in the path from the node containing 19 to the root node of \ud835\udc47 is ___________. (Answer in integer) Computer Science and Information Technology (CS2) Organising Institute: IIT Roorkee"
+        }
+      ]
+    }
+  ]
+}

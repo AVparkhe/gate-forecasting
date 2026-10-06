@@ -1,0 +1,41 @@
+{
+  "current_incumbent": "xgb_recurrence_v1_incumbent",
+  "versions": [
+    {
+      "version_id": "xgb_ema_v0_baseline",
+      "data_version": "golden_v1.0_a9094674eda1",
+      "taxonomy_version": "gate_cse_v1.0",
+      "feature_version": "features_v0_basic",
+      "model_type": "XGBoost+EMA Ensemble",
+      "hyperparameters_json": "{\"xgb_weight\": 0.6, \"ema_weight\": 0.4}",
+      "calibration_version": "calib_v0_none",
+      "strategy_version": "strat_v0_none",
+      "random_seed": 42,
+      "training_window": "1987-2025",
+      "pipeline_version": "pipeline_v0.1_alpha",
+      "code_hash": "code_hash_placeholder",
+      "environment_hash": "env_hash_placeholder",
+      "config_hash": "cfg_hash_placeholder",
+      "is_baseline": 1,
+      "created_at": "2026-10-06T10:26:02.849659"
+    },
+    {
+      "version_id": "xgb_recurrence_v1_incumbent",
+      "data_version": "golden_v1.0_a9094674eda1",
+      "taxonomy_version": "gate_cse_v1.0",
+      "feature_version": "features_v2_advanced",
+      "model_type": "XGBoost+Lifecycle",
+      "hyperparameters_json": "{}",
+      "calibration_version": "calib_v1",
+      "strategy_version": "strat_v1_base",
+      "random_seed": 42,
+      "training_window": "1987-2025",
+      "pipeline_version": "pipeline_v1.0",
+      "code_hash": "hash_1234",
+      "environment_hash": "env_hash_123",
+      "config_hash": "cfg_hash_123",
+      "is_baseline": 0,
+      "created_at": "2026-10-06T10:27:06.816695"
+    }
+  ]
+}

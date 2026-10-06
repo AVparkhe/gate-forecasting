@@ -1,0 +1,405 @@
+{
+  "count": 40,
+  "events": [
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_miss_ThreeAddressCode",
+      "exam_year": 2026,
+      "concept": "Three Address Code",
+      "surprise_score": 1.0,
+      "surprise_category": "EXPECTED_ABSENCE",
+      "reason": "Hint: 'Three Address Code' missed in 2026 despite perfect recurrence setup. Do not assume it will appear just because it is 'due'.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_miss_ComputerArithmetic(IntegerandFloatingPoint)",
+      "exam_year": 2026,
+      "concept": "Computer Arithmetic (Integer and Floating Point)",
+      "surprise_score": 1.0,
+      "surprise_category": "EXPECTED_ABSENCE",
+      "reason": "Hint: 'Computer Arithmetic (Integer and Floating Point)' missed in 2026 despite perfect recurrence setup. Do not assume it will appear just because it is 'due'.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_miss_SchedulingAlgorithms",
+      "exam_year": 2026,
+      "concept": "Scheduling Algorithms",
+      "surprise_score": 1.0,
+      "surprise_category": "EXPECTED_ABSENCE",
+      "reason": "Hint: 'Scheduling Algorithms' missed in 2026 despite perfect recurrence setup. Do not assume it will appear just because it is 'due'.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_ComputerArithmetic",
+      "exam_year": 2026,
+      "concept": "Computer Arithmetic",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_LexicalAnalyzer",
+      "exam_year": 2026,
+      "concept": "Lexical Analyzer",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_NormalizationandNormalForms(BCNF/3NF)",
+      "exam_year": 2026,
+      "concept": "Normalization and Normal Forms (BCNF/3NF)",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_TuringMachineDecidability",
+      "exam_year": 2026,
+      "concept": "Turing Machine Decidability",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_SpatialTransformations",
+      "exam_year": 2026,
+      "concept": "Spatial Transformations",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_ApplicationProtocols(DNS,HTTP)",
+      "exam_year": 2026,
+      "concept": "Application Protocols (DNS, HTTP)",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_DFAandNFAEquivalence",
+      "exam_year": 2026,
+      "concept": "DFA and NFA Equivalence",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_InterruptHandlingandDMA",
+      "exam_year": 2026,
+      "concept": "Interrupt Handling and DMA",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_TCPCongestionControl",
+      "exam_year": 2026,
+      "concept": "TCP Congestion Control",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_NetworkProtocols",
+      "exam_year": 2026,
+      "concept": "Network Protocols",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_ProbabilityDistributions",
+      "exam_year": 2026,
+      "concept": "Probability Distributions",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_AlgorithmComplexity",
+      "exam_year": 2026,
+      "concept": "Algorithm Complexity",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_GraphAlgorithmsandShortestPaths",
+      "exam_year": 2026,
+      "concept": "Graph Algorithms and Shortest Paths",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_DynamicProgrammingandGreedy",
+      "exam_year": 2026,
+      "concept": "Dynamic Programming and Greedy",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_CalculusandOptimization",
+      "exam_year": 2026,
+      "concept": "Calculus and Optimization",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_BinaryTreeTraversals",
+      "exam_year": 2026,
+      "concept": "Binary Tree Traversals",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_LRParsingTables",
+      "exam_year": 2026,
+      "concept": "LR Parsing Tables",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_StackAllocationandActivationRecords",
+      "exam_year": 2026,
+      "concept": "Stack Allocation and Activation Records",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_PagingandVirtualMemory",
+      "exam_year": 2026,
+      "concept": "Paging and Virtual Memory",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_CFGAmbiguityandParseTrees",
+      "exam_year": 2026,
+      "concept": "CFG Ambiguity and Parse Trees",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_PageReplacementAlgorithms",
+      "exam_year": 2026,
+      "concept": "Page Replacement Algorithms",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_CPUSchedulingAlgorithms",
+      "exam_year": 2026,
+      "concept": "CPU Scheduling Algorithms",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_DataInterpretationandArithmetic",
+      "exam_year": 2026,
+      "concept": "Data Interpretation and Arithmetic",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_CacheMemoryMappingandHitRatio",
+      "exam_year": 2026,
+      "concept": "Cache Memory Mapping and Hit Ratio",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_CombinatoricsandGeneratingFunctions",
+      "exam_year": 2026,
+      "concept": "Combinatorics and Generating Functions",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_Flip-FlopsandCounters",
+      "exam_year": 2026,
+      "concept": "Flip-Flops and Counters",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_EigenvaluesandLinearSystems",
+      "exam_year": 2026,
+      "concept": "Eigenvalues and Linear Systems",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_VerbalReasoning",
+      "exam_year": 2026,
+      "concept": "Verbal Reasoning",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_FirstOrderLogicandPredicates",
+      "exam_year": 2026,
+      "concept": "First Order Logic and Predicates",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_SubnettingandRoutingAlgorithms",
+      "exam_year": 2026,
+      "concept": "Subnetting and Routing Algorithms",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2026_xgb_recurrence_v1_incumbent_outlier_PointersandRecursioninC",
+      "exam_year": 2026,
+      "concept": "Pointers and Recursion in C",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2026. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2025_xgb_recurrence_v1_incumbent_outlier_DataFlowAnalysis",
+      "exam_year": 2025,
+      "concept": "Data Flow Analysis",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2025. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2025_xgb_recurrence_v1_incumbent_outlier_Mean,Median,ModeandStandardDeviation",
+      "exam_year": 2025,
+      "concept": "Mean, Median, Mode and Standard Deviation",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2025. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2025_xgb_recurrence_v1_incumbent_outlier_PageReplacementAlgorithms",
+      "exam_year": 2025,
+      "concept": "Page Replacement Algorithms",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2025. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2025_xgb_recurrence_v1_incumbent_outlier_Instructions",
+      "exam_year": 2025,
+      "concept": "Instructions",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2025. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2025_xgb_recurrence_v1_incumbent_outlier_ShiftRegisters",
+      "exam_year": 2025,
+      "concept": "Shift Registers",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2025. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    },
+    {
+      "surprise_id": "surp_sim_2025_xgb_recurrence_v1_incumbent_outlier_MaximaandMinima",
+      "exam_year": 2025,
+      "concept": "Maxima and Minima",
+      "surprise_score": 1.0,
+      "surprise_category": "UNPREDICTED_OUTLIER",
+      "reason": "Historical warning: This concept has previously appeared completely unpredicted in 2025. Treat it as a high-risk surprise concept.",
+      "historical_trace_json": "[]",
+      "historical_trace": []
+    }
+  ]
+}

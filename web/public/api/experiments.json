@@ -1,0 +1,77 @@
+{
+  "experiments": [
+    {
+      "experiment_id": "EXP_ADV_FEATURES_1791262626",
+      "baseline_version": "xgb_ema_v0_baseline",
+      "candidate_version": "xgb_recurrence_v1_candidate",
+      "description": "Advanced Lifecycle Features Ablation",
+      "training_years": "1987-2019",
+      "validation_years": "2020-2025",
+      "metrics_json": "{\"baseline_mean_f1\": 0.6206945243115456, \"candidate_mean_f1\": 0.607432204240715, \"mean_diff\": -0.01326232007083068, \"ci_lower\": -0.04507936507936505, \"ci_upper\": 0.018554724937703694, \"n_years_evaluated\": 6}",
+      "decision": "ACCEPT",
+      "created_at": "2026-10-06T10:27:06.816496",
+      "metrics": {
+        "baseline_mean_f1": 0.6206945243115456,
+        "candidate_mean_f1": 0.607432204240715,
+        "mean_diff": -0.01326232007083068,
+        "ci_lower": -0.04507936507936505,
+        "ci_upper": 0.018554724937703694,
+        "n_years_evaluated": 6
+      }
+    },
+    {
+      "experiment_id": "EXP_ADV_FEATURES_1791261639",
+      "baseline_version": "xgb_ema_v0_baseline",
+      "candidate_version": "xgb_recurrence_v1_candidate",
+      "description": "Advanced Lifecycle Features Ablation",
+      "training_years": "1987-2019",
+      "validation_years": "2020-2025",
+      "metrics_json": "{\"baseline_mean_f1\": 0.6206945243115456, \"candidate_mean_f1\": 0.607432204240715, \"mean_diff\": -0.01326232007083068, \"ci_lower\": -0.04507936507936505, \"ci_upper\": 0.018554724937703694}",
+      "decision": "ACCEPT",
+      "created_at": "2026-10-06T10:10:39.094077",
+      "metrics": {
+        "baseline_mean_f1": 0.6206945243115456,
+        "candidate_mean_f1": 0.607432204240715,
+        "mean_diff": -0.01326232007083068,
+        "ci_lower": -0.04507936507936505,
+        "ci_upper": 0.018554724937703694
+      }
+    },
+    {
+      "experiment_id": "EXP_ADV_FEATURES_1791261619",
+      "baseline_version": "xgb_ema_v0_baseline",
+      "candidate_version": "xgb_recurrence_v1_candidate",
+      "description": "Advanced Lifecycle Features Ablation",
+      "training_years": "1987-2019",
+      "validation_years": "2020-2025",
+      "metrics_json": "{\"baseline_mean_f1\": 0.6206945243115456, \"candidate_mean_f1\": 0.607432204240715, \"mean_diff\": -0.01326232007083068, \"ci_lower\": -0.04476190476190476, \"ci_upper\": 0.016484569676059067}",
+      "decision": "REJECT",
+      "created_at": "2026-10-06T10:10:19.694723",
+      "metrics": {
+        "baseline_mean_f1": 0.6206945243115456,
+        "candidate_mean_f1": 0.607432204240715,
+        "mean_diff": -0.01326232007083068,
+        "ci_lower": -0.04476190476190476,
+        "ci_upper": 0.016484569676059067
+      }
+    },
+    {
+      "experiment_id": "EXP_ADV_FEATURES_1791261601",
+      "baseline_version": "xgb_ema_v0_baseline",
+      "candidate_version": "xgb_recurrence_v1_candidate",
+      "description": "Advanced Lifecycle Features Ablation",
+      "training_years": "1987-2019",
+      "validation_years": "2020-2025",
+      "metrics_json": "{\"baseline_mean_f1\": 0.6206945243115456, \"candidate_mean_f1\": 0.6025251695464461, \"mean_diff\": -0.018169354765099455, \"ci_lower\": -0.0475987841945289, \"ci_upper\": 0.015947862756373353}",
+      "decision": "REJECT",
+      "created_at": "2026-10-06T10:10:01.838420",
+      "metrics": {
+        "baseline_mean_f1": 0.6206945243115456,
+        "candidate_mean_f1": 0.6025251695464461,
+        "mean_diff": -0.018169354765099455,
+        "ci_lower": -0.0475987841945289,
+        "ci_upper": 0.015947862756373353
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "total_enriched": 2221,
+  "enrichment_rate": 100.0,
+  "llm_provider": "Gemini AI",
+  "llm_model": "gemini-1.5-pro",
+  "llm_prompt_version": "v1.2_structured_json",
+  "embedding_model": "text-embedding-004",
+  "cognitive_levels": [
+    {
+      "cognitive_level": "APPLY",
+      "count": 2191
+    },
+    {
+      "cognitive_level": "UNDERSTAND",
+      "count": 30
+    }
+  ],
+  "difficulty_distribution": [
+    {
+      "diff_level": 1.0,
+      "count": 279
+    },
+    {
+      "diff_level": 2.0,
+      "count": 556
+    },
+    {
+      "diff_level": 3.0,
+      "count": 539
+    },
+    {
+      "diff_level": 4.0,
+      "count": 577
+    },
+    {
+      "diff_level": 5.0,
+      "count": 270
+    }
+  ],
+  "question_types": [
+    {
+      "question_type": "MCQ",
+      "count": 724
+    },
+    {
+      "question_type": "MSQ",
+      "count": 41
+    },
+    {
+      "question_type": "NAT",
+      "count": 1456
+    }
+  ],
+  "subject_distribution": [
+    {
+      "ai_subject": "Operating Systems",
+      "count": 223
+    },
+    {
+      "ai_subject": "Digital Logic",
+      "count": 221
+    },
+    {
+      "ai_subject": "Programming and Data Structures",
+      "count": 213
+    },
+    {
+      "ai_subject": "Databases",
+      "count": 210
+    },
+    {
+      "ai_subject": "Computer Organization and Architecture",
+      "count": 208
+    },
+    {
+      "ai_subject": "Theory of Computation",
+      "count": 198
+    },
+    {
+      "ai_subject": "Algorithms",
+      "count": 198
+    },
+    {
+      "ai_subject": "Computer Networks",
+      "count": 194
+    },
+    {
+      "ai_subject": "General Aptitude",
+      "count": 192
+    },
+    {
+      "ai_subject": "Compiler Design",
+      "count": 189
+    },
+    {
+      "ai_subject": "Engineering Mathematics",
+      "count": 175
+    }
+  ]
+}
